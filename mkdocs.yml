@@ -1,0 +1,18 @@
+site_name: My Docs
+theme: readthedocs
+nav:
+    - My-CI/CD-Lab: blog-my-cicd-lab.md
+    - Journals: journals.md
+    - the-communist-manifesto: the-communist-manifesto.md
+    - tech-note: tech-note.md
+    - english-studying: english-studying.md
+    - Chinese vocabulary: Chinese-vocabulary.md
+    - Protest law: law--prc-on-assemblies-processions-and-demonstrations.md
+    - Marriage law: law--prc-marriage-law.md
+    - Self asked law questions: law--self-asked-questions.md
+    - Collections: collections.md
+    - Thus spoke Zarathustra: book--thus-spoke-zarathustra.md
+    - About: about.md
+
+    - Todos:
+        - https://www.bilibili.com/video/BV1WR4y117MW/?spm_id_from=333.337.search-card.all.click
