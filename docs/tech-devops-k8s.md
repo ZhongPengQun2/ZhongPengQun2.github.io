@@ -1,0 +1,285 @@
+###
+- 容器引擎
+
+
+### q
+- 什么规模的公司适合用k8s?
+
+
+### K8S
+- Todos
+    - https://www.bilibili.com/video/BV1pT4y1C7Em/?spm_id_from=333.337.search-card.all.click
+    - https://www.bilibili.com/video/BV14P4y1P7uN/?spm_id_from=333.337.search-card.all.click
+
+    - k8s生态，有哪些工具是必要的
+    - sealos
+
+- k8s 集群的日志收集
+  - FLUENTD收集K8S集群日志:  https://www.cnblogs.com/windchen/p/12924091.html      todo: 实践一下，demo一下
+  - 一种方案：fluentd + elastic search + Kibaba
+  ```
+  在本文中采用使用Node日志记录代理的方面进行Kubernetes的统一日志管理，相关的工具采用：
+
+  日志记录代理（logging-agent）：日志记录代理用于从容器中获取日志信息，使用Fluentd；
+  日志记录后台（Logging-Backend）：日志记录后台用于处理日志记录代理推送过来的日志，使用Elasticsearch；
+  日志记录展示：日志记录展示用于向用户显示统一的日志信息，使用Kibana。
+  ```
+
+- Run k8s locally
+  - Minikube
+    - Is it possible for minikube to run 2 clusters on one physical machine ?
+      - I guess it's impossible, we use `minikube start` to start a cluster
+    - Run a cluster with multiple nodes ?
+      - `minikube start --nodes 2 -p multinode-demo`
+    - `minikube dashboard`
+- 为什么docker ps不会显示出k8s里的containers ？如何看k8s里的containers?
+- What's relationship between Deployment, Pod, Service ?
+  - 
+  ```
+  举例来说有一个 Deployment 控制器管控值集群里的一组 Pod，当你 Kill 掉一个 Pod。控制器发现定义中期望的 Pod 数量与当前的数量不匹配，它就会马上创建一个 Pod 让当前状态与期望状态匹配。控制器这种让关联资源的当前状态向期望状态迈进的过程叫做 调谐（reconcile）。
+  ```
+  - 5种控制器
+- kubeadm & kubelet & kubectl
+  - kubectl 是否只能用在k8s中
+  - k8s是否只有kubectl这一个东西来apply它的yaml file ?
+  - `docker ps`命令是否能显示k8s中的container ？
+- apiserver & 
+- Control plane
+- kind notation ?
+- `configMapKeyRef`
+- k9s
+- Comparison of many kinds of k8s local simulate tools, kind, k3s, minikube.
+- Nodeport, clusterIP
+- Why service ?
+- Why ingress ?
+- Kustomize VS Helm
+  - kustomize yaml
+    - resources
+    - configMapGenerator
+    - patchesStrategicMerge
+- Kubectl 内置 Kustomize, 怎么用呢？
+- Loadblanch与Ingress的联系？
+- services的selector是select pods which label matched，还是select deployments which label matched ?
+- 一个pod多个containers，deployment yaml怎么写？
+- 既然pod是k8s调度的最小单位,kubectl有操作container相关的命令吗？
+  - 一个pod里可能有多个containers，对吧？
+- 一个deployment多个pods怎么写？
+- replicat 与 pod是one to one的关系吗？
+- Is k8s node a physical computer ?
+   - A node can be a physical machine or a virtual machine, and can be hosted on-premises or in the cloud.
+- Nginx ingress controller
+- namespace
+    - get current namespace: `kubectl config get-contexts`
+    - switch namespace: `$ kubectl config set-context --current --namespace=kube-ops`
+- Cluster
+    - How run multi clusters ?
+    - How to enter a cluster ?
+- Job
+f.e.
+```shell
+apiVersion: batch/v1
+kind: Job
+metadata: 
+  name:
+  namespace:
+  labels:
+    controller: job
+spec:
+  completions: 1  #指定job需要成功运行pods的次数，默认值为1
+  parallelism: 1  #指定job在任一时刻应该并发运行pods的数量，默认值为1
+  activeDeadlineSeconds: 30  #指定job可运行的时间期限，超过时间还未结束，系统将会尝试进行终止
+  backoffLimit: 6  #指定job失败后进行重试的次数，默认值是6
+  manualSelector: true  #是否可以使用selector选择器选择pod，默认是false
+  selector: #选择器，通过它指定该控制器管理哪些pod
+    matchLabels:  #Labels匹配规则
+      app: counter-pod
+    matchExpressions:  #Expression匹配规则
+      - {key: app, operator: In, values: [counter-pod]}
+  template:  #模板，当副本数量不足时，会根据下面的模板创建pod副本
+    metadata: 
+      labels:
+        app: counter-pod
+    spec:
+      restartPolicy: Never  #重启策略只能设置为Never或者OnFailure
+      containers:
+      - name: counter
+        image: busybox:1.30
+        command: ["bin/sh","-c","for i in 9 8 7 6 5 4 3 2 1;do echo $i;sleep 2;done"]
+```
+- kubectl
+    - kubectl restart pod `kubectl replace --force -f gitlab-deployment.yaml`
+    - kubectl能查看pod里的container吗？
+
+- 如何在k8s里跑一个hello-world?
+
+- k8s权限配置（ServiceAccount、Role、ClusterRole）
+  - https://www.youtube.com/watch?v=oBf5lrmquYI
+    - 10 best practise on security
+      - RBAC
+    - K10
+  - ServiceAccount
+  - https://octopus.com/blog/k8s-rbac-roles-and-bindings
+
+- kind: Endpoints
+  - https://developer.aliyun.com/article/530966
+  ```
+  在之前的博文中，我们演示过如何通过ceph来实现kubernetes的持久存储，以使得像mysql这种有状态服务可以在kubernetes中运行并保存数据。这看起来很美妙，然而在实际的生产环境使用中，通过分布式存储来实现的磁盘在mysql这种IO密集性应用中，性能问题会显得非常突出。所以在实际应用中，一般不会把mysql这种应用直接放入kubernetes中管理，而是使用专用的服务器来独立部署。而像web这种无状态应用依然会运行在kubernetes当中，这个时候web服务器要连接kubernetes管理之外的数据库，有两种方式：一是直接连接数据库所在物理服务器IP，另一种方式就是借助kubernetes的Endpoints直接将外部服务器映射为kubernetes内部的一个服务.
+  ```
+
+- k8s cluster ip ?
+
+- ConfigMap & secret
+  - k8s 还有哪些方式去挂载配置文件？
+  - refer: https://www.jianshu.com/p/d834bca35c18
+
+  - ConfigMap
+    - https://www.jianshu.com/p/d834bca35c18
+    应用部署的一个最佳实践是将应用所需的配置信息与程序进行分离，这样可以使得应用程序被更好地复用，通过不同的配置也能实现更灵活的功能。
+    将应用打包为容器镜像后，可以通过环境变量或者外挂文件的方式在创建容器时进行配置注入，但在大规模容器集群的环境中，对多个容器进行不同的配置将变得非常复杂。
+    从Kubernetes v1.2开始提供了一种统一的应用配置管理方案——ConfigMap
+    2:
+    在我们部署一些应用服务时，通常都会有一些配置文件，而在k8s中，我们如果在将这些配置文件写到代码应用程序中，需要修改配置的话，我们还得重新去修改代码，重新制作一个镜像，这样操作起来很麻烦。
+
+  - secret
+    - 一般情况下ConfigMap 是用来存储一些非安全的配置信息，因为ConfigMap是明文存储的，面对敏感信息时，我们就需要使用k8s的另一个对象Secret。
+
+- Yaml file command字段, args字段，Dockerfile中ENTRYPOINT和CMD，生效顺序
+
+- Label, what, why
+- How to deploy a flask app to k8s cluster ? speak out
+- yaml file changes, how to make it take effect ?
+- operator
+  - 正如官方 Kubernetes 文档所说，“Operators 是 Kubernetes API 的客户端，充当自定义资源的控制器”
+  - kubebuilder、operator-sdk
+  - 为什么需要operator, operator是k8s官方的吗？
+    - k8s的文档中本身没有operator这个词
+  - k8s operator 开发
+    - 通过自己编写Controller来不断地检测当前k8s中所定义的CR的状态，如果状态和预期不一致，则调整
+  - TODO: 最小demo
+- CRD
+  - `ensure CRDs are installed first`
+
+- Deploy database is different from deploying applications like a Django application.
+
+- Storage
+    - Storage Class
+    - PV admin
+
+- Stateful
+    - why?
+    - Stateless
+
+- Run database in k8s.
+
+- crontab
+  - CronJob 也可以用来指定将来某个时间点执行单个任务，例如将某项任务定时到系统负载比较低的时候执行
+
+- eliminate docker pull limitation
+https://www.chenshaowen.com/blog/how-to-cross-the-limit-of-dockerhub.html
+
+- CRD
+https://www.youtube.com/watch?v=u1X5Rf7fWwM
+- controller
+- kind: LimitRange
+
+- ingress-nginx
+
+- DaemonSet
+  `Splunk Connect for Kubernetes deploys a DaemonSet on each node, And in the DaemonSet, a Fluentd container runs and does the collecting job.`
+  - DaemonSet是一个pod吗？
+    - yes
+  - 编写go项目daemonset来清理k8s节点上的磁盘空间   https://www.bilibili.com/video/av347091144/
+- node logging agent
+- Kubernetes objects
+- Kubernetes Components
+
+- pod & container
+  - https://www.youtube.com/watch?v=5cNrTU6o3Fw
+  - 
+  ```
+  查看Pod，REDY为2/2，表示这个Pod的两个容器都成功运行了。
+  [root@node2 test]# kubectl get pods | grep redis-php
+  redis-php            2/2     Running   0          3m
+  ```
+  - enter a pod ?
+    - https://stackoverflow.com/questions/67550782/how-to-login-enter-in-kubernetes-pod
+    - $ kubectl exec webserver-f848cb844-dvpjk -it -- /bin/sh
+      - ↑ 为什么一个pod可以以这种方式进入？
+      - 确实是make sense的吧，就像是一个host，container是其中的process
+
+### minikube
+```shell
+minikube start --nodes 4 --extra-config=kubeadm.ignore-preflight-errors=NumCPU --force --cpus 2 --driver=docker
+```
+
+```shell
+Exiting due to RSRC_INSUFFICIENT_CORES: Requested cpu count 2 is greater than the available cpus of 1
+
+minikube start --nodes 4 --extra-config=kubeadm.ignore-preflight-errors=NumCPU --force --cpus 1
+```
+
+```shell
+$ minikube start --nodes 4 --extra-config=kubeadm.ignore-preflight-errors=NumCPU --force --cpus 2 --driver=docker
+
+其中报了一个如下的错误：
+[wait-control-plane] Waiting for the kubelet to boot up the control plane as static Pods from directory "/etc/kubernetes/manifests". This can take up to 4m0s
+[kubelet-check] Initial timeout of 40s passed.
+
+Unfortunately, an error has occurred:
+        timed out waiting for the condition
+
+This error is likely caused by:
+        - The kubelet is not running
+        - The kubelet is unhealthy due to a misconfiguration of the node in some way (required cgroups disabled)
+
+If you are on a systemd-powered system, you can try to troubleshoot the error with the following commands:
+        - 'systemctl status kubelet'
+        - 'journalctl -xeu kubelet'
+
+Additionally, a control plane component may have crashed or exited when started by the container runtime.
+To troubleshoot, list all containers using your preferred container runtimes CLI.
+Here is one example how you may list all running Kubernetes containers by using crictl:
+        - 'crictl --runtime-endpoint unix:///var/run/cri-dockerd.sock ps -a | grep kube | grep -v pause'
+        Once you have found the failing container, you can inspect its logs with:
+        - 'crictl --runtime-endpoint unix:///var/run/cri-dockerd.sock logs CONTAINERID'
+
+stderr:
+W0212 19:34:22.649439   15157 initconfiguration.go:119] Usage of CRI endpoints without URL scheme is deprecated and can cause kubelet errors in the future. Automatically prepending scheme "unix" to the "criSocket" with value "/var/run/cri-dockerd.sock". Please update your configuration!
+        [WARNING SystemVerification]: failed to parse kernel config: unable to load kernel module: "configs", output: "modprobe: FATAL: Module configs not found in directory /lib/modules/5.15.0-56-generic\n", err: exit status 1
+        [WARNING Service-Kubelet]: kubelet service is not enabled, please run 'systemctl enable kubelet.service'
+error execution phase wait-control-plane: couldn't initialize a Kubernetes cluster
+To see the stack trace of this error execute with --v=5 or higher
+
+于是我执行 `systemctl enable kubelet.service`, but got:
+Failed to enable unit: Unit file kubelet.service does not exist.
+
+then try another approach: add `--kubernetes-version=v1.23.1`
+$ minikube start --nodes 4 --extra-config=kubeadm.ignore-preflight-errors=NumCPU --force --cpus 2 --kubernetes-version=v1.23.1
+succeed !!
+```
+
+
+- cgroup driver
+    - `k8s 的是systemd，而docker是cgroupfs`
+
+- Container systemd
+
+- kubectl delete pod,删完后又发现重启了
+  - 删除对应的deployment
+    - 但是一个pod也有可能是daemonset
+  - 如何找到pod对应的deployment ？
+
+
+
+```shell
+# kubectl get pods
+NAME                                                READY   STATUS             RESTARTS       AGE
+hello-world-deployment-6b8dbb9c94-2vxpn             1/1     Running            0              43m
+hello-world-deployment-6b8dbb9c94-mj766             1/1     Running            0              44m
+my-splunk-connect-splunk-kubernetes-logging-dvsb8   1/1     Running            1 (44m ago)    16d
+my-splunk-connect-splunk-kubernetes-logging-jhdzc   0/1     CrashLoopBackOff   13 (82s ago)   16d
+my-splunk-connect-splunk-kubernetes-logging-krlp4   1/1     Running            1 (45m ago)    16d
+my-splunk-connect-splunk-kubernetes-logging-zfbqr   1/1     Running            1 (44m ago)    16d
+
+其中 'hello-world-deployment-6b8dbb9c94-2vxpn' 是pod还是container？
+```
