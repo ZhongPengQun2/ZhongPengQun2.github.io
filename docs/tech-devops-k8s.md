@@ -1,3 +1,6 @@
+### todo，不错的博客
+- https://jimmysong.io/kubernetes-handbook/concepts/taint-and-toleration.html
+
 ###
 - 容器引擎
 
@@ -24,6 +27,11 @@
   日志记录后台（Logging-Backend）：日志记录后台用于处理日志记录代理推送过来的日志，使用Elasticsearch；
   日志记录展示：日志记录展示用于向用户显示统一的日志信息，使用Kibana。
   ```
+
+- emptyDir
+	- 应用场景
+		- emptyDir Volume主要用于某些应用程序无需永久保存的临时目录，多个容器的共享目录等。
+
 
 - Run k8s locally
   - Minikube
@@ -189,11 +197,33 @@ https://www.youtube.com/watch?v=u1X5Rf7fWwM
   - DaemonSet是一个pod吗？
     - yes
   - 编写go项目daemonset来清理k8s节点上的磁盘空间   https://www.bilibili.com/video/av347091144/
+  - DaemonSet的典型应用场景有
+    - 1,运行存储Daemon
+    - 2,运行日志收集Daemon
+    - 3,运行监控Daemon
+  - 其实Kubernetes自己就在用DaemonSet运行系统组件
+
+
 - node logging agent
 - Kubernetes objects
 - Kubernetes Components
 
+- Taints & Tolerations
+  - https://kubernetes.io/zh-cn/docs/concepts/scheduling-eviction/taint-and-toleration/
+  - https://www.google.com/search?q=k8s+taint&biw=1859&bih=953&tbm=vid&sxsrf=APwXEde21b3AthbfDN74B5_h0vdEx0Myyg%3A1679905599446&ei=P1MhZLneGqS8seMPkeyo4Ac&ved=0ahUKEwj5-YqE2Pv9AhUkXmwGHRE2CnwQ4dUDCA0&uact=5&oq=k8s+taint&gs_lcp=Cg1nd3Mtd2l6LXZpZGVvEAMyBQgAEIAEMggIABCABBDLATIICAAQgAQQywEyBQgAEIAEMggIABCKBRCGAzIICAAQigUQhgMyCAgAEIoFEIYDOgQIIxAnOgYIABAWEB46BwgAEIoFEEM6CAgAEIoFEJECOgsIABCKBRCxAxCDAToLCAAQgAQQsQMQgwE6BAgAEB46BggAEB4QCjoGCAAQBRAeOgUIABCiBDoHCCMQ6gIQJzoKCAAQigUQsQMQQ1CuD1j_JGD5J2gFcAB4AIABuQGIAZ4LkgEDMC45mAEAoAEBoAECsAEKwAEB&sclient=gws-wiz-video#fpstate=ive&vld=cid:b29dc380,vid:mo2UrkjA7FE
+  - 应用场景
+    - https://www.youtube.com/watch?v=rFYqUxjg_5Y
+  - xx
+  ```
+  我们说到的的NodeAffinity节点亲和性，是在pod上定义的一种属性，使得Pod能够被调度到某些node上运行。Taint刚好相反，它让Node拒绝Pod的运行。
+  Taint需要与Toleration配合使用，让pod避开那些不合适的node
+  ```
+
+- 亲和度
+
 - pod & container
+  - pod的log有吗？在哪可以看？
+
   - https://www.youtube.com/watch?v=5cNrTU6o3Fw
   - 
   ```
@@ -205,7 +235,15 @@ https://www.youtube.com/watch?v=u1X5Rf7fWwM
     - https://stackoverflow.com/questions/67550782/how-to-login-enter-in-kubernetes-pod
     - $ kubectl exec webserver-f848cb844-dvpjk -it -- /bin/sh
       - ↑ 为什么一个pod可以以这种方式进入？
+        - 这种方式和docker exec类似，说明pod是k8s的基本调度单元吧，pod之于cluster，类似container之于docker，我的想法
       - 确实是make sense的吧，就像是一个host，container是其中的process
+
+  - 如何查看pod中不同的container的log ？
+  - 能否进入pod中的container ？
+
+- kail
+  - 可以查看pod的实时日志
+  - 对比 kubectl logs有什么优势呢？
 
 ### minikube
 ```shell
@@ -254,7 +292,7 @@ To see the stack trace of this error execute with --v=5 or higher
 Failed to enable unit: Unit file kubelet.service does not exist.
 
 then try another approach: add `--kubernetes-version=v1.23.1`
-$ minikube start --nodes 4 --extra-config=kubeadm.ignore-preflight-errors=NumCPU --force --cpus 2 --kubernetes-version=v1.23.1
+$ minikube start --nodes 2 --extra-config=kubeadm.ignore-preflight-errors=NumCPU --force --cpus 2 --kubernetes-version=v1.23.1
 succeed !!
 ```
 
@@ -270,6 +308,9 @@ succeed !!
   - 如何找到pod对应的deployment ？
 
 
+- kind: StatefulSet
+
+- https://artifacthub.io/
 
 ```shell
 # kubectl get pods
@@ -283,3 +324,44 @@ my-splunk-connect-splunk-kubernetes-logging-zfbqr   1/1     Running            1
 
 其中 'hello-world-deployment-6b8dbb9c94-2vxpn' 是pod还是container？
 ```
+
+
+#### minikube
+
+
+
+
+#### kubectl
+- kubectl port-forward
+```
+若pod内服务没有通过service对外暴露的话，无法去调试pod内的服务，不方便。因此就有了 kubectl port-forward 这个功能。
+可以把 Node 主机端口 转发 到 pod 内某个端口
+
+# Listen on port 8888 locally, forwarding to 5000 in the pod
+kubectl port-forward pod/mypod 8888:5000
+
+# Listen on a random port locally, forwarding to 5000 in the pod
+kubectl port-forward pod/mypod :5000
+```
+
+
+
+- ready 0/1
+```shell
+# kubectl get pods
+NAME                             READY   STATUS        RESTARTS   AGE
+elasticsearch-master-0           0/1     Terminating   0          61m
+elasticsearch-master-1           0/1     Pending       0          6h51m
+elasticsearch-master-2           0/1     Pending       0          176m
+kibana-kibana-77656d9cdd-xt4m2   0/1     Running       0          6h50m
+```
+
+
+- one cluster vs many clusters
+  - why multi clusters, when we need it?
+  - multi clusters locally deploy
+  - multi clusters management
+  - 默认有multi clusters吗？还是只是其他公司实现的一套黑科技
+  - is it possible and nesscary that clusters communicate with each other ?
+  - todos
+    - https://www.qovery.com/blog/kubernetes-multi-cluster-why-and-when-to-use-them

@@ -46,6 +46,18 @@ Prod upgrade cadence
 
 It turned out that
 
+```
+sudo snap install helm
+[sudo] password for zhong: 
+error: This revision of snap "helm" was published using classic confinement and
+       thus may perform arbitrary system changes outside of the security
+       sandbox that snaps are usually confined to, which may put your system at
+       risk.
+
+       If you understand and want to proceed repeat the command including
+       --classic.
+```
+
 I can pick up
 
 Virus scanning result: Infected
@@ -53,6 +65,12 @@ Virus scanning result: Infected
 manipulate
 
 Symptom
+
+proposition
+
+Asset Owner
+
+minimal reproducible example
 
 Corrective Actions
 
@@ -65,6 +83,9 @@ has 4 host outages
 The code is provided as-is with no warranties.
 
 velocity
+
+Censorship circumvention tool
+Lantern allows you to access sites blocked by internet censorship
 
 Shard
 
@@ -158,6 +179,16 @@ As part of our ongoing effort to migrate data from xx to yy
 warning which complained that both audit.User and osstp.User models are user models
 
 by means of
+
+Attestation
+
+Third-Party Component Usage Attestation
+
+Thanks for the heads up!
+
+Participation is voluntary and your responses are confidential.
+
+What is the data log retention period? (i.e in months / years)
 
 interim
 
@@ -564,11 +595,15 @@ Runbook
 
 The triage of pcakges come in various forms, including:
 
-retention
-
 get missing   找不到
 
+Black Duck is comprised of multiple containers
+
 negotiation
+
+a release against this product
+
+This feature shows exactly what other meeting participants are seeing and is rolling out now
 
 any other variant of Linux
 
@@ -579,6 +614,8 @@ Summit
 corp
 
 in Place
+
+for our team it is crucial to have the xx tool
 
 could be that 可能是这样(不是'可以是这样')
 

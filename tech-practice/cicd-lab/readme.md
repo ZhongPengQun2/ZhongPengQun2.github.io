@@ -15,6 +15,7 @@ apt  install docker.io
 Docker version 20.10.12, build 20.10.12-0ubuntu4
 ```
 - install kubeadmin
+- install minikube
 
 
 - Gitlab has its' own CI/CD, so what's the adventage of concourse(CI) and Jenkins(CD) ?

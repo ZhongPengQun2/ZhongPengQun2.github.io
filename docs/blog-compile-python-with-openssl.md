@@ -5,6 +5,9 @@ description: ..
 ---
 This blog is a tutorial of how to compile `python 3.10.6` with `openssl 3.0.5` module on `Ubuntu 18.04` and `mac os`.
 
+### Questions
+- Python默认是没装ssl的吗？
+
 ### ↓ On Ubuntu 18.04
 
 Steps:

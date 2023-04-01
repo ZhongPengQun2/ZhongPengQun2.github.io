@@ -1,3 +1,6 @@
+冒死上传⚠️如果在学C/C++之前，就知道这些该多好，流下了没有技术的眼泪
+https://www.bilibili.com/video/BV1AL41117QN/?spm_id_from=333.1007.tianma.1-1-1.click&vd_source=f209dde1a1d76e06b060a034f36bb756
+
 ## Assembly Language
 - Visualization
   - EMU8086
@@ -174,3 +177,6 @@ Assembly language playground:
 - `.cc`文件
   - .cc 是为了区别 .c，表示 C++ 源文件
 - C语言关键字
+
+
+

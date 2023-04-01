@@ -6,7 +6,18 @@ Run a Splunk server container
 docker run --name splunk -p 8000:8000 -p 8088:8088 -d outcoldman/splunk:6.3.3
 ```
 
-
+- startup a splunk server
+    - docker-compose.yaml
+```
+version: "3"
+services:
+  splunk:
+    container_name: splunk
+    user: root
+    image: outcoldman/splunk:6.3.3
+    ports:
+      - "8000:8000"
+```
 
 - Splunk
     - https://www.youtube.com/watch?v=m95GiTF0zd0
@@ -36,6 +47,8 @@ minikube start --nodes 4 --extra-config=kubeadm.ignore-preflight-errors=NumCPU -
 
 minikube start --nodes 4 --extra-config=kubeadm.ignore-preflight-errors=NumCPU --force --cpus 1 --driver=docker
 ```
+
+- Splunk 可以用来分析网站是否被黑客扫描
 
 - vmware kube-fluentd-operator
     - https://pkg.go.dev/github.com/vmware/kube-fluentd-operator#section-readme
@@ -75,12 +88,31 @@ $ kubectl create namespace splunk-connect
 $ kubectl config set-context --current --namespace=splunk-connect
 $ 
 helm install anthos-splunk -f values.yaml --namespace splunk-connect https://github.com/splunk/splunk-connect-for-kubernetes/releases/download/1.4.1/splunk-connect-for-kubernetes-1.4.1.tgz
-```
+``` 
 
 - Splunk indexer
+    - 相当于一个database
+    - 我们查询日志的时候，要先确认筛选是哪个database。
+默认index：main (如果转发过来的数据不指定索引，则会保存在默认的main索引中)
+
+- source
+    - 对于从文件和目录监视的数据, source的值是路径，比如 /var/log
+    - 基于网络的是协议和端口, 比如 UDP: 514
+- sourcetype
+    - 是其来源的数据输入的格式，sourceType决定了数据的格式化方式。选择不同的sourceType，Splunk自动识别的常见源类型列表包括NCSA组合格式HTTP Web服务器日志，标准Apache Web服务器错误日志，Cisco网络设备（包括PIX防火墙，路由器，ACS等）生成的标准syslog。查询还可以根据sourceType来筛选
 
 
 - fluent-plugin-splunk-hec
     - https://github.com/splunk/fluent-plugin-splunk-hec
 - kube-fluentd-operator
     - https://github.com/vmware/kube-fluentd-operator
+
+
+```
+#0 unexpected error error_class=RestClient::SSLCertificateNotVerified error="SSL_connect returned=1 errno=0 state=error: certificate verify failed (self signed certificate in certificate chain)"
+
+solution:
+https://anujarosha.medium.com/sending-logs-to-splunk-using-fluent-plugin-splunk-hec-fluentd-output-plugin-462baba53b4f
+```
+
+

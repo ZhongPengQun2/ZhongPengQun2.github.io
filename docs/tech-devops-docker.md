@@ -23,6 +23,7 @@
     docker build -t xxx .
     docker run -d xxx
     ```
+    - `docker ps` vs `docker ps -a`
 
     - docker --detach
     - delete a container file from outside of container.
@@ -31,6 +32,13 @@
     - 如果pg_restore一个db.dump到docker container中，如果这个container stop了，这个数据库的内容是否也消失了?
     - `Sending build context to Docker daemon  26.44GB`
         - 考虑当前目录下是否有大文件
+
+    - 实现docker run mycmd, 然后mycmd可以在host上执行，这样的dockerfile怎么写？
+    - /var/lib/docker/containers
+    - container的log保存在container内部的什么位置?是否保存在container的内部？
+
+    - 在阿里云中看到有`容器运行时`--containerd 1.5.13 与 安全沙箱2.2.2的字样，什么意思？
+        - https://cs.console.aliyun.com/?spm=a2c6h.12873639.article-detail.4.6ade4960sj8Igz#/k8s/cluster/createV2/managed?template=pro-standard
 
 #### Dockerfile
     - USER
@@ -81,6 +89,8 @@ solution:
 https://ithelp.ithome.com.tw/m/articles/10294103
 https://blog.51cto.com/u_15162069/2743910
 ```
+
+- systemd
 
 - Docker-compose
 - kubectl

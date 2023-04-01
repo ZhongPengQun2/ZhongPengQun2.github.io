@@ -5,6 +5,27 @@
     - Linux中标准输出和标准错误的重导向： https://zhuanlan.zhihu.com/p/360549100
 
 
+### bootloader
+	- 大连理工大学 bootloader
+		- https://www.bilibili.com/video/BV1bf4y1d7tp/?spm_id_from=333.788.recommend_more_video.-1
+	- bootloader/uboot 简述
+		- https://www.bilibili.com/video/BV1ta411b7nY/?spm_id_from=333.337.search-card.all.click
+	- 固件
+	- grub
+		- gnu bootloader
+		- todo, what's grub, https://www.bilibili.com/video/BV1wY41147he/?spm_id_from=333.337.search-card.all.click&vd_source=f209dde1a1d76e06b060a034f36bb756
+	- uboot
+	- 第11讲BootLoader的启动流程分析
+		- https://www.bilibili.com/video/BV1cd4y1777h/?spm_id_from=333.788.recommend_more_video.-1&vd_source=f209dde1a1d76e06b060a034f36bb756
+		- 内存初始化，硬件初始化
+		- FLASH
+
+推荐一本嵌入式工程师好书 mastering embedded linux programming
+	- https://www.bilibili.com/video/BV1rP4y1A7qS/?spm_id_from=333.788.recommend_more_video.1&vd_source=f209dde1a1d76e06b060a034f36bb756
+	- 嵌入式系统工程师技能要求介绍-Screen Recording 2022-01-30 at 11.21.38 AM
+		- https://www.bilibili.com/video/BV12Y411t7Ww/?spm_id_from=333.999.0.0&vd_source=f209dde1a1d76e06b060a034f36bb756
+
+
 ### Linux
 - Kernel Headers
 https://unix.stackexchange.com/questions/47330/what-exactly-are-linux-kernel-headers
@@ -97,6 +118,11 @@ Inconsistency detected by ld.so: dl-call-libc-early-init.c: 37: _dl_call_libc_ea
 - xrdb
 - build-essential
 - ttyd
+
+- sudo sysctl fs.inotify.max_user_instances=8192
+	```
+	fs.inotify.max_user_watches：表示同一用户同时可以添加的watch数目（watch一般是针对目录，决定了同时同一用户可以监控的目录数量）
+	```
 
 ### Alpine Linux
 

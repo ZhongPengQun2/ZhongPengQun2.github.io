@@ -1,10 +1,8 @@
 # Purpose
 To run a complete project which life cycle is managed by CI/CD.
 
-## Prerequsites
-- K8s cluster
 
-#### [ok] Setup k8s cluster locally
+#### Setup k8s cluster locally
 you can use `minikube` to do it.
 
 - Install minikube
@@ -14,6 +12,7 @@ $ sudo mv -v minikube /usr/local/bin
 $ minikube version
 ```
 - Install kubectl
+
 https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
 
 For me, ubuntu

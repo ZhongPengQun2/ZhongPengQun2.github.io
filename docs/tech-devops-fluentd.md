@@ -1,3 +1,14 @@
+### 先运行一个container，该container运行着一个web server，当我们去curl它的api时候，stdout会有输出，可以用于测试fluentd
+
+```
+docker run -p 18080:80 --name nginx -d nginx:1.10
+```
+
+- Is it possible to use stdout/stderr as fluentd source?
+    - https://stackoverflow.com/questions/54778074/is-it-possible-to-use-stdout-stderr-as-fluentd-source
+
+- fluentd如何收集全部pod的log，假设pod的log在/var/log/x.log
+
 ### kerberos
 - https://www.youtube.com/watch?v=5N242XcKAsM
 
@@ -9,15 +20,50 @@
     - TODO: 搭建日志系统之 Fluentd
         - https://www.bilibili.com/video/BV15y4y1m7Fe/?spm_id_from=333.337.search-card.all.click&vd_source=f209dde1a1d76e06b060a034f36bb756
 
+- http://www.pangxieke.com/linux/docker-logging-fluentd.html
+	- fluentd 是一个开源的数据收集器，它原生就支持 JSON 格式，因此你可以在主机上运行一个单独的 fluentd 实例并配置它来 tail `每个容器`的 JSON 文件
+	- 我的理解：fluentd可以运行在host上，或作为一个container运行，2种方法都能收集containers的log
+	- example of fluentd.conf
+	```
+	<source>
+	@type forward
+	</source>
+
+	<match *>
+	@type stdout
+	</match>
+	```
+
+
 ### fluentd
-- Installation
-- Run
-```shell
-helm install kfo ${CHART_URL} \
-  --set rbac.create=true \
-  --set image.tag=v1.16.8 \
-  --set image.repository=vmware/kube-fluentd-operator
-```
+- vmware/kube-fluentd-operator
+    - Installation
+        - https://github.com/vmware/kube-fluentd-operator
+    - Run
+    ```shell
+    helm install kfo ${CHART_URL} \
+    --set rbac.create=true \
+    --set image.tag=v1.16.8 \
+    --set image.repository=vmware/kube-fluentd-operator
+    ```
+    - From the readme, why it needs to `build` ?
+        - create fluentd image, then run it as daemonset container ?
+
+    - `It compiles a Fluentd configuration from configmaps (one per namespace)`
+	- 这样的话，如果我只想monitor一个ns，其他ns不想monitor怎么办？
+    - `KFO also extends the Fluentd configuration language making it possible to refer to pods based on their labels and the container name pattern`
+	- 是什么原理呢？
+    - `Finally, it is possible to ingest logs from a file on the container filesystem. While this is not recommended, there are still legacy or misconfigured apps that insist on logging to the local filesystem.`
+	- 是否monitor container的stdout才是该repo的主要目的?
+    - `@type record_transformer`
+    - container label
+
+    - todos
+	- forward logs to elasticsearch
+
+- output plugins
+- '当微服务的时候，多台host运行着各自的containers,如果需要查看全部的log，需要到3台host分别查看，但是如果用了fluentd就不一样了'
+
 
 ```shell
 $ helm install kfo ${CHART_URL}   --set rbac.create=true   --set image.tag=v1.16.8   --set image.repository=vmware/kube-fluentd-operator  --set datasource=crd
@@ -39,43 +85,17 @@ For locally investigation, you can register a fluentd cloud log. e.g https://www
 
 - https://github.com/marcel-dempers/docker-development-youtube-series/blob/master/monitoring/logging/fluentd/introduction/readme.md
 
-
-
-- elasticsearch & kibana
-    - reference: https://levelup.gitconnected.com/docker-compose-made-easy-with-elasticsearch-and-kibana-4cb4110a80dd
-        - `docker-compose.yml`
-
-        ```shell
-        version: "3.0"
-        services:
-        elasticsearch:
-            container_name: es-container
-            image: docker.elastic.co/elasticsearch/elasticsearch:7.11.0
-            environment:
-            - xpack.security.enabled=false
-            - "discovery.type=single-node"
-            networks:
-            - es-net
-            ports:
-            - 9200:9200
-        kibana:
-            container_name: kb-container
-            image: docker.elastic.co/kibana/kibana:7.11.0
-            environment:
-            - ELASTICSEARCH_HOSTS=http://es-container:9200
-            networks:
-            - es-net
-            depends_on:
-            - elasticsearch
-            ports:
-            - 5601:5601
-        networks:
-        es-net:
-            driver: bridge
-        ```
-
+- @label
+    - https://www.cnblogs.com/chuanzhang053/p/16888901.html
 
 - @type tail
+```
+<parse>配置项需要通过@type参数来指定解析器的类型。Fluentd内核绑定了很多有用的解析器插件，也可以根据需要安装其他第三方解析器。
+<parse>
+  @type apache2
+</parse>
+这里，@type指定使用apache2这个解析器来解析输入日志。
+```
 
 - match标签
 
@@ -86,6 +106,21 @@ For locally investigation, you can register a fluentd cloud log. e.g https://www
 - create a docker image that print 'hello world' continously.
 - push this image to docker.io
 
-
+- forwart to local elasticsearch ?
+```
+1. 
+```
 
 - forward to external elaticsearch ?
+
+- Kubernetes安装EFK日志收集
+    - https://blog.csdn.net/heian_99/article/details/123405383
+        - not tried it yet
+    - https://v1-0.docs.dapr.io/zh-hans/operations/monitoring/logging/fluentd/
+        - looks like this is more kaopu
+
+- Sidecar vs Agent
+
+ - @type
+
+- 工作中遇到的一个问题：fluentd只能forward log file到splunk，对吧？
