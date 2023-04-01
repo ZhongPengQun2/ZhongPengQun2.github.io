@@ -1,6 +1,32 @@
 # Journals
 
-## hello
+##### Recall
+I was born in a village of China 在上个世纪.
+我是在村子里的小学上的，上到了3年级，then went to 隔壁村的小学to finish the rest grades.
+我是去城里上的初中和高中.
+Regarding my village, i have much memory related with it.
+Many personalities and interesting things ever existed there.
+I will describe them one by one.
+- 桥生(QiaoSheng)
+He was a 傻子, 智力水平相当于5 years old child, or lower than, i guess.
+He even couldn't speak fluently, always laughed, 两只手上下摆动着手腕, never slient, never sad.
+His age is same as me, so 村民们 said that we are 老根(LaoGeng), and he 身高差不多 as high as me, about 173 centmeter.
+His 智力障碍 is 遗传自 his mother.
+He is a 傻子, but 村民们并没有伤害过他, except some children, include me, sorry for that, and we actually very 同情 him, especially the olds.
+When him was about 7 years old, he 发育得很快, he often went into 牛圈 to 
+drink the 母牛的乳汁， it was olds pleasant to talk about.
+His 生殖器 not 发育 normally, 阴囊像个吹饱了气的气球, nevertheless, 阴茎 much smaller than the normal.
+He always naked his 上半身, 除非是冬天.
+His eyes not able to focus at one point, two 眼球 towards to diffent 方向.
+Every time, he met me or others, he laughed loudly and 晃动着手腕， 比以往剧烈.
+As a 傻子, naturely, became the children's 玩弄的对象.
+现在想起来, it was really dangerous.
+
+
+- 躲生(DuoSheng)
+todo
+- 圆子(YuanZi)
+todo
 
 ##### 2022-6-15
 At XinYu sport gym, played basketball with strangers, one is an old man, i guess about 60 years.
@@ -476,6 +502,19 @@ Night started,Li Quan who was my high school classmate invited me to have a dinn
 also invited another 5 同事 to this dinner.
 We talked 谈恋爱, we talked work, they taught me how to let a girl to fall into love with 
 
-me, but i'm much older than you guys.
+me, but i'm much older than these guys.
 
+#### 2023-04-01
+Now is 凌晨1点, i'm in 网吧, in XinYu City.
+The most familiar public place for me is 网吧. The first time i went to 网吧 was in 高三, more exact saying is 补习班.
+We lived in school, and our studying is quite 紧张, high stress, but our goal is 明确的, it's 考上大学.
+There is only one evening and one afternoon is free for us, if i remember correctly, sunday afternoon and evening.
+In one evening, my roommates decided to 网吧 to play cyber game as usual. I haven't ever went to 网吧 before, but i want to follow them at that moment.
+When we reached 网吧, LiNing, which was one of my classmate and roommate, register a QQ account for me, because i didn't play cyber game with them.
+I still remember when i got this QQ account, and then i logined in, i 不禁感叹: what a fantasity thing, you can communicate a stranger from anywhere, 反之亦然, i was excited, i started to add friends by searching people by gendar, i added 2 or 3 girls in friend list, i started to chat with them, i never chat with 异性 so closely before, seemed like they are sit before me.
+I was friendly and 缺少经验的 during chat, very short period later, i found i have nothing to talk.
+about 2 hours later, we had to go back 寝室, because the gate will be closed at a certain time, this evening i was happy.
 
+回想起 all the time i have been in 网吧, some was relax, but most of them was solitude, to be honest, i 羡慕那些结队玩游戏的人.
+
+Now, in this 网吧, i has become the 老客户, 收银员 has known me. And here, another one is noticed by me, 几乎每次 i go to here, 我发现他也在这里, his voice like one of my 大学同学.

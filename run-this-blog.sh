@@ -1,3 +1,3 @@
 # /bin/sh
 
-mkdocs serve -a localhost:7777
+mkdocs serve -a 0.0.0.0:7777

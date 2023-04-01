@@ -48,3 +48,10 @@ https://www.bilibili.com/video/BV16A411675V/?spm_id_from=333.1007.tianma.3-2-8.c
 厚积薄发
 
 参与到讨论中去，不然分神
+
+
+- Ubuntu vpn
+  - clash ?
+
+
+自制按摩椅

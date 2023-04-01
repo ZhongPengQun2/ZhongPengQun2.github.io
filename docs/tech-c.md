@@ -11,6 +11,8 @@
 
 - 8051 汇编语言
 
+- `c和c++就是靠指针和内存管理吃饭的`
+
 ## How to use Linux command `man`
 - Man a specific option ?
   ```shell
@@ -22,6 +24,7 @@ https://zhuanlan.zhihu.com/p/584992915
 
 ## GCC
 - Bilibili 小布老师gcc https://www.bilibili.com/video/BV1rJ411V7EV?p=4&vd_source=397a53882c67614973bf614e08b1047f
+	- 目标文件
 - 4 stages of 
 
 - key options
@@ -169,3 +172,12 @@ Assembly language playground:
 - `.cc`文件
   - .cc 是为了区别 .c，表示 C++ 源文件
 - C语言关键字
+
+
+```
+需要源代码自己编译安装有两种情况：
+
+（1）你需要修改源代码，修正某个bug，或者添加/修改功能
+
+（2）你的硬件是预编译的包不支持的，假设作者的预编译包只支持x86，而你希望在一个树莓派（ARM cpu）上运行，就要自己编译。
+```

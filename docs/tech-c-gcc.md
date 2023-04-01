@@ -21,14 +21,32 @@
   press `/-O` to search `man -O`
   ```
 
+- 假如不想提供源码给别人可以有哪些操作？
+
 ## Some C open source projects
 https://zhuanlan.zhihu.com/p/584992915
 
 ## GCC
 - Bilibili 小布老师gcc https://www.bilibili.com/video/BV1rJ411V7EV?p=4&vd_source=397a53882c67614973bf614e08b1047f
+	- 系统头文件与目录
+		- /usr/local/include/
+		- /usr/include/
+		- /usr/local/lib/
+		- /usr/lib/
+	- search path
+		- `-I`
+			- 有了`-I`,可以提供compatible, #include</tmp/myhead.h>可以写成#include<myhead.h>
+		- `-L`
+	- archiver: ar
+		- `.a`文件(库文件)是 archive文件的缩写吧？即多个.o文件的打包
+		- ar cr libhello.a func1.o func2.o
+	- 看到了 https://www.bilibili.com/video/BV1rJ411V7EV?p=7&vd_source=f209dde1a1d76e06b060a034f36bb756 16分
+
 - 4 stages of compiling a c program
   - pre-processing
     - 预处理阶段主要工作是删除程序中所有的注释、处理以# 开头的命令，如：头文件的展开、宏定义的替换
+	- 头文件的作用
+		- 头文件就是像 #include<stdio.h> 这样的以 .h结束的文件
     - `gcc -E hello.c -o hello.i` 
   - Compiling
     - process `.i` into assembly language file
@@ -66,6 +84,7 @@ below are my notes of this video tutorial.
   - CPPFLAGS
   - LDFLAGS
 
+- 链接器 ld
 - ldd
 - ldconfig
 
@@ -144,11 +163,17 @@ google搜索：   src/kerberosbasic.h:17:10: fatal error: gssapi/gssapi.h: No su
 - 向下兼容、向后兼容、向上兼容、向前兼容
 
 - 动态库与静态库
+- 动态编译和静态编译
 - what's standard output standard input ?
 
 GCC编译选项CFLAGS参数
 https://www.cnblogs.com/god-of-death/p/12767113.html
 
+- gcc -Wall main.c /usr/lib/libm.a -o calc
+	- 等同于 gcc -Wall main.c -lm -o calc
+		- `-lm` will attempt to link object files with a lib file `libName.a` in the standard lib directories
+		- 这种约定有点让人难以理解
+		- 如果该lib不在standard lib directory又会如何处理?
 
 
 linux编译参数CPPFLAGS、CFLAGS、LDFLAGS参数的理解
