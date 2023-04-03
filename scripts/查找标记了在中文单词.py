@@ -2,7 +2,7 @@
 import re
 import os
 
-journals_file_path = os.getcwd() + "/docs/journals.md"
+journals_file_path = os.getcwd() + "/raw/journals.md"
 existed_cn_words = {}
 fanyi_file_path = os.getcwd() + "/scripts/查找标记了在中文单词--翻译.txt"
 
@@ -35,6 +35,7 @@ for marked_cn_word in marked_cn_words:
 will_append_text = list(set(will_append_text.split('\n')))
 print(will_append_text)
 
-# with open(fanyi_file_path, 'a') as f:
-#     f.write(will_append_text)
-#     f.close()
+with open(fanyi_file_path, 'a') as f:
+    will_append_text_str = '\n'.join(will_append_text)
+    f.write(will_append_text_str)
+    f.close()
