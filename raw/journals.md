@@ -518,3 +518,11 @@ about 2 hours later, we had to go back 寝室, because the gate will be closed a
 回想起 all the time i have been in 网吧, some was relax, but most of them was solitude, to be honest, i 羡慕那些结队玩游戏的人.
 
 Now, in this 网吧, i has become the 老客户, 收银员 has known me. And here, another one is noticed by me, 几乎每次 i go to here, 我发现他也在这里, his voice like one of my 大学同学.
+
+#### 2023-04-03
+Today is tomb-sweeping day, which is a chinese traditional day. 在这一天, people will go to sweep tomb which 安放着 the passed away 亲人. Today is not the 法定假日, but according to local custom, today is a better date for us to do it, so a take this day off and come back to village.
+I got up at about 8:00 in the morning, then washed face and 刷牙, next drived car to go to village, the traffic was so blocked, i spend about one hour to arrived 目的地, as usual, just half hour is enough.
+
+When arrived, my uncle and brother had waited for me more thant one hour.
+
+↓ start
