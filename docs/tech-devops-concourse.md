@@ -1,3 +1,6 @@
+## Hardware minimum requirement
+x
+
 ## Concourse
 https://concourse-ci.org/resources.html
 - resource_types、resources、var_sources、groups、jobs

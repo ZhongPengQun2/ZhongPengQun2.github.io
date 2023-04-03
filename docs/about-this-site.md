@@ -67,6 +67,7 @@ openssl tar 我的java视频 likely x**7
 
 #### mov 转 mp4
 
-
+#### 视频中中文提取
+或许我可以自己用ai做一个？
 
 [back](./)
