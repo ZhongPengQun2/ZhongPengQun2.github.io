@@ -525,5 +525,34 @@ I got up at about 8:00 in the morning, then washed face and 刷牙, next drived 
 
 When arrived, my uncle and brother had waited for me more thant one hour.
 
-↓ start
+↓ start, the weather was not so good, cloud was heavy, 前兆 of rainning.
+
 <img src="https://github.com/ZhongPengQun2/materials/raw/main/field-2.jpeg" width="90%" />
+
+↓ My uncle, 肩上扛着一把铲, smokes everyday.
+
+<img src="https://github.com/ZhongPengQun2/materials/raw/main/uncle-on-road.jpeg" width="90%" />
+
+↓ Grandfather, 提着一个篮子， a pair of black 拖鞋 on his feet, wear 迷彩服.
+在路上我们碰到许多老乡, in below picture, one was 蹲着, one 扛着锄头, 锄头上挂着篮子 
+
+<img src="https://github.com/ZhongPengQun2/materials/raw/main/grandfather-on-road-2.jpeg" width="90%" />
+
+<img src="https://github.com/ZhongPengQun2/materials/raw/main/grandfather-on-road.jpeg" width="90%" />
+
+↓ Here is the tombs place.
+
+<img src="https://github.com/ZhongPengQun2/materials/raw/main/tomb-place-2.jpeg
+" width="90%" />
+
+<img src="https://github.com/ZhongPengQun2/materials/raw/main/tomb-place-3.jpeg
+" width="90%" />
+
+<img src="https://github.com/ZhongPengQun2/materials/raw/main/tomb-place-4.jpeg
+" width="90%" />
+
+<img src="https://github.com/ZhongPengQun2/materials/raw/main/tomb-place-5.jpeg
+" width="90%" />
+
+<img src="https://github.com/ZhongPengQun2/materials/raw/main/tomb-place.jpeg
+" width="90%" />

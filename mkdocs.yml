@@ -3,6 +3,7 @@ theme: readthedocs
 nav:
     - My-CI/CD-Lab: blog-my-cicd-lab.md
     - Journals: journals.md
+    - Journals-raw: journals-raw.md    
     - the-communist-manifesto: the-communist-manifesto.md
     - tech-note: tech-note.md
     - english-studying: english-studying.md
