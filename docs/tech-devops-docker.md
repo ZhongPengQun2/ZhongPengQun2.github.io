@@ -295,3 +295,11 @@ s:
 sudo apt install gnupg2 pass
 
 ```
+
+
+- docker pull from private registry ?
+    - how to deploy a private registry ?
+        - https://www.youtube.com/watch?v=O_NMIZJ1qvw
+        ```
+        docker run -d -p 5000:5000 --restart=always --name registry -v $(pwd)/docker-registry:/var/lib/registry registry:latest
+        ```
