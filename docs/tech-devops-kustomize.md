@@ -4,3 +4,12 @@ basic usage: https://www.bilibili.com/video/BV1Gv411b7gy/?spm_id_from=333.337.se
 https://kustomize.io/
 - patchesStrategicMerge
 - configmap
+
+
+### kustomize
+- Why Kustomize ?
+```shell
+xx
+```
+- Kustomize VS Helm
+- Helm DSL syntax ?

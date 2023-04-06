@@ -16,8 +16,19 @@
     - tag
     - registry
 
+
+```
+The Auto DevOps pipeline has been enabled and will be used if no alternative CI configuration file is found.
+Container registry is not enabled on this GitLab instance. Ask an administrator to enable it in order for Auto DevOps to work. 
+```
+    - CI/CD settings
+
+- gitlab add k8s cluster
+
 ### Git
 - Git
     - git submodule [Chinese: https://www.youtube.com/watch?v=jhl7ruTPV-o]
     - Git branch strategy
+
+
 
