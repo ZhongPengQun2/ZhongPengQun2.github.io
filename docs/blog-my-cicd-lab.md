@@ -1,9 +1,5 @@
-# Purpose
-To run a complete project which life cycle is managed by CI/CD.
-
-
-#### Setup k8s cluster locally
-you can use `minikube` to do it.
+#### Run a k8s cluster
+First of all, have to start a k8s cluster, can use `minikube` to do it.
 
 - Install minikube
 ```shell
@@ -11,123 +7,114 @@ $ curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/mini
 $ sudo mv -v minikube /usr/local/bin
 $ minikube version
 ```
-- Install kubectl
+- Install kubectl， https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
 
-https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
+For me, ubuntu OS
 
-For me, ubuntu
-```shell
+```
 snap install kubectl --classic
 kubectl version --client
 ```
 
-#### Deploy Gitlab
-<a href='https://docs.gitlab.com/ee/install/docker.html'> Official tutorial </a>
-
-I choose Helm to deploy gitlab on cluster, for i'd like to have a practise on Helm.
-
-Basically, i referred to this articles
-
-https://www.yangpiqiulaotou.cn/2021/03/25/helm3%E5%AE%89%E8%A3%85gitlab/
-https://cloud.tencent.com/developer/article/1471464
-https://www.jianshu.com/p/024aa83f1dac
-
-### prerequisite
-kubectl create ns gitlab
-kubectl config set-context --current --namespace=gitlab
-kubectl config get-contexts
-
-
-helm upgrade --install gitlab gitlab-jh/gitlab \
-  --version 5.6.2 \
-  --timeout 600s \
-  --set global.hosts.domain=example.com \
-  --set global.hosts.externalIP=10.79.128.59 \
-  --set certmanager-issuer.email=me@example.com
-
-##### setup Helm  and then helm install gitlab
-- Install Helm
-https://helm.sh/docs/intro/install/
-
-
-Add Helm repo source, btw, what does repo source do ?
-```shell
-helm repo add stable https://kubernetes-charts.storage.googleapis.com
-helm repo add aliyun https://kubernetes.oss-cn-hangzhou.aliyuncs.com/charts
-helm repo add  apphub https://apphub.aliyuncs.com/
-
+Start cluster.
+```
+minikube start --nodes 2 --extra-config=kubeadm.ignore-preflight-errors=NumCPU --force --cpus 2 --kubernetes-version=v1.23.1 --memory=12000
 ```
 
-```shell
-vz@vz:~$ sudo snap install helm
+#### Concourse
 
-error: This revision of snap "helm" was published using classic confinement and thus may perform
-       arbitrary system changes outside of the security sandbox that snaps are usually confined to,
-       which may put your system at risk.
-
-       If you understand and want to proceed repeat the command including --classic.
-```
-
-
-https://gitlab-docs.creationline.com/charts/installation/deployment.html
-
-<hr>
-
-Give it up temporarily
-
-
-
-### K8S deploy gitlab 
-refer to https://medium.com/@SergeyNuzhdin/how-to-easily-deploy-gitlab-on-kubernetes-75f5868cea78
-failed !
-```shell
-$ kubectl create -f gitlab/redis-deployment.yml
-error: resource mapping not found for name: "gitlab-redis" namespace: "gitlab" from "gitlab/redis-deployment.yml": no matches for kind "Deployment" in version "extensions/v1beta1"
-ensure CRDs are installed first
-
-
-solution: ↓
-$ k version --short
-Flag --short has been deprecated, and will be removed in the future. The --short output will become the default.
-Client Version: v1.25.4
-Kustomize Version: v4.5.7
-Server Version: v1.25.2
-
-$ k convert
-error: unknown command "convert" for "kubectl"
-----
-command convert has removed from kubectl since 1.22 --- https://github.com/kubernetes/website/issues/28724
-- install convert https://www.cnblogs.com/varden/p/15907141.html
-  - $ curl -LO https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl-convert
-  - $ sudo install -o root -g root -m 0755 kubectl-convert /usr/local/bin/kubectl-convert
-
--- convert usage
-$ kubectl-convert -f gitlab-deployment.yaml --output-version apps/v1
-$ kubectl-convert -f gitlab-ingress.yaml --output-version networking.k8s.io/v1  
-
-## todo
-online kubectl convert
+`docker-compose.yaml`
 
 ```
+version: '3'
 
-- K8S的apiVersion该用哪个
-https://segmentfault.com/a/1190000017134399
+services:
+  concourse-db:
+    image: postgres
+    environment:
+      POSTGRES_DB: concourse
+      POSTGRES_PASSWORD: concourse_pass
+      POSTGRES_USER: concourse_user
+      PGDATA: /database
 
-
-### Deploy gitlab on k8s --2   (not succeed)
-refer to 
-https://www.qikqiak.com/post/gitlab-install-on-k8s/
-
-```shell
-$ kubectl get pods -n kube-ops
-NAME                          READY   STATUS             RESTARTS   AGE
-gitlab-6cdc798c55-tdrjx       0/1     ImagePullBackOff   0          8m3s
-postgresql-77cc99bc49-s8sjq   0/1     ImagePullBackOff   0          11m
-redis-594bb69b45-8ds69        0/1     ImagePullBackOff   0          134m
+  concourse:
+    image: concourse/concourse
+    command: quickstart
+    privileged: true
+    depends_on: [concourse-db]
+    ports: ["8081:8080"]
+    environment:
+      CONCOURSE_POSTGRES_HOST: concourse-db
+      CONCOURSE_POSTGRES_USER: concourse_user
+      CONCOURSE_POSTGRES_PASSWORD: concourse_pass
+      CONCOURSE_POSTGRES_DATABASE: concourse
+      #CONCOURSE_EXTERNAL_URL: http://localhost:8081
+      CONCOURSE_EXTERNAL_URL: http://121.40.207.10:8081
+      CONCOURSE_ADD_LOCAL_USER: test:test
+      CONCOURSE_MAIN_TEAM_LOCAL_USER: test
+      # instead of relying on the default "detect"
+      #CONCOURSE_WORKER_BAGGAGECLAIM_DRIVER: overlay
+      CONCOURSE_CLIENT_SECRET: Y29uY291cnNlLXdlYgo=
+      CONCOURSE_TSA_CLIENT_SECRET: Y29uY291cnNlLXdvcmtlcgo=
+      CONCOURSE_X_FRAME_OPTIONS: allow
+      CONCOURSE_CONTENT_SECURITY_POLICY: "*"
+      CONCOURSE_CLUSTER_NAME: tutorial
+      CONCOURSE_WORKER_CONTAINERD_DNS_SERVER: "8.8.8.8"
+      CONCOURSE_WORKER_RUNTIME: "containerd"
 ```
 
-### Deploy gitlab by docker-compose (succeed !!!)
-refer to https://www.czerniga.it/2021/11/14/how-to-install-gitlab-using-docker-compose/
+Deploy it by cmd `docker-compose up -d`
+
+username: `test`
+pwd: `test`
+
+#### Gitlab
+
+There are 2 ways to deploy a Gitlab, i tried, all succeed !
+
+**1.**
+
+```
+mkdir -p /home/gitlab/etc/gitlab	
+mkdir -p /home/gitlab/var/log
+mkdir -p /home/gitlab/var/opt
+
+docker run -d -h gitlab -p 443:443 -p 8090:80  -p 8022:22  --name gitlab  --restart  always   -v /root/data/gitlab/config:/etc/gitlab  -v /root/data/gitlab/logs:/var/log/gitlab -v  /root/data/gitlab/data:/var/opt/gitlab  gitlab/gitlab-ce
+
+
+docker run -d -h gitlab -p 443:443 -p 8090:80  -p 8022:22  --name gitlab  --restart  always   -v /root/data/gitlab/config:/etc/gitlab  -v /root/data/gitlab/logs:/var/log/gitlab -v  /root/data/gitlab/data:/var/opt/gitlab 139.196.39.92:5000/gitlab-ce
+```
+
+PS: it will take minutes to finish starting, during these minutes, the gitlab dashboard will keep showing 502, so be patient.
+
+
+Username is `root`, and password is in `/etc/gitlab/initial_root_password`, you can run command:
+```
+docker exec -it $(docker ps |grep "gitlab/gitlab-ce" | awk '{ print $1 }') cat /etc/gitlab/initial_root_password
+```
+to get it.
+
+Next, we need to register a Runner to gitlab, GitLab Runner is the open source project that is used to run your jobs and send the results back to GitLab.
+
+Refer to: https://docs.gitlab.com/runner/install/docker.html#option-1-use-local-system-volume-mounts-to-start-the-runner-container
+
+Run Runner container
+
+```
+docker run -d --name gitlab-runner --restart always \
+  -v /srv/gitlab-runner/config:/etc/gitlab-runner \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  gitlab/gitlab-runner:latest
+```
+
+Register runner to gitlab
+
+
+
+
+**2.**
+
+Refer to `https://www.czerniga.it/2021/11/14/how-to-install-gitlab-using-docker-compose/`
 
 ```shell
 mkdir gitlab
@@ -182,8 +169,8 @@ docker exec -it gitlab-ce /bin/sh
 cat /etc/gitlab/initial_root_password
 
 
--------
-vz@vz:~/gitlab$ docker exec -it gitlab-runner gitlab-runner register --url "http://gitlab-ce" --clone-url "http://gitlab-ce"
+------- Register Runner
+$ docker exec -it gitlab-runner gitlab-runner register --url "http://gitlab-ce" --clone-url "http://gitlab-ce"
 Runtime platform                                    arch=amd64 os=linux pid=16 revision=133d7e76 version=15.6.1
 WARNING: The 'register' command has been deprecated in GitLab Runner 15.6 and will be replaced with a 'deploy' command. For more information, see https://gitlab.com/gitlab-org/gitlab/-/issues/380872 
 Running in system-mode.                            
@@ -273,74 +260,21 @@ test-job:
     - java -cp target/helloworld-1.1.jar com.coveros.demo.helloworld.HelloWorld
 ```
 
+
+
+
+
+
+
+
+
+#### JFrog
+Use cloud trial edition, https://nonezhong.jfrog.io/ui/repos/tree/General/docker
+
+
+
 ### TODO, concourse with gitlab
-##### concourse
-- Adventage
-  - Config file is complete yaml, so it can be managed by git or other version controller.
-- Short-coming
-  - Yaml file too long.
-  - Is there any thing can generate concourse yaml file?
 
-
-
-### Jira
-- Is it free ?
-- How to deploy Jira use docker ?
-```shell
-docker run --detach --publish 8080:8080 cptactionhank/atlassian-jira:latest
-```
-
-### kustomize
-- Why Kustomize ?
-```shell
-xx
-```
-- Kustomize VS Helm
-- Helm DSL syntax ?
-
-### concourse
-- deploy
-
-```shell
-$ helm repo add bitnami https://charts.bitnami.com/bitnami
-"bitnami" already exists with the same configuration, skipping
-$ helm install my-release bitnami/concourse
-------output
-NAME: my-release
-LAST DEPLOYED: Wed Nov 23 15:52:21 2022
-NAMESPACE: kube-ops
-STATUS: deployed
-REVISION: 1
-TEST SUITE: None
-NOTES:
-CHART NAME: concourse
-CHART VERSION: 2.0.0
-APP VERSION: 7.8.3
-
-** Please be patient while the chart is being deployed **
-###############################################################################
-### ERROR: You did not provide an external host in your 'helm install' call ###
-###############################################################################
-
-This deployment will be incomplete until you configure Concourse with a resolvable
-host. To configure Concourse with the URL of your service:
-
-1. Get the Concourse URL by running:
-
-  NOTE: It may take a few minutes for the LoadBalancer IP to be available.
-        Watch the status with: 'kubectl get svc --namespace kube-ops -w my-release-concourse-web'
-
-    export APP_HOST=$(kubectl get svc --namespace kube-ops my-release-concourse-web --template "{{ range (index .status.loadBalancer.ingress 0) }}{{ . }}{{ end }}")
-
-2. Complete your Concourse deployment by running:
-    export LOCAL_USERS=$(kubectl get secret --namespace "kube-ops" my-release-concourse-web -o jsonpath="{.data.local_users}" | base64 -d)
-    helm upgrade --namespace kube-ops my-release my-repo/concourse \
-      --set secrets.localUsers=$LOCAL_USERS \
-      --set service.web.type=LoadBalancer \
-      --set web.externalUrl=$APP_HOST
-```
-
-### Install Jenkins
 
 
 

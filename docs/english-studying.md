@@ -629,6 +629,8 @@ discrepancy  n  差异;不符合;不一致
 
 right-most
 
+more or less
+
 I'm applying to re-join xxx
 
 Once you get a chance please keep us posted
@@ -874,15 +876,22 @@ interpolation
 
 partially
 
+would be
 would be more indicative
 
 obfuscation
+
+convey all in one go
 
 xx elapsed time 3:15:02, completed on Fri Aug 12 21:08:33 2022
 
 sustainability
 
 laid out
+
+non-optimal
+
+ the CI system runs in the background, churning away
 
 recipe
 

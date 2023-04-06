@@ -55,3 +55,5 @@ https://www.bilibili.com/video/BV16A411675V/?spm_id_from=333.1007.tianma.3-2-8.c
 
 
 自制按摩椅
+
+cicd-lab 装入硬盘

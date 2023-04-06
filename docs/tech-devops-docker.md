@@ -296,10 +296,45 @@ sudo apt install gnupg2 pass
 
 ```
 
-
+- Is there any dockerhub alternative ?
 - docker pull from private registry ?
     - how to deploy a private registry ?
         - https://www.youtube.com/watch?v=O_NMIZJ1qvw
         ```
-        docker run -d -p 5000:5000 --restart=always --name registry -v $(pwd)/docker-registry:/var/lib/registry registry:latest
+        docker run -d -p 15000:5000 --restart=always --name registry -v $(pwd)/docker-registry:/var/lib/registry registry:latest
+
+        $ cat /etc/docker/daemon.json
+        {
+            "insecure-registries":[
+                "139.196.39.92:15000"
+            ]
+        }
+
+        curl -X GET http://139.196.39.92:15000/v2/_catalog
+        If you encounter below error
+        curl: (56) Recv failure: Connection reset by peer
+        
+
+
+        docker tag nginx 139.196.39.92:15000/nginx
+
+        $ docker push 139.196.39.92:15000/nginx
+        Using default tag: latest
+        The push refers to repository [139.196.39.92:15000/nginx]
+        ff4557f62768: Pushed 
+        4d0bf5b5e17b: Pushed 
+        95457f8a16fd: Pushed 
+        a0b795906dc1: Pushed 
+        af29ec691175: Pushed 
+        3af14c9a24c9: Pushed 
+        latest: digest: sha256:bfb112db4075460ec042ce13e0b9c3ebd982f93ae0be155496d050bb70006750 size: 1570
+
+
+        Pull image from this private registry.
+
         ```
+            - Is there an UI for it ?
+                - No, it's just a backend service, no ui
+        - https://www.baeldung.com/ops/docker-private-registry
+
+
