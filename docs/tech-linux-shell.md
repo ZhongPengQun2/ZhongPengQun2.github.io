@@ -12,6 +12,8 @@
 - 单引号与双引号的区别
 - linux shell file中cd到某个目录，然后当前路径变化，怎么弄？
 
+- How to write POSIX compliant shell script ? To avoid bash-isms.
+
 ### man 命令的使用
 - 如何快速查看某个flag的用法？
 - `使用man命令查看etc下的文件不需要给出完整地路径，只需要给出文件名即可`

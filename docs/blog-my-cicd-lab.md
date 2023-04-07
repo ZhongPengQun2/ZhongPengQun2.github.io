@@ -273,9 +273,11 @@ Use cloud trial edition, https://nonezhong.jfrog.io/ui/repos/tree/General/docker
 
 
 
-### TODO, concourse with gitlab
+#### Trigger Concourse Pipeline when Commit Gitlab MR or Merge Request.
+xx
 
 
+#### Jenkins
 
 
 [back](./)

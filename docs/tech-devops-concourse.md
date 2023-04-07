@@ -11,6 +11,8 @@ https://concourse-ci.org/resources.html
         - https://stackoverflow.com/questions/56337301/concourse-what-is-the-difference-between-resource-types-and-resource
             - resource_type like Class, resource like object
     - resources -> source -> url 什么意思？
+      - 当 resources type 为 gitlab 时， url表示gitlab server的地址
+      
 
 
 - Practice
@@ -20,6 +22,9 @@ https://concourse-ci.org/resources.html
 - 有哪些内置的 resource_type ?
 
 - gitlab integrate concourse
+
+- set_pipeline
+  - 
 
 ### Concourse
 - What is concourse target, why fly -t (target) ?
