@@ -876,10 +876,17 @@ interpolation
 
 partially
 
+inactive time slot
+
 would be
 would be more indicative
 
 obfuscation
+
+To fully understand what is going on in a Concourse pipeline one have
+to first have a good grasp of basic terminology. One is for sure,
+though: Concourse's pipelines are significantly different from the
+rest!
 
 convey all in one go
 
@@ -888,6 +895,8 @@ xx elapsed time 3:15:02, completed on Fri Aug 12 21:08:33 2022
 sustainability
 
 laid out
+
+They are consecutively numbered
 
 non-optimal
 
