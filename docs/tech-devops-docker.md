@@ -297,6 +297,67 @@ sudo apt install gnupg2 pass
 ```
 
 - Is there any dockerhub alternative ?
+    - AWS ECR Public ？
+        - Push and pull from AWS ECR 
+            - https://www.youtube.com/watch?v=89ZeXaZEf80
+            - https://www.youtube.com/watch?v=8XnqgiQaIkU
+                - AmazonEC2ContainerRegistryFullAccess
+                - 需要安装aws v2的client
+                - errors encountered
+                ```
+                $ aws ecr-public get-login-password --region us-east-1
+
+                An error occurred (UnrecognizedClientException) when calling the GetAuthorizationToken operation: The security token included in the request is invalid.
+
+                s:
+                $ aws configure
+                $ AWS Access Key ID [****************E5TA]=xxxxxxxxxx
+                $ AWS Secret Access Key [****************7gNT]=xxxxxxxxxxxxxx
+                ↑ how to create access key ?
+                open page https://us-east-1.console.aws.amazon.com/iamv2/home#/security_credentials
+                Then succeed !
+                $ aws ecr-public get-login-password --region us-east-1 | docker login --username AWS --password-stdin public.ecr.aws/y5z1i2v3
+                WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+                Configure a credential helper to remove this warning. See
+                https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+                Login Succeeded
+
+                Push images to AWS registry
+                $ docker push public.ecr.aws/y5z1i2v3/vincent-jenkins:latest
+                The push refers to repository [public.ecr.aws/y5z1i2v3/vincent-jenkins]
+                a0db388da653: Preparing 
+                5ace2236b792: Preparing 
+                e8730b8130f7: Preparing 
+                71172cb73530: Preparing 
+                e8d54b9aa21c: Preparing 
+                2bb413634e22: Waiting 
+                1b0f52754622: Waiting 
+                781a4a82dd8d: Waiting 
+                2b19e8927d12: Waiting 
+                e0d74c92d90b: Waiting 
+                0fc1f85308ed: Waiting 
+                0920ece9e11d: Waiting 
+                5cb40c97b600: Waiting 
+                9ece0f31ab3f: Waiting 
+                dced136831e2: Waiting 
+                50c172b1f6cb: Waiting 
+                fc340cdaad0c: Waiting 
+                172cb7ad177f: Waiting 
+                4fa6c90606ff: Waiting 
+                912e23b84980: Waiting 
+                de5af37ebe4a: Waiting 
+                7f03bfe4d6dc: Waiting 
+                name unknown: The repository with name 'vincent-jenkins' does not exist in the registry with id 'y5z1i2v3'
+
+                s:
+                docker push public.ecr.aws/y5z1i2v3/zhongpengqun:latest
+                ```
+                - vincent's repos page
+                    - https://us-east-1.console.aws.amazon.com/ecr/repositories?region=us-east-1
+
+                - 吐槽or疑惑：aws的repo概念上只对应一个image ？
+
 - docker pull from private registry ?
     - how to deploy a private registry ?
         - https://www.youtube.com/watch?v=O_NMIZJ1qvw
@@ -336,5 +397,5 @@ sudo apt install gnupg2 pass
             - Is there an UI for it ?
                 - No, it's just a backend service, no ui
         - https://www.baeldung.com/ops/docker-private-registry
-
+            - How to backup and migrate ?
 

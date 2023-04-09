@@ -1,3 +1,6 @@
+#### TODO
+- 写成docker-compose
+
 #### Run a k8s cluster
 First of all, have to start a k8s cluster, can use `minikube` to do it.
 
@@ -79,10 +82,7 @@ mkdir -p /home/gitlab/etc/gitlab
 mkdir -p /home/gitlab/var/log
 mkdir -p /home/gitlab/var/opt
 
-docker run -d -h gitlab -p 443:443 -p 8090:80  -p 8022:22  --name gitlab  --restart  always   -v /root/data/gitlab/config:/etc/gitlab  -v /root/data/gitlab/logs:/var/log/gitlab -v  /root/data/gitlab/data:/var/opt/gitlab  gitlab/gitlab-ce
-
-
-docker run -d -h gitlab -p 443:443 -p 8090:80  -p 8022:22  --name gitlab  --restart  always   -v /root/data/gitlab/config:/etc/gitlab  -v /root/data/gitlab/logs:/var/log/gitlab -v  /root/data/gitlab/data:/var/opt/gitlab 139.196.39.92:5000/gitlab-ce
+docker run -d -h gitlab -p 443:443 -p 8090:80  -p 8022:22  --name gitlab  --restart  always   -v /root/data/gitlab/config:/etc/gitlab  -v /root/data/gitlab/logs:/var/log/gitlab -v  /root/data/gitlab/data:/var/opt/gitlab  public.ecr.aws/y5z1i2v3/zhongpengqun:gitlab-ce
 ```
 
 PS: it will take minutes to finish starting, during these minutes, the gitlab dashboard will keep showing 502, so be patient.
@@ -278,6 +278,22 @@ xx
 
 
 #### Jenkins
+- Installation
+```
+docker run --name jenkins-blueocean --restart=on-failure --detach \
+  --env DOCKER_HOST=tcp://docker:2376 \
+  --env DOCKER_CERT_PATH=/certs/client --env DOCKER_TLS_VERIFY=1 \
+  --publish 8082:8080 --publish 50000:50000 \
+  --volume jenkins-data:/var/jenkins_home \
+  --volume jenkins-docker-certs:/certs/client:ro \
+  public.ecr.aws/y5z1i2v3/zhongpengqun:jenkins-lts-jdk11
+```
+  - admin zpq123456
+
+
+#### Concourse
+- Installation
+
 
 
 [back](./)
