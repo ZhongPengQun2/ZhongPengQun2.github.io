@@ -77,6 +77,26 @@ vzhong@vzhong-vm-2:~/osspi-cli$ sudo ln -s /home/vzhong/osspi-cli/build/resource
 $ sudo ln -s /home/vzhong/osspi-cli/build/resources/openssl/Openssl-3.0.5/lib64/libssl.so.3 /usr/lib/libssl.so.3
 ```
 
+- 软连接(symbolic link aka soft link)与硬链接(hard link)的区别
+	- inode
+		- A file in the file system is basically a link to an inode.
+		- A hard link, then, just creates another file with a link to the same underlying inode.
+	- just like shortcut in windows
+	- softlink's inode number is different from origin file's inode number
+		- shortcut will be invalid when origin file is deleted, as well as softlink
+	- why soft link ?
+	- Hard link
+		- Different name of the same file
+		- same inode number, same file size
+		- just like a copy of origin file
+		- if origin file is deleted, hard link still contains the data.
+	- How to create a hard link ?
+	```
+	ln sfile1file link1file
+	```
+
+- /usr/bin/aws vs /usr/local/bin/aws
+
 ```shell
 openssl: error while loading shared libraries: libssl.so.3
 ```
