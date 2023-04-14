@@ -63,3 +63,25 @@ cicd-lab 装入硬盘
 软件厂里打工
 
 积点阴德
+
+小不忍则
+
+无的精神
+
+二次创作
+
+猛兽总是喜欢独行
+
+喝茶有利于集中精神
+
+盗亦有道
+
+态度
+
+Chinese Porcelain Master (full program)
+https://www.youtube.com/watch?v=r39FVwabqgg&t=441s
+
+
+电子制品提炼黄金
+
+确认自己是否理解了的方法是用英语去解释整个过程

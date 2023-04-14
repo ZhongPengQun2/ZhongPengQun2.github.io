@@ -141,6 +141,8 @@ exemplify
 
 grant access to a specific namespace
 
+portal 泼透
+
 gain a better insight into
 
 As you would expect
@@ -149,7 +151,17 @@ The implication here is that
 
 pervasive
 
+URL must be `percent-encoded` if it contains one or more special characters.
+
+stroke
+
+you should see the summary view as depicted bellow
+
+consists in
+
 pivotal
+
+The workspace was wiped out and no build has been done `since then`
 
 conjunction
 
@@ -227,7 +239,12 @@ In order to deal with this situation
 
 in future & in the future
 
+TL:DR   too long, didn't read
+https://www.techtarget.com/whatis/definition/tldr-TLDR
+
 other than
+
+on the go
 
 left over
 
@@ -628,6 +645,9 @@ Intermittent    断断续续的；间歇的
 discrepancy  n  差异;不符合;不一致
 
 right-most
+
+无条件地
+without qualification
 
 more or less
 
