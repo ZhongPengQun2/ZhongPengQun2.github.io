@@ -30,13 +30,29 @@ https://concourse-ci.org/resources.html
 - What is concourse target, why fly -t (target) ?
 - is concourse pipeline yaml file independent of concourse instance ? i mean a yaml file is able to run everywhere.
 - groups
+  - x
 - var_sources
 - inputs
 - reveal: true
 - in_parallel
 - input_mapping / output_mapping
+  - official explanation
+    - https://concourse-ci.org/exploring-task-input-and-output-scenarios.html#3---mapping-the-names-of-inputs-and-outputs
+    - why input_mapping and output_mapping ?
+    ```
+    Sometimes the names of inputs and outputs don't match between multiple task configs, or they do match and you don't want them overwriting each other, like in the previous example. That's when input_mapping and output_mapping become helpful. 
+    ```
+    - inputs
+    - outputs
 - plan vs task
+- get
+- put
+- source type: `gitlab`
+  - webhook
 
+- jobs
+  - plan
+    - task
 
 
 ### concourse
@@ -103,3 +119,4 @@ host. To configure Concourse with the URL of your service:
   - Can we have multiple runners with a single job?
 
 - What's runner's executor ?
+- try ... ensure ...

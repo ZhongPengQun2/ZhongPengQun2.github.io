@@ -102,8 +102,14 @@
 
 - builtin varible `$gitlabBranch` vs `$gitlabSourceBranch`
 
-- Is it possible get gitlab repo tag in jenkins pipeline ?
+- Is it possible to get gitlab repo tag in jenkins pipeline ?
     - Jenkins git-tag-message plugin ?
         - https://plugins.jenkins.io/git-tag-message/
         - how to install jenkins plugin ?
             - https://www.google.com.hk/search?q=jenkins+install+plugin+on+dashboard&newwindow=1&ei=pqcxZPD5MfigseMP1eW3sAY&oq=jenkins+install+plugin+on+dash&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAxgAMgUIIRCgAToKCAAQRxDWBBCwAzoHCAAQigUQQzoGCAAQBxAeOgUIABCABDoECAAQHjoGCAAQCBAeSgQIQRgAUM0DWOokYJIwaAFwAXgAgAHfAYgB6BeSAQYwLjEyLjSYAQCgAQHIAQrAAQE&sclient=gws-wiz-serp#fpstate=ive&vld=cid:5f3e5d52,vid:EFLXlY_6Yq8
+
+
+- Show jenkins build status and build result message to gitlab when jenkins build done.
+    - x
+
+- Jenkins plugin 制作, `.hpi` 文件

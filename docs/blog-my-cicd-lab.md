@@ -272,6 +272,9 @@ test-job:
 Use cloud trial edition, https://nonezhong.jfrog.io/ui/repos/tree/General/docker
 
 
+#### Concourse
+- Installation
+
 
 #### Trigger Concourse Pipeline when Commit Gitlab MR or Merge Request.
 xx
@@ -290,9 +293,13 @@ docker run --name jenkins-blueocean --restart=on-failure --detach \
 ```
   - admin zpq123456
 
+- 我的gitlab为什么没有network settings ？
+  - 直接 /admin 进入page
 
-#### Concourse
-- Installation
+#### Gitlab触发Jenkins
+  - 配置gitlab的webhook
+  - Gitlab配置Webhooks时Secret Token从Jenkins获取方法
+    - https://blog.csdn.net/BUG_88/article/details/108365817
 
 
 

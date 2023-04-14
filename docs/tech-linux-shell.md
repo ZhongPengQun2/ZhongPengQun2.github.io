@@ -135,3 +135,13 @@ Inconsistency detected by ld.so: dl-call-libc-early-init.c: 37: _dl_call_libc_ea
 
 ### busybox
 - busybox包含的400多个常用命令，是哪400个？
+
+
+
+- 各个不同type shell之间的语法区别
+
+```
+$ VERSION_DIFF=`git diff master..develop | VERSION.txt`
+fatal: ..: '..' is outside repository
+VERSION.txt: command not found
+```
