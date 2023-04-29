@@ -7,13 +7,13 @@ It's very important in philosophy to
 
 make sure that we define our words and
 
-our terms to make sure that the meanings
+our terms to make sure that `the meanings
 
-that we intend by them are in fact what
+that we intend by them` are in fact what
 
 are being received by those that we are
 
-engaged in conversation with and it so
+`engaged` in conversation with and it so
 
 happens that there are several terms and
 
@@ -21,7 +21,7 @@ words and philosophy that aren't unique
 
 to philosophy but they're used in
 
-philosophy in a very kind of specific
+philosophy in `a very kind of` specific
 
 way and we need to make sure and remind
 
@@ -31,7 +31,7 @@ philosophy to avoid those kinds of
 
 confusions let's begin with the terms
 
-metaphysics and epistemology now these
+metaphysics and `epistemology` now these
 
 happen to be two words that are they're
 
@@ -41,9 +41,9 @@ pretty specific to philosophy
 
 metaphysics meaning technically after
 
-physics because Aristotle coined this
+physics because Aristotle `coined this
 
-phrase when he wrote a book on physics
+phrase` when he wrote a book on physics
 
 and then he decided to write on the
 
@@ -65,13 +65,13 @@ world how do things exist so we might
 
 even ask how does justice exist or we
 
-may ask something more mundane how does
+may ask something more `mundane` how does
 
 a bike exist so if we're talking about
 
 how does a bike exist you know does it
 
-exist as an assemblage of parts is is
+exist as an `assemblage` of parts is is
 
 that what it really is
 
