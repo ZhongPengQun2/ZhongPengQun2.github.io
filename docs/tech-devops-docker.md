@@ -280,6 +280,7 @@ https://github.com/docker/compose/releases/tag/v2.10.2
 https://github.com/docker/compose/releases/download/v2.10.2/docker-compose-linux-x86_64
 ```
 
+- export NETWORK_CONFIG="--net=host"
 
 
 ```shell

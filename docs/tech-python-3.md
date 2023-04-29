@@ -38,3 +38,5 @@
 - Class in Class ?
 
 - 给hint type做强制，实现强类型。。
+
+- 当可以用py2和py3实现时，是否有lint tool来限制只能用py3的语法呢？也就是避免使用py2

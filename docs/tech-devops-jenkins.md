@@ -113,3 +113,61 @@
     - x
 
 - Jenkins plugin 制作, `.hpi` 文件
+
+- executor
+
+- create a project from copying an existing one.
+
+- Bindings
+
+- Pipeline Syntax
+
+
+```
+Also:   hudson.remoting.Channel$CallSiteStackTrace: Remote call to OSM-client-CI
+		at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1743)
+		at hudson.remoting.UserRequest$ExceptionResponse.retrieve(UserRequest.java:357)
+		at hudson.remoting.Channel.call(Channel.java:957)
+		at hudson.FilePath.act(FilePath.java:1070)
+		at hudson.FilePath.act(FilePath.java:1059)
+		at hudson.FilePath.mkdirs(FilePath.java:1244)
+		at hudson.model.AbstractProject.checkout(AbstractProject.java:1202)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.defaultCheckout(AbstractBuild.java:574)
+		at jenkins.scm.SCMCheckoutStrategy.checkout(SCMCheckoutStrategy.java:86)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:499)
+		at hudson.model.Run.execute(Run.java:1818)
+		at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+		at hudson.model.ResourceController.execute(ResourceController.java:97)
+		at hudson.model.Executor.run(Executor.java:429)
+java.nio.file.AccessDeniedException: /home/worker
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:90)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at sun.nio.fs.UnixFileSystemProvider.createDirectory(UnixFileSystemProvider.java:389)
+	at java.nio.file.Files.createDirectory(Files.java:689)
+	at java.nio.file.Files.createAndCheckIsDirectory(Files.java:796)
+	at java.nio.file.Files.createDirectories(Files.java:782)
+	at hudson.FilePath.mkdirs(FilePath.java:3237)
+	at hudson.FilePath.access$1300(FilePath.java:212)
+	at hudson.FilePath$Mkdirs.invoke(FilePath.java:1252)
+	at hudson.FilePath$Mkdirs.invoke(FilePath.java:1248)
+	at hudson.FilePath$FileCallableWrapper.call(FilePath.java:3050)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:212)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:54)
+	at hudson.remoting.Request$2.run(Request.java:369)
+	at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:72)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+Finished: FAILURE
+```
+
+
+- Is it possible use env varibles when `jenkins custom message on success` ?
+
+- Jenkins clear cache
+
+- Gitlab create release时trigger jenkins job ？
+
+- Trigger a jenkins build only when MR merged?

@@ -9,6 +9,7 @@
 - 什么规模的公司适合用k8s?
 
 
+
 ### K8S
 - Todos
     - https://www.bilibili.com/video/BV1pT4y1C7Em/?spm_id_from=333.337.search-card.all.click
@@ -16,6 +17,12 @@
 
     - k8s生态，有哪些工具是必要的
     - sealos
+
+- 所有resource type，以及types之间的关系，比如包含，平级
+  - namespace是一种type吗？
+
+- 扩展Kubernetes API
+  - 什么时候有必要？
 
 - k8s 集群的日志收集
   - FLUENTD收集K8S集群日志:  https://www.cnblogs.com/windchen/p/12924091.html      todo: 实践一下，demo一下
@@ -32,6 +39,12 @@
 	- 应用场景
 		- emptyDir Volume主要用于某些应用程序无需永久保存的临时目录，多个容器的共享目录等。
 
+- 说到cluster的时候，是指namespace specified的cluster还是整个k8s cluster ？
+```
+1: What is a Kubernetes namespace?
+
+A Kubernetes namespace is a virtual cluster within a Kubernetes cluster that provides a way to organise resources and isolate them from other resources in the cluster.
+```
 
 - Run k8s locally
   - Minikube
@@ -165,7 +178,10 @@ spec:
     - 通过自己编写Controller来不断地检测当前k8s中所定义的CR的状态，如果状态和预期不一致，则调整
   - TODO: 最小demo
 - CRD
+  - why?
+
   - `ensure CRDs are installed first`
+  - https://www.youtube.com/watch?v=u1X5Rf7fWwM
 
 - Deploy database is different from deploying applications like a Django application.
 
@@ -185,8 +201,7 @@ spec:
 - eliminate docker pull limitation
 https://www.chenshaowen.com/blog/how-to-cross-the-limit-of-dockerhub.html
 
-- CRD
-https://www.youtube.com/watch?v=u1X5Rf7fWwM
+
 - controller
 - kind: LimitRange
 
@@ -356,6 +371,10 @@ elasticsearch-master-2           0/1     Pending       0          176m
 kibana-kibana-77656d9cdd-xt4m2   0/1     Running       0          6h50m
 ```
 
+  - What's the meaning of "READY=2/2" output by command "kubectl get pod"
+    - one pod contains 2 containers, 2 are ready.
+
+- /run/secrets/kubernetes.io/serviceaccount
 
 - one cluster vs many clusters
   - why multi clusters, when we need it?

@@ -145,3 +145,53 @@ $ VERSION_DIFF=`git diff master..develop | VERSION.txt`
 fatal: ..: '..' is outside repository
 VERSION.txt: command not found
 ```
+
+```
+set +x
+```
+
+- grep
+
+- function的参数怎么传？比如传个path /tmp/xx.sh 时
+
+
+- set -e
+	- 在shell脚本开头加上set -e，这句话告诉bash 如果任何语句的执行结果不是true，就直接退出shell脚本
+- set +e
+	- set +e 表示关闭 -e选项，即使出错也依然向下执行脚本
+- set -x
+
+- echo $?
+	- 取的上条命令的返回值
+
+
+- 单引号 & 双引号
+```shell
+$ echo $mm1
+master_python3
+
+$ echo $mm2
+develop
+
+$ git branch | grep -vw "$mm1\|$mm2"
+  develop_python3
+  master
+  topic/vzhong/PORSCHE-5409-Push-versioned-osstpclients-bundle-to-Artifactory
+  topic/vzhong/PORSCHE-5770-Remove-confusing-log-output-from-the-osstp-load
+  topic/vzhong/PORSCHE-5836-Confusing-output-in-osstp-load-Skipped-creation-of-129-requests
+  vz-test
+  vz-test-2
+  vzhong-production-mock
+
+$ git branch | grep -vw '$mm1\|$mm2'
+  develop
+  develop_python3
+  master
+* master_python3
+  topic/vzhong/PORSCHE-5409-Push-versioned-osstpclients-bundle-to-Artifactory
+  topic/vzhong/PORSCHE-5770-Remove-confusing-log-output-from-the-osstp-load
+  topic/vzhong/PORSCHE-5836-Confusing-output-in-osstp-load-Skipped-creation-of-129-requests
+  vz-test
+  vz-test-2
+  vzhong-production-mock
+  ```

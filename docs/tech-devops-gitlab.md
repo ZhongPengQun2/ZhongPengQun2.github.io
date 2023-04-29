@@ -25,10 +25,5 @@ Container registry is not enabled on this GitLab instance. Ask an administrator 
 
 - gitlab add k8s cluster
 
-### Git
-- Git
-    - git submodule [Chinese: https://www.youtube.com/watch?v=jhl7ruTPV-o]
-    - Git branch strategy
-
 
 

@@ -120,3 +120,6 @@ host. To configure Concourse with the URL of your service:
 
 - What's runner's executor ?
 - try ... ensure ...
+
+##### 如何调试concourse，当某个task failed的时候，比如 e2e-test failed 的时候，能否进入到host中去rerun失败了的test？
+xxx

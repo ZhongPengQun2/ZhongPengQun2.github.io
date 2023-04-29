@@ -124,3 +124,8 @@ For locally investigation, you can register a fluentd cloud log. e.g https://www
  - @type
 
 - 工作中遇到的一个问题：fluentd只能forward log file到splunk，对吧？
+
+```
+$ kubectl apply -f f.yml
+fluentdconfig.logs.vdp.vmware.com/fluentd-config created
+```
