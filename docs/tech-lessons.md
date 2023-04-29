@@ -27,3 +27,5 @@ kind success
 
 #### [Summary: work] 原子操作
 // todo
+
+自己做过的story需要弄得非常清楚，做笔记

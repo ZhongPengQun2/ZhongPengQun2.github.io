@@ -85,3 +85,43 @@ https://www.youtube.com/watch?v=r39FVwabqgg&t=441s
 电子制品提炼黄金
 
 确认自己是否理解了的方法是用英语去解释整个过程
+
+我听说你水平很高
+
+哪里需要我，我就会出现在哪里
+
+我不入地狱谁入地狱
+
+用高贵的词去形容卑贱的行为
+
+https://foucault.info/
+
+https://www.youtube.com/watch?v=B0RF8KFW5qY
+
+江铜宣传片
+https://www.youtube.com/watch?v=hdPY-EkBiuc
+
+艺术哲学与审美问题 王德峰 66节合集
+https://www.youtube.com/watch?v=TXIMq0_qwL4
+
+──感悟福柯的“哲学行为”
+http://www5.zzu.edu.cn/arts/info/1059/2556.htm
+
+Less is More
+
+自己种烟叶自己吸违法吗？
+
+Diversity is a fact, inclusion is an act
+https://www.youtube.com/watch?v=A8YYnsRf-GA
+
+
+SOLENOIDS & RELAYS - The Secret Life of Components, a series of guides for makers and designers - 15
+https://www.youtube.com/watch?v=fdj_g_1tj4c
+
+Self made video card, 显卡
+
+书架 or 书桌 设计
+  - 双层键盘
+
+树莓派摄像系统
+
