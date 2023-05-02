@@ -1,0 +1,2 @@
+sudo apt-get install tesseract-ocr-chi-sim
+
