@@ -300,10 +300,19 @@ sudo apt install gnupg2 pass
 - Is there any dockerhub alternative ?
     - AWS ECR Public ？
         - Push and pull from AWS ECR 
-            - https://www.youtube.com/watch?v=89ZeXaZEf80
+            - official tutorial: https://docs.aws.amazon.com/AmazonECR/latest/userguide/getting-started-cli.html
+            - [prefer] https://www.youtube.com/watch?v=89ZeXaZEf80
             - https://www.youtube.com/watch?v=8XnqgiQaIkU
                 - AmazonEC2ContainerRegistryFullAccess
                 - 需要安装aws v2的client
+                    - 如何安装？
+                        https://devopsmania.com/how-to-install-aws-cli-v2-on-linux/
+                        ```
+                        curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+                        unzip awscliv2.zip
+                        sudo ./aws/install
+                        /usr/local/bin/aws --version
+                        ```
                 - errors encountered
                 ```
                 $ aws ecr-public get-login-password --region us-east-1
@@ -323,6 +332,24 @@ sudo apt install gnupg2 pass
                 https://docs.docker.com/engine/reference/commandline/login/#credentials-store
 
                 Login Succeeded
+                    - May raise
+                    ```
+                    Error: Cannot perform an interactive login from a non TTY device
+                    ```    
+                    ```
+                    $ /usr/local/bin/aws ecr-public get-login-password --region us-east-1 | docker login --username AWS --password-stdin public.ecr.aws/y5z1i2v3
+                    ** Message: 01:04:12.837: Remote error from secret service: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files
+                    Error saving credentials: error storing credentials - err: exit status 1, out: `The name org.freedesktop.secrets was not provided by any .service files`
+
+                    $ apt -y install gnome-keyring
+
+                    $ /usr/local/bin/aws ecr-public get-login-password --region us-east-1 | docker login --username AWS --password-stdin public.ecr.aws/y5z1i2v3
+                    ** Message: 01:08:59.361: Remote error from secret service: org.freedesktop.DBus.Error.UnknownMethod: No such interface 'org.freedesktop.Secret.Collection' on object at path /org/freedesktop/secrets/collection/login
+                    Error saving credentials: error storing credentials - err: exit status 1, out: `No such interface 'org.freedesktop.Secret.Collection' on object at path /org/freedesktop/secrets/collection/login`
+
+                    Solution: https://juejin.cn/post/7226239012389584956
+                    sudo apt install golang-docker-credential-helpers gnupg2 pass
+                    ```
 
                 Push images to AWS registry
                 $ docker push public.ecr.aws/y5z1i2v3/vincent-jenkins:latest
@@ -400,3 +427,18 @@ sudo apt install gnupg2 pass
         - https://www.baeldung.com/ops/docker-private-registry
             - How to backup and migrate ?
 
+
+- 宿主机是把自己的端口映射到container里作为container的ip的吗？container的ip是如何实现的？ 
+
+
+- overlay
+    - `--dirver=overlay`
+
+- ingress
+
+- docker shim
+- OCI runtime
+
+```
+Sending build context to Docker daemon  175.5MB
+```

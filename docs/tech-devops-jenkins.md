@@ -171,3 +171,10 @@ Finished: FAILURE
 - Gitlab create release时trigger jenkins job ？
 
 - Trigger a jenkins build only when MR merged?
+
+
+- Abort Jenkins build in shell script, is it possible ?
+    - pipeline script is possible
+    - curl -XPOST $BUILD_URL/stop
+    - curl -XPOST $BUILD_URL_2/kill
+        - 不起作用啊

@@ -128,3 +128,18 @@ vzhongPG3QC:osstpclients vzhong$ git branch -r --merged
   origin/vz-test-6
   origin/vz-test-8     <-----
 ```
+
+- gitlab squash
+- fast-forward
+- git revert
+
+- git 3D
+  - Gource
+
+- 丁哥： git merge和git rebase的区别, 切记：永远用rebase
+
+- git pull是针对当前分支还是所有分支？
+  - 只针对当前分支，只会拉当前的分支，这种东西一次性更新所有分支，万一有冲突，够你吃一壶。所以基本都是只更新当前分支
+    - 你说的不准确，是同步所有的远程分支到本地，只不过只对当前分支进行merge
+
+    

@@ -208,6 +208,8 @@ respectively
 
 As of now
 
+As per prior communications
+
 You're not on-call
 
 retrieved 检索，找回，恢复
@@ -807,6 +809,7 @@ reserve  &  preserve
 should fulfill the needs of Dashboard scan capability
 
 Informative
+    - produces highly informative usage messages
 
 identical twins   同卵双胞胎
 
@@ -816,7 +819,23 @@ To get the `most out of` your money, you have to invest
 
 retention
 
+remove the tailing slash
+
+We have received a few submissions
+
+Aborting the job does not `count as` a failure
+
+上一个工作日
+
+elidable
+
+These small commits help describe the process of building a feature, but can `clutter` your Git history after the feature is finished
+
+Xi’s interpreter was doing very well and `adequate` enough.
+
 WARNING: the set_pipeline step is experimental and subject to change!
+
+必定会
 
 Dedicated new solution
 
@@ -827,6 +846,8 @@ preliminary activation
 Eliminating common/default passwords
 
 short for & stand for
+
+as of
 
 stretch
 
