@@ -118,8 +118,22 @@ google搜索：   src/kerberosbasic.h:17:10: fatal error: gssapi/gssapi.h: No su
 - If not find variable, it may in the include makefile, e.g. $(CP), $(ZIP)
 - all
 
+`PATH 和 LIBRARY_PATH 和 LD_RUN_PATH 和 LD_LIBRARY_PATH 是干什么的?`
+  - PATH
+  ```
+  PATH是可执行文件路径，是三个中我们最常接触到的，因为我们命令行中的每句能运行的命令，如ls、top、ps等，都是系统通过PATH找到了这个命令执行文件的所在位置，再run这个命令（可执行文件
+  ```
+  - LIBRARY_PATH 和 LD_LIBRARY_PATH
+  ```
+  LIBRARY_PATH是程序编译期间查找动态链接库时指定查找共享库的路径
+  LD_LIBRARY_PATH是程序加载运行期间查找动态链接库时指定除了系统默认路径之外的其他路径
 
-`LD_RUN_PATH和LD_LIBRARY_PATH是干什么的?`
+  两者的差异点是使用时间不一样。一个是编译期，对应的是开发阶段，如gcc编译；一个是加载运行期，对应的是程序已交付的使用阶段
+
+  开发时，设置LIBRARY_PATH，以便gcc能够找到编译时需要的动态链接库。
+  发布时，设置LD_LIBRARY_PATH，以便程序加载运行时能够自动找到需要的动态链接库。注意，LD_LIBRARY_PATH中指定的路径会在系统默认路径之前进行查找
+  ```
+    - 为什么不直接 LIBRARY_PATH = LD_LIBRARY_PATH 就可以了，因为它们里面的库是一样的，对吗？
 
 - What's runtime ?
     - https://www.zhihu.com/question/20607178
@@ -136,9 +150,27 @@ google搜索：   src/kerberosbasic.h:17:10: fatal error: gssapi/gssapi.h: No su
 - /etc/localtime
 - apt-get update
 - 动态库 & 静态库
+  ```
+  多数程序员并不会直接分享源代码，他们更愿意分享库文件的二进制版本——链接库
+  所谓链接库，其实就是将开源的库文件（例如上面提到的 myMath.c）进行编译、打包操作后得到的二进制文件。虽然链接库是二进制文件，但无法独立运行，必须等待其它程序调用，才会被载入内存
+
+  采用静态链接库完成链接操作，存在诸多缺点。首先，可执行文件内部拷贝了所有目标文件和静态链接库的指令和数据，文件本身的体积会很大
+
+  此外，一旦程序中有模块更新，整个程序就必须重新链接后才能运行
+  ```
+  ```
+  实际上，动态链接库是 Windows 平台上对动态链接过程所用库文件的称谓，Linux 平台上习惯称为共享库或者共享对象文件，它们表达的是一个意思。
+  ```
+  ```
+  有读者可能会问，采用动态链接的方式，每次程序运行时都需要重新链接，会不会很慢？的确，动态链接确实会损失一部分程序性能，但实践证明，动态链接库和静态链接相比，性能损失大约在 5% 以下，由此换取程序在空间上的节省以及更新时的便利，是相当值得的。
+  ```
+  - linux下的动态库，静态库
+  - windows下的动态库，静态库
+  - references
+    - http://c.biancheng.net/dll/what_is_library.html
+
 - 向下兼容、向后兼容、向上兼容、向前兼容
 
-- 动态库与静态库
 - what's standard output standard input ?
 
 GCC编译选项CFLAGS参数

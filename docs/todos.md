@@ -128,3 +128,38 @@ Self made video card, 显卡
 显示笔记的工具，方便阅读代码啥的
 
 哪都不要去，安静地坐下来学习还更省心
+
+https://space.bilibili.com/196471704
+
+用实例说明，有图更好，容易理解
+
+tired of agile https://www.reddit.com/r/softwaretesting/comments/ulqwkh/am_i_the_only_one_tired_of_agile/
+
+Buddha's Wisdom on How to Stop Worrying and Start Living II Buddha Story II Motivational Video
+https://www.youtube.com/watch?v=Bq04Pm_Wl-k
+
+
+I didn't have friends most of my life - being ‘unsocial’ and finding belonging
+https://www.youtube.com/watch?v=9vcQqPLDDgo
+
+
+不要去租车，租房
+
+写成诗
+
+可以变换的话语
+
+成为记者
+
+整理
+
+mind your language 节目
+
+米面粮油这些东西什么时候便宜，促销的时候买
+
+优雅向下走
+
+装孙子兵法
+
+https://www.youtube.com/watch?v=UlsR7_Wn8wc
+

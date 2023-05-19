@@ -384,7 +384,7 @@ sudo apt install gnupg2 pass
                 - vincent's repos page
                     - https://us-east-1.console.aws.amazon.com/ecr/repositories?region=us-east-1
 
-                - 吐槽or疑惑：aws的repo概念上只对应一个image ？
+                - 吐槽/疑惑：aws的repo概念上只对应一个image ？
 
 - docker pull from private registry ?
     - how to deploy a private registry ?
@@ -442,3 +442,31 @@ sudo apt install gnupg2 pass
 ```
 Sending build context to Docker daemon  175.5MB
 ```
+
+
+- 一个遇到的问题
+    ```
+    FROM python:3.9
+    COPY osspi-cli .
+    WORKDIR /tmp
+    CMD ["make"]
+    ```
+    COPY会失败，原因是 `WORKDIR /tmp` 应该放在 `COPY osspi-cli .` 前面
+
+    - 
+    ```
+    ---> Running in b7d56f491c28
+    /bin/sh: 1: source: not found        <-----
+    The command '/bin/sh -c python3.9 -m venv virtualenv &&     source virtualenv/bin/activate &&     pip3.9 install -r requirements.txt &&     pwd' returned a non-zero code: 127
+
+    Reason: source is not sh built-in cmd, it's bash built-in cmd.
+    ```
+
+- docker run --rm
+```
+在Docker容器退出时，默认容器内部的文件系统仍然被保留，以方便调试并保留用户数据。
+但是，对于foreground容器，由于其只是在开发调试过程中短期运行，其用户数据并无保留的必要，因而可以在容器启动时设置--rm选项，这样在容器退出时就能够自动清理容器内部的文件系
+
+显然，--rm选项不能与-d同时使用（或者说同时使用没有意义），即只能自动清理foreground容器，不能自动清理detached容器。
+```
+
