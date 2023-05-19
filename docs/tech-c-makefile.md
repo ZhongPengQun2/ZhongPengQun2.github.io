@@ -6,6 +6,16 @@
     - recipe
 - make --dry-run
 - =,:=,?=
+    - ?= indicates to set a variable only if it's not set/doesn't have a value.
+        For example:
+        ```
+        KDIR ?= "foo"
+        KDIR ?= "bar"
+
+        echo $(KDIR)
+        Would print "foo"
+        ```
+
 - .PHONY
 ```
 这样，即使再有名为clean的文件存在，make也会执行clean后面的命令
@@ -34,3 +44,18 @@
 ```
 - If not find variable, it may in the include makefile, e.g. $(CP), $(ZIP)
 - all
+- makefile中打印变量
+
+- 条件判断
+    - ifndef
+        - 貌似c++也有该关键字
+
+
+
+
+
+
+
+#### Tutorials
+- Makefile简明教程
+    - https://www.zhaixue.cc/makefile/makefile-ifeq.html

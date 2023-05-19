@@ -142,4 +142,16 @@ vzhongPG3QC:osstpclients vzhong$ git branch -r --merged
   - 只针对当前分支，只会拉当前的分支，这种东西一次性更新所有分支，万一有冲突，够你吃一壶。所以基本都是只更新当前分支
     - 你说的不准确，是同步所有的远程分支到本地，只不过只对当前分支进行merge
 
-    
+- How to squash multi commits as one ? when MR merged, we can squash them as one so that to pretty the commit log.
+
+- git clone repo to specific path
+  - 
+
+Squash multi commits as one, in this case, what the comment will be like ?
+
+
+- What is a changeset in Git?
+  - source: https://stackoverflow.com/questions/38648491/what-is-a-changeset-in-git
+    - 提问者问题：5个files一次commit，是否这5个文件的修改算一个changeset ?
+      - https://en.wikipedia.org/wiki/Changeset
+        - In version control software, a changeset (also known as commit and revision)

@@ -52,10 +52,6 @@ wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-
 tar zcvf dist.tar.gz -C dist 
 ```
 
-```Shell
-python3 -m ensurepip
-```
-
 Shell 中的 `:=` ?
 
 make all
@@ -195,3 +191,9 @@ $ git branch | grep -vw '$mm1\|$mm2'
   vz-test-2
   vzhong-production-mock
   ```
+
+
+- To copy ownership of one file to another
+	- chown --reference=greek1 greek2
+		- changed ownership of 'greek2' from root:root to root:group1
+		

@@ -54,8 +54,30 @@ https://concourse-ci.org/resources.html
   - plan
     - task
 
+- Adventage
+  - Config file is complete yaml, so it can be managed by git or other version controller.
+- Short-coming
+  - Yaml file too long.
+  - Is there any thing can generate concourse yaml file?
 
-### concourse
+
+- Specific Runner VS Shared Runner VS Group Runner
+  - Specific Runner
+    - A certain project to use a specific Runner
+      - How to specific a runner to a certain project ?
+  - Shared Runner
+    - x
+  - Group Runner
+    - xx
+
+  - Is it possible that register a local machine as a runner ?
+  - multiple runners in one project
+  - Can we have multiple runners with a single job?
+
+- What's runner's executor ?
+- try ... ensure ...
+- .git/merge-request.json
+
 - deploy
 
 ```shell
@@ -96,30 +118,6 @@ host. To configure Concourse with the URL of your service:
       --set service.web.type=LoadBalancer \
       --set web.externalUrl=$APP_HOST
 ```
-
-##### concourse
-- Adventage
-  - Config file is complete yaml, so it can be managed by git or other version controller.
-- Short-coming
-  - Yaml file too long.
-  - Is there any thing can generate concourse yaml file?
-
-
-- Specific Runner VS Shared Runner VS Group Runner
-  - Specific Runner
-    - A certain project to use a specific Runner
-      - How to specific a runner to a certain project ?
-  - Shared Runner
-    - x
-  - Group Runner
-    - xx
-
-  - Is it possible that register a local machine as a runner ?
-  - multiple runners in one project
-  - Can we have multiple runners with a single job?
-
-- What's runner's executor ?
-- try ... ensure ...
 
 ##### 如何调试concourse，当某个task failed的时候，比如 e2e-test failed 的时候，能否进入到host中去rerun失败了的test？
 xxx

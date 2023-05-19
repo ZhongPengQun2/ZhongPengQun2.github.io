@@ -39,3 +39,6 @@ differences between `helpnow` and `servicedesk`
 
 ### release manage
 - fling release
+
+
+- blue-green deployment
