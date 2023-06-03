@@ -7,13 +7,13 @@ search_input = "Yes, but still"
 
 import re
 import glob
-import subprocess
 import time
 
 all_docs = []
 current_clipboard_content = ""
 
 def read_from_clipboard():
+    import subprocess
     return subprocess.check_output(
         'pbpaste', env={'LANG': 'en_US.UTF-8'}).decode('utf-8')
 
@@ -32,7 +32,7 @@ if __name__ == "__main__":
     while 1:
         clipboard_text = read_from_clipboard()
 
-        # Escape keywords of re
+        # Escape keywords of re, ?=
         clipboard_text = clipboard_text.replace('?', '\?')
 
         if clipboard_text != current_clipboard_content:

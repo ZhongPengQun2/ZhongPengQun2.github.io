@@ -7,5 +7,7 @@
 # docker build -t blog .
 # docker run -d blog
 
+# pip install mkdocs
+
 mkdocs serve -a 0.0.0.0:7777
 

@@ -21,7 +21,7 @@ i had first studied , and later i had studied psychology and psychopathology.
 #### Technologies of the self: A Seminar with Michel Foucault. 手动打字可能有误
 Q: Why did you come to the University of Vermont ?
 
-A: I came to try to explain more precisely to some people what kind of work iam doing, to know what kind of work they are doing, and to establish some permanent relationships. I am not a writer, a philosopher, a great figure of intellectual life: i am a teacher. There is a social phenomenon that `troubles me a great deal`: Since the 1960s, some teachers are becoming public men with the same obligations. I don't want to becaome a prohet and say, "Please sit down, what i have to say is very important." I have come to discuss our common work.
+A: I came to try to explain more precisely to some people what kind of work i’am doing, to know what kind of work they are doing, and to establish some permanent relationships. I am not a writer, a philosopher, a great figure of intellectual life: i am a teacher. There is a social phenomenon that `troubles me a great deal`: Since the 1960s, some teachers are becoming public men with the same obligations. I don't want to becaome a prohet and say, "Please sit down, what i have to say is very important." I have come to discuss our common work.
 
 Q: You are most frequently termed "philosopher" but also "historian", "structualist", and "Marxist".
 The title of your chair at the College de France is "Professor of the History of Systems of Thought".

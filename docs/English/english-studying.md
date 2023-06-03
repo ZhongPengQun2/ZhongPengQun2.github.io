@@ -68,6 +68,12 @@ Symptom
 
 proposition
 
+that's on me  由我负责
+
+Top 5 NBA Signature Moves
+
+the xxx team should be able to facilitate
+
 Asset Owner
 
 minimal reproducible example
@@ -180,7 +186,12 @@ consolidation
 
 infected
 
+IMHO
+in my humble opinion, 恕我直言
+
 waiting for docker to come up...
+
+The initial set of users associated with this issue is
 
 Your request was DECLINED and the status changed to Closed
 
@@ -214,6 +225,20 @@ interim
 respectively
 
 As of now
+
+tedious
+
+the best chance of
+
+screenshot
+
+The bundle has been archived
+
+fatal: option '--pretty=format:%h' must come before non-option arguments
+
+click to enlarge
+
+cited
 
 As per prior communications
 
@@ -317,9 +342,26 @@ Examples, recipes, and other code in the documentation are additionally licensed
 
 bringing in
 
+in the Northern Hemisphere 北半球
+
+do you remember by chance (劝四)
+
 result in
 
+the result is accurate and solid
+
+urge
+urge users to do
+
+under the term and conditions
+
+在5月9号 On May 9th
+
 caveats
+
+compliance terms
+
+this image is corrupted for unknown reason
 
 on-demand
 
@@ -474,6 +516,8 @@ warehouse
 
 hands-on
 
+diverged
+
 hint: Pulling without specifying how to reconcile divergent branches is
 hint: discouraged. You can squelch this message by running one of the following
 hint: commands sometime before your next pull:
@@ -585,11 +629,17 @@ ALLOW CERTIFICATES FROM OTHER CAS TO WORK AT THEIR FULL POTENTIAL
 
 NONETHELESS
 
+
+
 NEVERTHELESS
 
 prompt
 
 cipher
+
+so in theory you could download ....
+
+omit  v. 省去，遗漏；不做，未能做
 
 applicant
 
@@ -597,9 +647,15 @@ is ready to issue certificates
 
 leaf
 
+Dedupe
+
 Utterly marvellous
 
 off topic
+
+must be regular files with read permission (at minimum)
+
+ objective facts 客观事实
 
 accomplish
   - to accomplish my task
@@ -630,9 +686,13 @@ at a minimum
 
 encapsulate
 
-revision
+revision    n. 修订;复习;(一项、一轮等)修改;温习 
 
 confinement
+
+繁琐
+
+Business Justification
 
 as a benchmark
 
@@ -1267,6 +1327,8 @@ out of compliance
 
 05/15/2023
 
+Mutually exclusive
+
 come in handy
 
 我一直在朝着这个方向走
@@ -1370,6 +1432,7 @@ https://www.quora.com/Did-Nietzsche-have-any-dark-secrets
 - 我粗略地估算了一下
 - 掌握一门外语
 - 必须同时满足以下几个条件
+  - 
 - 遵循这样的格式
   - follow this format
 - 老用户
@@ -1390,3 +1453,7 @@ https://www.quora.com/Did-Nietzsche-have-any-dark-secrets
   - from now on
   - at times
     - 有时，偶尔
+
+- via的用法
+  - by, through和via之间的区别
+    - 

@@ -470,3 +470,18 @@ Sending build context to Docker daemon  175.5MB
 显然，--rm选项不能与-d同时使用（或者说同时使用没有意义），即只能自动清理foreground容器，不能自动清理detached容器。
 ```
 
+- .dockerignore
+```
+.dockerignore 文件的作用类似于 git 工程中的 .gitignore 。不同的是 .dockerignore 应用于 docker 镜像的构建，它存在于 docker 构建上下文的根目录，用来排除不需要上传到 docker服务端的文件或目录
+```
+
+
+```
+# sudo ./virtualenv/bin/activate
+/bin/sh: 24: sudo: not found
+
+Solution:
+
+```
+
+- container 中的 terminal 没有自动补全功能的吗？

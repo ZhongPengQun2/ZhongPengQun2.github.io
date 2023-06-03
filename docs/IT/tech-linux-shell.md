@@ -197,3 +197,16 @@ $ git branch | grep -vw '$mm1\|$mm2'
 	- chown --reference=greek1 greek2
 		- changed ownership of 'greek2' from root:root to root:group1
 		
+
+- curl -X DELETE
+
+- $ tar -zcf /tmp/ttest/ff.tar.gz /tmp/ttest/*
+  tar: Removing leading `/' from member names
+	- 去除文件名中前导的根目录“/”，tar 命令在压缩文件时，默认会取相对路径，不会取从根路径下来的绝对路径，所以，如果待压缩的源路径是绝对路径，便会报该错误
+
+- .tar.bz2  VS .tar.gz
+	- .tar.gz (or shorter .tgz)
+	- bzip2是一个压缩能力更强的压缩程序，.bz2结尾的文件就是bzip2压缩的结果。与bzip2相对的解压程序是bunzip2。tar中使用-j这个参数来调用gzip。下面来举例说明一下：
+	tar -cjf all.tar.bz2 *.jpg
+	解压： tar -xjf all.tar.bz2
+

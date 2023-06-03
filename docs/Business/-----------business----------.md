@@ -8,3 +8,7 @@
 - GDPR
   - https://www.techtarget.com/searchdatamanagement/definition/compliance
 
+
+- What is inventory? | Types of inventory
+  - https://www.youtube.com/watch?v=trreap294A0
+

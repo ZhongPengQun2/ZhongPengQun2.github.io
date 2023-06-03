@@ -163,3 +163,44 @@ mind your language 节目
 
 https://www.youtube.com/watch?v=UlsR7_Wn8wc
 
+
+https://www.youtube.com/watch?v=Hroboxl2lKo
+在什么情况下电才具备危险性？
+
+罐头制作
+
+自己制作茶包
+
+How to Spot a Communist:
+https://www.youtube.com/watch?v=SkYl_AH-qyk
+
+歐本海默 (J. Robert Oppenheimer) - 我現在成了死神，世界的毀滅者。
+https://www.youtube.com/watch?v=PY9Ws-7SaDg
+
+Don't Be a Sucker
+https://www.youtube.com/watch?v=vGAqYNFQdZ4
+
+景德镇：笔筒，茶杯（大，小，带柄的，茶罐，食物罐），饭碗， 烟灰缸
+
+机箱，炼丹炉
+
+The History of European Nihilism (The Nietzsche Podcast #71)
+https://www.youtube.com/watch?v=axiNIacKp6A
+
+
+
+可以调节亮度的灯
+
+50平米房子改装，先测量房子，自己做铁架，把东西放上面
+
+可升降的桌子
+
+都用铁的做，或铜的
+
+防止被盗的技术
+
+
+【自译中字】为什么你的文章那么难懂？福柯回应
+https://www.bilibili.com/video/BV1FR4y1C7Cf/?spm_id_from=333.788.recommend_more_video.3&vd_source=f209dde1a1d76e06b060a034f36bb756
+
+转给彭翔1w元，2023年06月02日14:06:31

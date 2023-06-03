@@ -2,3 +2,4 @@
 ['xxxaaax']
 
 所以如果我想搜索python，只会显示一条，但是实际上有2条
+    - 换一种思路，先replace，然后在findall就可以解决了
