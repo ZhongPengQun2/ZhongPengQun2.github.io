@@ -1,24 +1,27 @@
-## Assembly Language
-- Visualization
-  - EMU8086
-    - Download: http://course.xmu.edu.cn/meol/common/script/download.jsp;jsessionid=A9DD7AB654462FCB2B8E6F0DB734473B.TM2?fileid=287937&resid=53034&lid=12751
-- 从零开始实现一个汇编模拟器——初 https://juejin.cn/post/6910914774582689800
-- 8051 simulator https://www.google.com.hk/search?q=51+single+chip+emulator&newwindow=1&hl=zh-CN&tbm=vid&ei=R4CDY4_NELWrz7sPw42vgAw&start=10&sa=N&ved=2ahUKEwjPjP7g1M77AhW11XMBHcPGC8AQ8NMDegQIDRAW&biw=1645&bih=788&dpr=2#fpstate=ive&vld=cid:29eaeca1,vid:nO3KrnogwEo
-
-- 用8086汇编写一个hello-world
-- 8086汇编语言适用的cpu，51单片机适合吗？
-  - references: https://www.zhihu.com/question/485929480
-
-- 8051 汇编语言
-
-### Make
+### Makefile
 - references:
     - https://zhuanlan.zhihu.com/p/499175729
+- Terms
+    - target
+    - recipe
 - make --dry-run
 - =,:=,?=
+    - ?= indicates to set a variable only if it's not set/doesn't have a value.
+        For example:
+        ```
+        KDIR ?= "foo"
+        KDIR ?= "bar"
+
+        echo $(KDIR)
+        Would print "foo"
+        ```
+
 - .PHONY
 ```
 这样，即使再有名为clean的文件存在，make也会执行clean后面的命令
+- clean:
+    - 是否默认会执行，因为我运行 make，执行了make clean
+
 ```
 - firstword， wildcard, patsubst
     - wildcard
@@ -44,36 +47,24 @@
 ```
 - If not find variable, it may in the include makefile, e.g. $(CP), $(ZIP)
 - all
+- makefile中打印变量
 
-
-`LD_RUN_PATH和LD_LIBRARY_PATH是干什么的?`
-
-- What's runtime ?
-
-- /etc/localtime
-- apt-get update
-- 动态库 & 静态库
-- 向下兼容、向后兼容、向上兼容、向前兼容
-
-- 动态库与静态库
-- what's standard output standard input ?
-
-GCC编译选项CFLAGS参数
-https://www.cnblogs.com/god-of-death/p/12767113.html
+- 条件判断
+    - ifndef
+        - 貌似c++也有该关键字
 
 
 
-linux编译参数CPPFLAGS、CFLAGS、LDFLAGS参数的理解
-https://blog.csdn.net/lailaiquququ11/article/details/126691913
 
-### EMU8086
-### 嵌入式
-- DSP VS CPU
-    - https://baijiahao.baidu.com/s?id=1745189115970588604&wfr=spider&for=pc
-- Compile
-    - 编译的种类
-- 哪种汇编语言好学 ?
+- How do I write the 'cd' command in a makefile?
+    -  you need to add a semi-colon and append the other commands as well
+    ```
+    all:
+        cd some_dir; echo "I'm in some_dir"; \
+          gcc -Wall -o myTest myTest.c
+    ```
 
 
-Assembly language playground:
-- https://homes.cs.washington.edu/~kaedenb/courses/cse351/x86-viz/
+#### Tutorials
+- Makefile简明教程
+    - https://www.zhaixue.cc/makefile/makefile-ifeq.html

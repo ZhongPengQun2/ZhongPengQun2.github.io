@@ -178,3 +178,14 @@ Finished: FAILURE
     - curl -XPOST $BUILD_URL/stop
     - curl -XPOST $BUILD_URL_2/kill
         - 不起作用啊
+
+
+- Accepted Merge Request Events 表示什么？
+    - 表示当MR merge完成后触发
+        - 如果job失败，是否会revert该MR ？
+            - 不会，merge了就merge了，不会撤回了
+    - 一个MR merge完成后，通过在MR下comment还能trigger jenkins job吗？
+        - 还能trigger！
+
+
+    

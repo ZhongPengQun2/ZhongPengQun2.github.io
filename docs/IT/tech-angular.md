@@ -38,3 +38,5 @@ $ npm rebuild node-sass
 sudo npm install -g @angular/cli
 ```
 
+
+"Yarn 是为了弥补 npm 的一些缺陷而出现的"

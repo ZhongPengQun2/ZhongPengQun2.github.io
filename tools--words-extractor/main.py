@@ -73,6 +73,12 @@ def extract_words_from_picture(path):
     return words
 
 
+def extract_words_from_video(path):
+    def split_video_as_pictures(path):
+        
+    return words
+
+
 class Command():
     HELP = __doc__
     DEBUG = False

@@ -9,3 +9,10 @@ docker run -it --name postgres --restart always -e POSTGRES_PASSWORD='abc123' -e
 ## SQL
 - select mt where 
     - Join
+
+
+## tool for viusalize db design
+
+
+- pgadmin connect db container
+

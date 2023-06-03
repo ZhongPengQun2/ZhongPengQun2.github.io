@@ -1,18 +1,6 @@
 冒死上传⚠️如果在学C/C++之前，就知道这些该多好，流下了没有技术的眼泪
 https://www.bilibili.com/video/BV1AL41117QN/?spm_id_from=333.1007.tianma.1-1-1.click&vd_source=f209dde1a1d76e06b060a034f36bb756
 
-## Assembly Language
-- Visualization
-  - EMU8086
-    - Download: http://course.xmu.edu.cn/meol/common/script/download.jsp;jsessionid=A9DD7AB654462FCB2B8E6F0DB734473B.TM2?fileid=287937&resid=53034&lid=12751
-- 从零开始实现一个汇编模拟器——初 https://juejin.cn/post/6910914774582689800
-- 8051 simulator https://www.google.com.hk/search?q=51+single+chip+emulator&newwindow=1&hl=zh-CN&tbm=vid&ei=R4CDY4_NELWrz7sPw42vgAw&start=10&sa=N&ved=2ahUKEwjPjP7g1M77AhW11XMBHcPGC8AQ8NMDegQIDRAW&biw=1645&bih=788&dpr=2#fpstate=ive&vld=cid:29eaeca1,vid:nO3KrnogwEo
-
-- 用8086汇编写一个hello-world
-- 8086汇编语言适用的cpu，51单片机适合吗？
-  - references: https://www.zhihu.com/question/485929480
-
-- 8051 汇编语言
 
 ## linux 0.11
 - linux lab https://gitee.com/tinylab/linux-lab#https://gitee.com/link?target=https%3A%2F%2Ftinylab.org%2Fcloud-lab
@@ -23,43 +11,7 @@ https://www.bilibili.com/video/BV1AL41117QN/?spm_id_from=333.1007.tianma.1-1-1.c
   ```shell
   press `/-O` to search `man -O`
   ```
-
-## Some C open source projects
-https://zhuanlan.zhihu.com/p/584992915
-
-## GCC
-- Bilibili 小布老师gcc https://www.bilibili.com/video/BV1rJ411V7EV?p=4&vd_source=397a53882c67614973bf614e08b1047f
-- 4 stages of 
-
-- key options
-  - For `CFLAGS`
-    - `-l`, `-L`
-      ```shell
-      gcc -l links with a library file.
-      gcc -L looks in directory for library files.
-      ```
-    - `-O`
-    - `-fPIC`
-    - `-D
-  - For `LDFLAGS`
-    - `-lxxx`
-    - `-Ldir`
-    - `-WL, option`
-    - `-static`
-    - `-s`
-  - `LIBS`
-
-- https://www.bilibili.com/video/BV1RV411v75E/?spm_id_from=333.337.search-card.all.click
-below are my notes of this video tutorial.
-
-- Configure
-  - CPPFLAGS
-  - LDFLAGS
-
-- ldd
-- ldconfig
-
-- https://www.cnblogs.com/god-of-death/p/12767113.html
+- Is there an alternative to it ? better
 
 ### C++
 - 项目列表：https://www.zhihu.com/question/332778359/answer/2266754313
@@ -137,7 +89,6 @@ google搜索：   src/kerberosbasic.h:17:10: fatal error: gssapi/gssapi.h: No su
 换句话说，虽然 C 的 if、for 和函数等语言特性都可以很朴素且优雅地映射（lowering）到汇编，但必然会有些没法直接映射到系统调用和汇编指令的常用功能，比如上面介绍的那几项。对于这些脏活累活，它们就需要由运行时库（例如 Linux 上的 glibc 和 Windows 上的 CRT）来实现。
 ```
 
-
 - /etc/localtime
 - apt-get update
 - 动态库 & 静态库
@@ -150,23 +101,9 @@ GCC编译选项CFLAGS参数
 https://www.cnblogs.com/god-of-death/p/12767113.html
 
 
-
 linux编译参数CPPFLAGS、CFLAGS、LDFLAGS参数的理解
 https://blog.csdn.net/lailaiquququ11/article/details/126691913
 
-### EMU8086
-### 嵌入式
-- DSP VS CPU
-    - https://baijiahao.baidu.com/s?id=1745189115970588604&wfr=spider&for=pc
-- Compile
-    - 编译的种类
-- 哪种汇编语言好学 ?
-
-
-Assembly language playground:
-- https://homes.cs.washington.edu/~kaedenb/courses/cse351/x86-viz/
-
-- glibc
 
 ### xx
 - `.h`文件
@@ -177,6 +114,3 @@ Assembly language playground:
 - `.cc`文件
   - .cc 是为了区别 .c，表示 C++ 源文件
 - C语言关键字
-
-
-

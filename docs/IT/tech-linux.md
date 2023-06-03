@@ -128,3 +128,6 @@ Inconsistency detected by ld.so: dl-call-libc-early-init.c: 37: _dl_call_libc_ea
 
 ### busybox
 - busybox包含的400多个常用命令，是哪400个？
+
+
+- sticky bit set

@@ -36,3 +36,15 @@
 
 - re module
     - \t
+    - 
+    ```
+    >>>re.findall('.{3}aaa.{1}', "\nxxxaaaxxaaaffff")
+    ['xxxaaax']
+    ```
+
+- PYTHONPATH
+
+- pip3 升级
+    - https://www.jianshu.com/p/34235f5d484a
+        - pip3 install --upgrade pip
+

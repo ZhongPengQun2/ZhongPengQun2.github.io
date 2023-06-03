@@ -155,3 +155,44 @@ Squash multi commits as one, in this case, what the comment will be like ?
     - 提问者问题：5个files一次commit，是否这5个文件的修改算一个changeset ?
       - https://en.wikipedia.org/wiki/Changeset
         - In version control software, a changeset (also known as commit and revision)
+  
+- git branch --set-upstream-to
+  - 
+
+- git branch | grep -vw "$MERGE_FROM_BRANCH\|$MERGE_TO_BRANCH" | xargs git branch -D # Delete all other branches
+
+
+git log --merges -n 1
+
+https://stackoverflow.com/questions/10641361/get-all-files-that-have-been-modified-in-git-branch
+  - git diff --name-only <notMainDev> $(git merge-base <notMainDev> <mainDev>)
+    - git merge-base
+      - Finding When Two Branches First Diverged
+
+$ git diff 66c264a2851cd56c8f2b5ae9b62fee801be145ad
+
+
+- git squash commits into one
+  - 
+- undo `git rebase`
+
+```
+ ! [remote rejected] release/vzhong/PORSCHE-5658-setup-python-environment-on-mac-for-osstpclients-b -> release/vzhong/PORSCHE-5658-setup-python-environment-on-mac-for-osstpclients-b (pre-receive hook declined)
+error: failed to push some refs to 'git@gitlab.eng.vmware.com:core-build/osstpclients.git'
+  -  bare repository
+```
+
+- git 是否有GUI类的工具，可以像beyondcompare那样对比文件不同，然后选择某个
+
+```
+# git branch
+fatal: detected dubious (可疑的) ownership in repository at '/tmp/mount/buildaudit-test-sample'
+To add an exception for this directory, call:
+
+        git config --global --add safe.directory /tmp/mount/buildaudit-test-sample
+# 
+# git config --global --add safe.directory /tmp/mount/buildaudit-test-sample
+# 
+# git branch
+* master
+```
