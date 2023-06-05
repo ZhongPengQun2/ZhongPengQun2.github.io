@@ -1,8 +1,4 @@
-FROM python:3.10
+FROM harbor-repo.vmware.com/dockerhub-proxy-cache/library/python:3.10.11-buster
 COPY . /
 WORKDIR /
 RUN pip3 install -r requirements.txt
-#EXPOSE 7777
-#CMD [ "mkdocs", "serve"， "-a",  "0.0.0.0:7777" ]
-EXPOSE 8080
-CMD [ "mkdocs", "serve" ]

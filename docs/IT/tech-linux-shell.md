@@ -210,3 +210,6 @@ $ git branch | grep -vw '$mm1\|$mm2'
 	tar -cjf all.tar.bz2 *.jpg
 	解压： tar -xjf all.tar.bz2
 
+
+- lsof
+	- lsof 没任何显示，或没有期望的显示，也有可能是没用sudo
