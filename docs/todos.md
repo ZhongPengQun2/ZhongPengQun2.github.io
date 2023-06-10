@@ -204,3 +204,21 @@ https://www.youtube.com/watch?v=axiNIacKp6A
 https://www.bilibili.com/video/BV1FR4y1C7Cf/?spm_id_from=333.788.recommend_more_video.3&vd_source=f209dde1a1d76e06b060a034f36bb756
 
 转给彭翔1w元，2023年06月02日14:06:31
+
+
+深圳一教师把交警队告上法庭，庭审现场堪比律政剧，一人挑战对方整个团队，被告本以为只是走走过场，没想到教师准备充分，证据充足#深圳教师 #庭审 #交警队
+https://www.youtube.com/watch?v=erS5GLBFKd0
+
+
+[北京大学] 投资银行学（全60讲）从业教授带你 风趣幽默看投行
+https://www.youtube.com/watch?v=yheSjtM9NZI&list=PLeLv2hsn33z1HGhPUy7OKHS_ukxgtFTwp
+
+
+https://www.bilibili.com/video/BV1Qs41127EJ/?spm_id_from=333.788.recommend_more_video.3&vd_source=f209dde1a1d76e06b060a034f36bb756
+【TOP5s】5个启发《美国恐怖故事》的真实恐怖事件 @柚子木字幕组
+
+总会有方法的，会有更好的解决方法
+
+做好准备
+
+自酿酒

@@ -25,9 +25,11 @@
 dealt, gave, existentialism, apotheosis, adequate, authentic, glittering, alive, supreme, moral, entertain, visceral, 
 
 
-
-
 https://hackernoon.com/how-to-run-macos-on-virtualbox-in-less-than-30-mins
+
+### 近义词
+that, which
+
 
 ### Encountered during work
 take into account
@@ -137,6 +139,8 @@ seamlessly
 
 checked in
 
+out-of-the-box
+
 provision
 
 Even though pipeline did not succeeded yet the FE e2e tests passed once
@@ -186,8 +190,18 @@ consolidation
 
 infected
 
+intended
+
+package manager information that is provided upfront
+
 IMHO
 in my humble opinion, 恕我直言
+
+Instantiated
+
+Deriving
+
+tentative
 
 waiting for docker to come up...
 
@@ -1029,9 +1043,11 @@ spanning over 跨越
 
 consecutively
 
-deposit
+deposit  订金
 
 right after
+
+TypeError: unsupported operand type(s) for &: 'str' and 'int'
 
 Below neither works
 下面两个都不起作用
@@ -1059,6 +1075,8 @@ interpolation
 partially
 
 inactive time slot
+
+落后于最新版本
 
 would be
 would be more indicative
@@ -1102,7 +1120,11 @@ on-demand
 
 specifically
 
+如果需要我可以帮助你
+
 we'll try this out
+
+在密码到期前提示用户更改密码
 
 I was riding in the car.
 
@@ -1457,3 +1479,12 @@ https://www.quora.com/Did-Nietzsche-have-any-dark-secrets
 - via的用法
   - by, through和via之间的区别
     - 
+
+
+#### Cases
+- How to say `i hope you had a great PTO` ?
+
+- If one's name is too long, and you have no idea how to pronounce it, in this case, how to greet to her/him ?
+
+- LGBTQIA
+

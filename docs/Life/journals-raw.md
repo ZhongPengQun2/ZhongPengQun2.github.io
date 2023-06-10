@@ -436,6 +436,7 @@ Ok, i restart to
 
 1,
 At noon, i went to 崇庆寺.
+# todo
 
 2,
 chat with Qin, i was curious about which meaning does 'Qin' means, chinese '琴' or piano, because 'Qin' in chinese means a instrument, but not points out which kind it is.
@@ -567,3 +568,24 @@ When arrived, my uncle and brother had waited for me more thant one hour.
 
 <img src="https://github.com/ZhongPengQun2/materials/raw/main/tomb-place.jpeg
 " width="90%" />
+
+
+
+#### 2023-06-10
+葡萄酒的制作方法
+Here is a youtube video to share how to make 葡萄酒 by yourself.
+https://www.youtube.com/watch?v=QEyL1Dqpegw
+
+Here are the steps:
+1. Select 深紫色 grape, 颜色越深, reder the 葡萄酒 will be. (But what i used is 青色的 grape)
+2. 剪下 grape from 梗 one by one
+3. Clean grape by water, if not sure 葡萄是否打过农药, you can 浸泡十分钟. On surface of grape, there is some white 物质, don't clean it up, it's 天然的野生酵母, 发酵 relays on them.
+4. 凉干 grape. (I mistakely skipped this step during my practice)
+5. 倒入 grape to a 脸盆, 捏碎 them
+6. 倒入冰糖, 搅拌均匀，酵母 will 分解 sugar and product 酒精 and 二氧化碳
+7. 倒入玻璃罐内
+8. After 半个月, some 果肉 may 沉到了罐子的底部, 捞出 葡萄皮 and 籽, throw them.
+9. Filter 葡萄酒 by 纱布
+10. At the moment, the color of this 葡萄酒 is not pure enough, 再发酵一个月
+11. After 1 month, filter it again
+12. Fill 葡萄酒 into 瓶子， 保存时间越长, 口感越好.

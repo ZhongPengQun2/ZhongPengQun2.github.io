@@ -43,8 +43,20 @@
     ```
 
 - PYTHONPATH
+```
+Pythonpath is an environment variable that is used to specify the location of Python libraries. It is typically used by developers to ensure that their code can find the required Python libraries when it is run.
+```
 
 - pip3 升级
     - https://www.jianshu.com/p/34235f5d484a
         - pip3 install --upgrade pip
 
+
+
+```
+>>> x=re.search("clients3_linux_amd64_(?P<version>.*).tar.bz2", "clients3_linux_amd64_2022-01-01.tar.bz2")
+>>> x['version']
+
+what doese `?P` mean ?
+
+```

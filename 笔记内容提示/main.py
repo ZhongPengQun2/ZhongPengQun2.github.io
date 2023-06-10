@@ -1,9 +1,13 @@
+import os
+
+#docs_path = "/Users/vzhong/Documents/ZhongPengQun2.github.io/docs"
+docs_path = os.path.abspath(os.path.join(os.getcwd(), "../docs"))
+
 doc_postfixs = ['md', 'txt']
 
-docs_path = "/Users/vzhong/Documents/ZhongPengQun2.github.io/docs"
 
 
-search_input = "Yes, but still"
+search_input = ""
 
 import re
 import glob
