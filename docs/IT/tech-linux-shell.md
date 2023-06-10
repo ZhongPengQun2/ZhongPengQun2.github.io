@@ -213,3 +213,5 @@ $ git branch | grep -vw '$mm1\|$mm2'
 
 - lsof
 	- lsof 没任何显示，或没有期望的显示，也有可能是没用sudo
+
+有没有这样的工具，比如我在一个shell文件里输入 cp -, 然后会有参数提示 ？

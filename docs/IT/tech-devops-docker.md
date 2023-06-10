@@ -13,9 +13,6 @@
     - Configmap
     - 进入pod与进入container的区别？
     - How to get docker disk usage ?  `docker system df`
-    - docker export & docker save ?
-    - docker import & docker load ?
-    - docker export -o english-db-`date +%Y%m%d-%H:%M:%S`.tar c7962a4fee17
     - docker stop then remove all containers
         - `docker stop $(docker ps -aq)`
     - run container from dockerfile
@@ -49,6 +46,8 @@
         - CMD命令是当Docker镜像被启动后Docker容器将会默认执行的命令。一个Dockerfile仅仅最后一个CMD起作用
     - `$PATH`
     - `ENV PYTHONIOENCODING UTF-8`
+
+- Dockerfile 中的 FROM 能 FROM 本地的一个 image 吗？
 
 ```yaml
 Here is an example from skaffold examples:
@@ -118,7 +117,13 @@ https://blog.51cto.com/u_15162069/2743910
 - Host-port:Container-port
 
 - Which command both in docker and docker-compose, is there any difference in usage in docker and docker-compose ?
-- docker save & docker export
+- docker save & docker export  /  docker import & docker load
+    - docker export -o english-db-`date +%Y%m%d-%H:%M:%S`.tar c7962a4fee17
+        - 使用 docker export 命令根据容器 ID 将镜像导出成一个文件。
+            - docker export f299f501774c > hangger_server.tar
+            - 使用 docker import 命令则可将这个镜像文件导入进来。
+                - docker import - new_hangger_server < hangger_server.tar
+    - save 和 load 这两个命令是通过镜像来保存、加载镜像文件的
 
 - save docker running container and push to dockerhub
 ```shell
