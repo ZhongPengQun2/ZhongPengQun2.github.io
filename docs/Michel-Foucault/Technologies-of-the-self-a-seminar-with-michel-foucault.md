@@ -1,23 +1,3 @@
-米歇尔·福柯：遗失的采访 中英字幕
-https://www.bilibili.com/video/BV1zJ41167XW/?spm_id_from=333.337.search-card.all.click
-
-Sir,i do not wish that during the tv boardcast, you want  
-
-
-i had first studied , and later i had studied psychology and psychopathology.
-
-
-
-
-
-
-
-
-
-
-
-
-
 #### Technologies of the self: A Seminar with Michel Foucault. 手动打字可能有误
 Q: Why did you come to the University of Vermont ?
 
@@ -34,4 +14,6 @@ Q: In the History of Sexuality, you refer to the person who "upsets established 
 
 A: No. For rather a long period, people have asked me to tell them what will happpen and to give them a program for the future. We know very well that, even with the best intentions, those programs become a tool, an instrument of oppression. Rousseau, a lover of freedom, was used in the French Revolution to build up a model of social oppression. Marx would be horrified by Stalinism and Leninism. My role - and that is too emphatic a word - is to show people that they are much freer than they feel, that people accept as truth, as evidence, some themes which have been built up at a certain moment during history, and that this so-called evidence can be criticized and destoryed. To change something in the minds of people - that's the role of an intellectual.
 
-NOT END, TODO 
+NOT END, TODO
+
+
