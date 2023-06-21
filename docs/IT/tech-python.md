@@ -60,3 +60,6 @@ Pythonpath is an environment variable that is used to specify the location of Py
 what doese `?P` mean ?
 
 ```
+
+- b'' 的意思？比如 b'2023.06.09'
+    - 意思在2和3中不同

@@ -215,3 +215,15 @@ $ git branch | grep -vw '$mm1\|$mm2'
 	- lsof 没任何显示，或没有期望的显示，也有可能是没用sudo
 
 有没有这样的工具，比如我在一个shell文件里输入 cp -, 然后会有参数提示 ？
+
+- sed
+	- 提取 xx 和 yy 之间的字符
+		- 
+
+- $ curl -G -d 'g=publish' -d 'a=osstpclients3' https://microhard.com/api/test/latestVersion
+
+```
+ [[: not found
+
+bash有[[, 但是sh没有该语法
+```

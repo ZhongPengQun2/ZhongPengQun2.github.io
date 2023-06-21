@@ -49,6 +49,7 @@ So first of all, run a ubuntu container there is no python installed.
 
 ```shell
 docker run -it ubuntu:bionic /bin/bash
+
 ```
 
 As you can see, python is not installed

@@ -137,6 +137,10 @@ workaround
 
 seamlessly
 
+scattered
+
+I have revised the occurrence of this retro meeting once every month per the feedback. Please respond to the revised meeting invite
+
 checked in
 
 out-of-the-box
@@ -308,7 +312,8 @@ Opaque
 
 Compound
 
-Perforce, obsolete, deferring, intake
+Perforce, obsolete 过时的, deferring, intake
+  - obsolete & out of date
 
 But if u want to extend then its ur call
 但如果你想延期，那就是你的选择
@@ -530,6 +535,8 @@ warehouse
 
 hands-on
 
+therapy
+
 diverged
 
 hint: Pulling without specifying how to reconcile divergent branches is
@@ -545,13 +552,15 @@ hint: preference for all repositories. You can also pass --rebase, --no-rebase,
 hint: or --ff-only on the command line to override the configured default per
 hint: invocation.
 
+invocation    (向神或权威人士的)求助;祈祷;调用;启用 
+
+我之前考虑过这种情况
+
 unlikely
 
 tumbled
 
 derived, derived from
-
-incorporated
 
 Intermediate
 
@@ -572,6 +581,8 @@ We have received a PD for this issue
 
 ETA
 
+VMware-originated open source projects
+
 plenary
 
 the plan is to go live on the 22nd
@@ -590,9 +601,21 @@ stay tuned
 
 lag
 
+Five Tenets of Open Source Engineering
+开源工程的五个原则
+
 mimic
 
+commitments
+n.承诺，保证；不得不做的事；（资金、人力等的）投入，花费（commitment 的复数）
+  - Consult with OSPO before making any commitments.
+
+Delivering quality solutions
+提供优质的解决方案
+
 underlying
+
+unrivaled quality
 
 inverted
 
@@ -685,8 +708,6 @@ The following commands inventory the usage for their respective framework
 A tool that `facilitates` continuous development for Kubernetes applications.
 
 off-the-shelf
-
-Incorporated
 
 Anatomy of a this module
 
@@ -1125,6 +1146,8 @@ specifically
 we'll try this out
 
 在密码到期前提示用户更改密码
+Prompt users to change their password before it expires
+
 
 I was riding in the car.
 
@@ -1351,12 +1374,18 @@ out of compliance
 
 Mutually exclusive
 
+In summary
+
+All man pages are copyrighted by their respective authors
+
 come in handy
 
 我一直在朝着这个方向走
 I have been walking in this direction
 
 most recent
+
+JFrog Bintray
 
 Component Usage Attestation
 
