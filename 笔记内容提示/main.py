@@ -49,8 +49,8 @@ def print_keyword_related_note(keyword):
 
 # all_lines_lower = [x.lower() for x in all_lines]
 
-test_str = '扛'
-test_str = read_from_clipboard()
+# test_str = '扛'
+# test_str = read_from_clipboard()
 
 current_keyword = ''
 
