@@ -13,6 +13,9 @@ import re
 import glob
 import time
 
+RELATED_LINES_UP_COUNT = 5
+RELATED_LINES_DOWN_COUNT = 10
+
 all_lines = []
 # all_lines_lower = []
 
@@ -36,11 +39,16 @@ get_all_lines()
 
 # all_lines_lower = [x.lower() for x in all_lines]
 
-test_str = 'python'
+test_str = '扛'
 
-for _line in all_lines:
+for _i, _line in enumerate(all_lines):
     if test_str in _line.lower():
-        print(_line)
+        all_lines[_i] = all_lines[_i].replace(test_str, f'\033[92m{test_str}\033[0m')
+        print('\n'.join(all_lines[_i - RELATED_LINES_UP_COUNT : _i + RELATED_LINES_DOWN_COUNT]))
+        # print(_line)
+        # print(_i)
+        # print('\n\n')
+        print('-'*50)
 # if __name__ == "__main__":
 #     while 1:
 #         clipboard_text = read_from_clipboard()
