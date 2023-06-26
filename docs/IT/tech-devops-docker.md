@@ -490,3 +490,8 @@ Solution:
 ```
 
 - container 中的 terminal 没有自动补全功能的吗？
+
+- docker挂载主机目录 -v 和--mount区别
+    - https://zhuanlan.zhihu.com/p/487901733
+    - 1. 使用-v时，主机没有这个文件则新建；
+    - 2. 使用--mount时，主机没有这个文件则报错。

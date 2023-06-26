@@ -225,3 +225,6 @@ https://www.bilibili.com/video/BV1Qs41127EJ/?spm_id_from=333.788.recommend_more_
 
 逆变器
 AI根据文字生成图片
+
+老弟我是那种不听劝的人吗？
+

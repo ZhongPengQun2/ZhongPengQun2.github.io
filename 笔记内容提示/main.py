@@ -38,7 +38,7 @@ get_all_lines()
 
 test_str = 'python'
 
-for _line in all_lines_lower:
+for _line in all_lines:
     if test_str in _line.lower():
         print(_line)
 # if __name__ == "__main__":

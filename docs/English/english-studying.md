@@ -88,6 +88,8 @@ takes precedence over
 
 has 4 host outages
 
+Serializers define the API representation
+
 The code is provided as-is with no warranties.
 
 velocity
@@ -304,7 +306,11 @@ other than
 
 on the go
 
+transient
+
 left over
+
+If i manually check, the file is `present`
 
 This question was removed from Stack Overflow for reasons of moderation
 
@@ -447,6 +453,11 @@ embody the ethos
 
 at once
 
+ambiguous
+俺必纠(广东)啊死
+
+controversial
+
 as per
 
 i would
@@ -457,15 +468,25 @@ IIRC(if I recall correctly / if I remember correctly)
 
 My take is
 
-In addition to
+falls into 2 categories
+分为2类
 
 undergoing
 
 As per
 
+Inbound Compliance Requirements
+入境合规要求
+
+be composed of
+
 along with
 
+if this requirement is indicated
+
 run book
+
+vary from
 
 hand book
 
@@ -733,6 +754,8 @@ as a benchmark
 
 attest
 
+provide needed information
+
 monolithic architecture
 
 Rather, add name of product along with this is distributed.
@@ -825,6 +848,9 @@ without qualification
 
 more or less
 
+Why China Doesn't Identify with the West
+为什么中国不认同西方
+
 I'm applying to re-join xxx
 
 Once you get a chance please keep us posted
@@ -838,6 +864,8 @@ I will priority this task
 take some significant time
 
 redact
+
+
 
 in favor of
 
@@ -881,6 +909,7 @@ from scratch  从头开始
 
 This is not a mere parking, this is art
 
+ETA
 estimated time of arrival   估计的到达时间
 
 vice versa      反之亦然
@@ -1148,8 +1177,11 @@ we'll try this out
 在密码到期前提示用户更改密码
 Prompt users to change their password before it expires
 
+This diagram shows the overall process
 
 I was riding in the car.
+
+is still evolving
 
 I ended up using something similar to the accepted answer, with minor modifications
 
@@ -1409,6 +1441,10 @@ to run them with "-h" option
 
 respond to cyber threats
 
+Not at all
+
+The only issue is the cost of the school?  I `estimate` it costs around  $30k USD per year.
+
 The minimum set of information
 
 It provides a comprehensive inventory of the software elements that make up a product
@@ -1416,6 +1452,7 @@ It provides a comprehensive inventory of the software elements that make up a pr
 increase transparency and help organizations better understand the composition of their software, identify vulnerabilities, and mitigate risks
 
 directive VS instruction
+  - A directive may establish policy, assign responsibilities, define objectives and delegate authority to those working in and with the authoritative figure. Instructions, on the other hand, act as guidelines. They often appear as a series of steps or stages one must complete one after the other.
 
 Looks like this targets xxx functionality
 
@@ -1423,7 +1460,7 @@ Looks like this targets xxx functionality
 
 failover
 
-Issue is still ongoing
+Issue is still `ongoing`
 
 maturity
 
@@ -1438,6 +1475,8 @@ nonetheless
 unique opportunity
 
 decommission
+
+`Bypass password validation` and create user anyway?
 
 Keep this list open for reference.
 
