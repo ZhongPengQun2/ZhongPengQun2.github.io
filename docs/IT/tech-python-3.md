@@ -73,3 +73,6 @@ The BSD fopen manpage defines them as follows:
 ```
 
 如何把 python3.9 build成一个单独的binary在linux下运行，有可能吗？
+
+- python -c 中 tab 怎么写？
+

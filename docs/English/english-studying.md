@@ -88,6 +88,8 @@ takes precedence over
 
 has 4 host outages
 
+Serializers define the API representation
+
 The code is provided as-is with no warranties.
 
 velocity
@@ -137,6 +139,13 @@ workaround
 
 seamlessly
 
+<<<<<<< HEAD
+=======
+scattered
+
+I have revised the occurrence of this retro meeting once every month per the feedback. Please respond to the revised meeting invite
+
+>>>>>>> c25886e7649047e674b4321cb2051ff4997b14ed
 checked in
 
 out-of-the-box
@@ -302,13 +311,20 @@ on the go
 
 left over
 
+transient
+
+left over
+
+If i manually check, the file is `present`
+
 This question was removed from Stack Overflow for reasons of moderation
 
 Opaque
 
 Compound
 
-Perforce, obsolete, deferring, intake
+Perforce, obsolete 过时的, deferring, intake
+  - obsolete & out of date
 
 But if u want to extend then its ur call
 但如果你想延期，那就是你的选择
@@ -442,6 +458,11 @@ embody the ethos
 
 at once
 
+ambiguous
+俺必纠(广东)啊死
+
+controversial
+
 as per
 
 i would
@@ -454,6 +475,9 @@ My take is
 
 In addition to
 
+falls into 2 categories
+分为2类
+
 undergoing
 
 As per
@@ -461,6 +485,19 @@ As per
 along with
 
 run book
+
+Inbound Compliance Requirements
+入境合规要求
+
+be composed of
+
+along with
+
+if this requirement is indicated
+
+run book
+
+vary from
 
 hand book
 
@@ -530,6 +567,8 @@ warehouse
 
 hands-on
 
+therapy
+
 diverged
 
 hint: Pulling without specifying how to reconcile divergent branches is
@@ -544,6 +583,10 @@ hint: You can replace "git config" with "git config --global" to set a default
 hint: preference for all repositories. You can also pass --rebase, --no-rebase,
 hint: or --ff-only on the command line to override the configured default per
 hint: invocation.
+
+invocation    (向神或权威人士的)求助;祈祷;调用;启用 
+
+我之前考虑过这种情况
 
 unlikely
 
@@ -572,6 +615,8 @@ We have received a PD for this issue
 
 ETA
 
+VMware-originated open source projects
+
 plenary
 
 the plan is to go live on the 22nd
@@ -593,6 +638,22 @@ lag
 mimic
 
 underlying
+
+Five Tenets of Open Source Engineering
+开源工程的五个原则
+
+mimic
+
+commitments
+n.承诺，保证；不得不做的事；（资金、人力等的）投入，花费（commitment 的复数）
+  - Consult with OSPO before making any commitments.
+
+Delivering quality solutions
+提供优质的解决方案
+
+underlying
+
+unrivaled quality
 
 inverted
 
@@ -680,6 +741,8 @@ is still evolving
 
 made the format a bit distorted
 
+The following commands inventory the usage for their respective framework
+
 A tool that `facilitates` continuous development for Kubernetes applications.
 
 off-the-shelf
@@ -709,6 +772,8 @@ Business Justification
 as a benchmark
 
 attest
+
+provide needed information
 
 monolithic architecture
 
@@ -802,6 +867,9 @@ without qualification
 
 more or less
 
+Why China Doesn't Identify with the West
+为什么中国不认同西方
+
 I'm applying to re-join xxx
 
 Once you get a chance please keep us posted
@@ -857,6 +925,8 @@ Well, my take would be something like this  嗯，我的看法是这样的
 from scratch  从头开始
 
 This is not a mere parking, this is art
+
+ETA
 
 estimated time of arrival   估计的到达时间
 
@@ -1123,9 +1193,20 @@ specifically
 we'll try this out
 
 在密码到期前提示用户更改密码
+<<<<<<< HEAD
 
 I was riding in the car.
 
+=======
+Prompt users to change their password before it expires
+
+This diagram shows the overall process
+
+I was riding in the car.
+
+is still evolving
+
+>>>>>>> c25886e7649047e674b4321cb2051ff4997b14ed
 I ended up using something similar to the accepted answer, with minor modifications
 
 Sundial: An instrument that indicates the time of day `by means of` the position
@@ -1248,6 +1329,7 @@ either or 不是…就是…
 Could you look able to help on it on priority ?
 
 compliant & complain
+<<<<<<< HEAD
   - make your APIs compliant
   - compliance reports
 
@@ -1260,6 +1342,11 @@ Hi all, I am moving to accommodate holiday and schedule conflicts. Please let me
 
 Please consider purchasing it today
 
+=======
+
+Hi all, I am moving to accommodate holiday and schedule conflicts. Please let me know if this works.
+
+>>>>>>> c25886e7649047e674b4321cb2051ff4997b14ed
 could barely talk
 
 comment out
@@ -1298,10 +1385,13 @@ cheatsheet
 
 as of today
 
+<<<<<<< HEAD
 set forth
   - 阐述
   - The President set forth his views in a television broadcast. 
 
+=======
+>>>>>>> c25886e7649047e674b4321cb2051ff4997b14ed
 obscurely
 
 equipped with
@@ -1330,8 +1420,11 @@ in absence of: 在缺少的情况下
 
 pre-existing
 
+<<<<<<< HEAD
 Apache v2 licensed packages listed in the second section
 
+=======
+>>>>>>> c25886e7649047e674b4321cb2051ff4997b14ed
 Pick one square that shows two identical objects：选择一个显示两个相同对象的正方形
 
 blast
@@ -1340,6 +1433,7 @@ i'll try to get this squared away today
 
 distinct packages
 
+<<<<<<< HEAD
 on the fly
 匆忙地;赶紧地
 It was all pretty much done on the fly
@@ -1351,14 +1445,21 @@ differ for
 Though solutions differ for everybody in different families, what are the general principles?
 或许办法因人而异，但有哪些通用的原则我们可以参考？ 
 
+=======
+by chance
+
+>>>>>>> c25886e7649047e674b4321cb2051ff4997b14ed
 proceed with
 
 moderator: 调解人; 调停人; 仲裁人
 
 chargeback: 退款
 
+<<<<<<< HEAD
 it is showing in the OSM Portal
 
+=======
+>>>>>>> c25886e7649047e674b4321cb2051ff4997b14ed
 catastrophe 垮塌四周飞
 
 Originating BU
@@ -1375,6 +1476,13 @@ out of compliance
 
 Mutually exclusive
 
+<<<<<<< HEAD
+=======
+In summary
+
+All man pages are copyrighted by their respective authors
+
+>>>>>>> c25886e7649047e674b4321cb2051ff4997b14ed
 come in handy
 
 我一直在朝着这个方向走
@@ -1382,9 +1490,15 @@ I have been walking in this direction
 
 most recent
 
+<<<<<<< HEAD
 Component Usage Attestation
 
 To illustrate
+=======
+JFrog Bintray
+
+Component Usage Attestation
+>>>>>>> c25886e7649047e674b4321cb2051ff4997b14ed
 
 free of charge:  免费的
 
@@ -1406,11 +1520,26 @@ to run them with "-h" option
 
 respond to cyber threats
 
+<<<<<<< HEAD
 The minimum set of information
 
 increase transparency and help organizations better understand the composition of their software, identify vulnerabilities, and mitigate risks
 
 directive VS instruction
+=======
+Not at all
+
+The only issue is the cost of the school?  I `estimate` it costs around  $30k USD per year.
+
+The minimum set of information
+
+It provides a comprehensive inventory of the software elements that make up a product
+
+increase transparency and help organizations better understand the composition of their software, identify vulnerabilities, and mitigate risks
+
+directive VS instruction
+  - A directive may establish policy, assign responsibilities, define objectives and delegate authority to those working in and with the authoritative figure. Instructions, on the other hand, act as guidelines. They often appear as a series of steps or stages one must complete one after the other.
+>>>>>>> c25886e7649047e674b4321cb2051ff4997b14ed
 
 Looks like this targets xxx functionality
 
@@ -1418,7 +1547,11 @@ Looks like this targets xxx functionality
 
 failover
 
+<<<<<<< HEAD
 Issue is still ongoing
+=======
+Issue is still `ongoing`
+>>>>>>> c25886e7649047e674b4321cb2051ff4997b14ed
 
 maturity
 
@@ -1434,6 +1567,11 @@ unique opportunity
 
 decommission
 
+<<<<<<< HEAD
+=======
+`Bypass password validation` and create user anyway?
+
+>>>>>>> c25886e7649047e674b4321cb2051ff4997b14ed
 Keep this list open for reference.
 
 under the hood
