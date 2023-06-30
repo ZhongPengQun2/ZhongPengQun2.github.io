@@ -40,10 +40,12 @@ if __name__ == "__main__":
         clipboard_text = clipboard_text.replace('?', '\?')
 
         if clipboard_text != current_clipboard_content:
+            result = ""
             matcheds = re.findall('.{100}' + clipboard_text + '.{100}', all_docs_text, re.DOTALL)
             for matched in matcheds:
-                print('-----------------%s'%clipboard_text)
-                print(matched)
-
+                result += f'\n-----------------{clipboard_text}---------------\n'
+                result += f'\n {matched} \n'
+            f=os.popen(f"echo {result} >> /tmp/zhongpengqun.txt")
+            print(result)
             time.sleep(1)
             current_clipboard_content = clipboard_text

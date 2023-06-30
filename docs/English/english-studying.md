@@ -680,8 +680,6 @@ is still evolving
 
 made the format a bit distorted
 
-The following commands inventory the usage for their respective framework
-
 A tool that `facilitates` continuous development for Kubernetes applications.
 
 off-the-shelf
@@ -1250,8 +1248,17 @@ either or 不是…就是…
 Could you look able to help on it on priority ?
 
 compliant & complain
+  - make your APIs compliant
+  - compliance reports
+
+inventory
+  - It provides a `comprehensive` inventory of the software elements that make up a product
+  - it is an `inventory` of the open source and third party packages distributed in a release
+  - The following commands inventory the usage for their `respective` framework
 
 Hi all, I am moving to accommodate holiday and schedule conflicts. Please let me know if this works.
+
+Please consider purchasing it today
 
 could barely talk
 
@@ -1291,6 +1298,10 @@ cheatsheet
 
 as of today
 
+set forth
+  - 阐述
+  - The President set forth his views in a television broadcast. 
+
 obscurely
 
 equipped with
@@ -1319,6 +1330,8 @@ in absence of: 在缺少的情况下
 
 pre-existing
 
+Apache v2 licensed packages listed in the second section
+
 Pick one square that shows two identical objects：选择一个显示两个相同对象的正方形
 
 blast
@@ -1327,13 +1340,24 @@ i'll try to get this squared away today
 
 distinct packages
 
+on the fly
+匆忙地;赶紧地
+It was all pretty much done on the fly
+那几乎都是匆忙之中完成的。 
+
 by chance
+
+differ for
+Though solutions differ for everybody in different families, what are the general principles?
+或许办法因人而异，但有哪些通用的原则我们可以参考？ 
 
 proceed with
 
 moderator: 调解人; 调停人; 仲裁人
 
 chargeback: 退款
+
+it is showing in the OSM Portal
 
 catastrophe 垮塌四周飞
 
@@ -1360,6 +1384,8 @@ most recent
 
 Component Usage Attestation
 
+To illustrate
+
 free of charge:  免费的
 
 implications 可能的影响(或作用、结果); 含意; 暗指; (被)牵连，牵涉
@@ -1381,8 +1407,6 @@ to run them with "-h" option
 respond to cyber threats
 
 The minimum set of information
-
-It provides a comprehensive inventory of the software elements that make up a product
 
 increase transparency and help organizations better understand the composition of their software, identify vulnerabilities, and mitigate risks
 
