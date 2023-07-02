@@ -130,6 +130,8 @@ vzhongPG3QC:osstpclients vzhong$ git branch -r --merged
 ```
 
 - gitlab squash
+<<<<<<< HEAD
+=======
   - In gitlab, Squash multi commits as one, in this case, what the comment will be like ?
   - git squash
     - https://stackoverflow.com/questions/5189560/how-do-i-squash-my-last-n-commits-together
@@ -138,6 +140,7 @@ vzhongPG3QC:osstpclients vzhong$ git branch -r --merged
       git reset --soft HEAD~2
       git commit
       ```
+>>>>>>> c25886e7649047e674b4321cb2051ff4997b14ed
 - fast-forward
 - git revert
 
@@ -155,6 +158,10 @@ vzhongPG3QC:osstpclients vzhong$ git branch -r --merged
 - git clone repo to specific path
   - 
 
+<<<<<<< HEAD
+Squash multi commits as one, in this case, what the comment will be like ?
+=======
+>>>>>>> c25886e7649047e674b4321cb2051ff4997b14ed
 
 
 - What is a changeset in Git?
@@ -202,6 +209,9 @@ To add an exception for this directory, call:
 # 
 # git branch
 * master
+<<<<<<< HEAD
+```
+=======
 ```
 
 - git add -A  &   git add -a
@@ -240,3 +250,4 @@ From: https://stackoverflow.com/questions/22532943/how-to-resolve-git-error-upda
     But any local file that's not tracked by Git will not be affected.
     ```
       - git reset --hard HEAD 表示回退到当前版本，HEAD指向当前版本。如果你修改了一些代码，想去除，就可以用git reset --hard HEAD一次性去除
+>>>>>>> c25886e7649047e674b4321cb2051ff4997b14ed

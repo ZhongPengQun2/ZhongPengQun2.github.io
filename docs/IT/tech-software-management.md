@@ -42,6 +42,8 @@ differences between `helpnow` and `servicedesk`
 
 
 - blue-green deployment
+<<<<<<< HEAD
+=======
 
 - rc
    - Release Candidate
@@ -64,3 +66,4 @@ differences between `helpnow` and `servicedesk`
 
     - GA（General Availability）
     正式发布的版本；在国外都是用GA来说明release版本的。
+>>>>>>> c25886e7649047e674b4321cb2051ff4997b14ed

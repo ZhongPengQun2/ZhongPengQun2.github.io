@@ -15,6 +15,7 @@ https://liqiang.io/post/golang-package-manager-compare-module-vs-dep-d1b2db90
     - 将 .go 文件build成可执行文件
     
 - GOPATH vs GOROOT vs GOBIN
+    - GOROOT 表示 Go 的安装根目录，也就是 Go 的安装路径
     - GOPATH
         - 我们开发 Golang 项目时，需要依赖一些别的代码包，这些包的存放路径就与 GOPATH 有关。
         ```

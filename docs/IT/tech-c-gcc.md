@@ -125,4 +125,7 @@ below are my notes of this video tutorial.
   - CPPFLAGS
   - LDFLAGS
 
+- ldd
+- ldconfig
+
 - https://www.cnblogs.com/god-of-death/p/12767113.html

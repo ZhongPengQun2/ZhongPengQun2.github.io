@@ -58,7 +58,6 @@ Pythonpath is an environment variable that is used to specify the location of Py
 >>> x['version']
 
 what doese `?P` mean ?
-
 ```
 
 - b'' 的意思？比如 b'2023.06.09'
