@@ -563,101 +563,96 @@ https://hackernoon.com/how-to-run-macos-on-virtualbox-in-less-than-30-mins
 
 - In addition to
 
-falls into 2 categories
-分为2类
+- falls into 2 categories
+  - 分为2类
 
-undergoing
+- undergoing
 
-As per
+- As per
 
-along with
+- along with
 
-run book
+- run book
 
-Inbound Compliance Requirements
-入境合规要求
+- Inbound Compliance Requirements
+  - 入境合规要求
 
-be composed of
+- be composed of
 
-along with
+- along with
 
-if this requirement is indicated
+- if this requirement is indicated
 
-run book
+- vary from
 
-vary from
+- hand book
 
-hand book
+- discrepancy
+  -  差异;不一致;不符合
 
-Sr. Technical Program Manager
+- In order to reproduce, call the following command
 
-discrepancy
+- Headsup
 
-In order to reproduce, call the following command
+- In light of
 
-Headsup
+- dismiss
 
-In light of
+- at ease
 
-dismiss
+- go over
 
-at ease
+- Phantom
 
-go over
+- fancier
 
-Phantom
+- over-provisioning
 
-fancier
+- additive
 
-over-provisioning
+- Justifications
 
-additive
+- lately
 
-Justifications
+- utilizing
 
-lately
+- on a daily basis
 
-utilizing
+- Encountered 3 file(s) that should have been pointers, but weren't:
 
-on a daily basis
+- show up
 
-Encountered 3 file(s) that should have been pointers, but weren't:
+- It's very likely that
 
-show up
+- physical security & resiliency
 
-It's very likely that
+- spam
 
-physical security & resiliency
+- add-on
 
-spam
+- despair & despise
 
-add-on
+- one-off
 
-despair & despise
+- on-going
 
-one-off
+- has no means
 
-on-going
+- provision
 
-has no means
+- delegate
 
-provision
+- workaround
 
-delegate
+- assume
 
-workaround
+- pronoun
 
-assume
+- warehouse
 
-pronoun
+- therapy
 
-warehouse
-
-hands-on
-
-therapy
-
-diverged
+- diverged
 
 hint: Pulling without specifying how to reconcile divergent branches is
 hint: discouraged. You can squelch this message by running one of the following
@@ -674,92 +669,100 @@ hint: invocation.
 
 invocation    (向神或权威人士的)求助;祈祷;调用;启用 
 
-我之前考虑过这种情况
+- 我之前考虑过这种情况
 
-unlikely
+- unlikely
 
-tumbled
+- tumbled
 
-derived, derived from
+- derived, derived from
+  - derived from
+    - 来源于
 
-incorporated
+- incorporated
 
-Intermediate
+- Intermediate
 
-can be used to both create the xxx packages and report their usage against the kk tool in the XX system
-百度翻译：可用于创建xxx软件包，并根据XX系统中的kk tool报告其使用情况
+- can be used to both create the xxx packages and report their usage against the kk tool in the XX system
+  - 百度翻译：可用于创建xxx软件包，并根据XX系统中的kk tool报告其使用情况
 
-replication
+- replication
 
-ripple
+- ripple
+  - n. 波纹;涟漪;细浪;起伏的声音;逐渐扩散的感觉;(外观或运动)如波纹的东西
+  - v. 扩散;涌起;(使)如波浪般起伏
 
-Canonical
+- Canonical
 
-top tier
+- top tier
 
-suspected
+- suspected
 
-We have received a PD for this issue
+- We have received a PD for this issue
 
-ETA
+- ETA
 
-VMware-originated open source projects
+- VMware-originated open source projects
 
-plenary
+- plenary
+  - 完全的;绝对的;无限的;全体参加的
+  - n. 全体会议;全会
 
-the plan is to go live on the 22nd
+- the plan is to go live on the 22nd
 
-Just giving you a heads up
+- a couple of peers
 
-a couple of peers
+- disregard
+  - 不顾;漠视;不理会
+  - n.漠视;忽视
 
-disregard
+- interfere
 
-interfere
+- Is that intentional?
 
-Is that intentional?
+- stay tuned
 
-stay tuned
+- lag
 
-lag
+- mimic
+  - 模仿(人的言行举止);(外表或行为举止)像
+  - n.会模仿的人(或动物)
+  - adj.模仿的;拟态的
 
-mimic
-
-underlying
+- underlying
 
 Five Tenets of Open Source Engineering
 开源工程的五个原则
 
-mimic
-
-commitments
-n.承诺，保证；不得不做的事；（资金、人力等的）投入，花费（commitment 的复数）
+- commitments
+  - n.承诺，保证；不得不做的事；（资金、人力等的）投入，花费（commitment 的复数）
   - Consult with OSPO before making any commitments.
 
-Delivering quality solutions
-提供优质的解决方案
+- Delivering quality solutions
+  - 提供优质的解决方案
 
-underlying
+- unrivaled quality
+  - 无与伦比的品质
 
-unrivaled quality
+- inverted
+  - 反向的，倒转的，颠倒的，（尤指）倒置的
+  - v.（使）倒转，颠倒，倒置
+  - invert的过去分词和过去式
 
-inverted
+- negate
 
-negate
+- elaborate
 
-elaborate
+- Non Disclosure Agreement
 
-Non Disclosure Agreement
+- outline
 
-mimic
+- Along with this
 
-outline
+- by now
 
-Along with this
-
-by now
-
-imperative mood
+- imperative mood
+  - 祈使语气
 
 adhere
 
@@ -808,13 +811,13 @@ applicant
 
 is ready to issue certificates
 
-leaf
+- leaf
 
-Dedupe
+- Dedupe
 
-Utterly marvellous
+- Utterly marvellous
 
-off topic
+- off topic
 
 must be regular files with read permission (at minimum)
 
@@ -833,35 +836,38 @@ The following commands inventory the usage for their respective framework
 
 A tool that `facilitates` continuous development for Kubernetes applications.
 
-off-the-shelf
+- off-the-shelf
 
-Incorporated
+- Incorporated
 
-Anatomy of a this module
+- Anatomy of a this module
+  - 本模块的解剖
 
-Mangle
+- Mangle
 
-a potential collaborator
+- a potential collaborator
+  - 潜在的合作者
 
-Continuent
+- Continuent
 
-at a minimum
+- at a minimum
 
-encapsulate
+- encapsulate
 
-revision    n. 修订;复习;(一项、一轮等)修改;温习 
+- revision
+  - n. 修订;复习;(一项、一轮等)修改;温习 
 
-confinement
+- confinement
 
-繁琐
+- 繁琐
 
-Business Justification
+- Business Justification
 
-as a benchmark
+- as a benchmark
 
-attest
+- attest
 
-provide needed information
+- provide needed information
 
 monolithic architecture
 
