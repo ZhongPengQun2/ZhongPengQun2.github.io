@@ -240,3 +240,5 @@ AI根据文字生成图片
 
 The best way to learn math and computer science
   - https://brilliant.org/?utm_medium=sponsor&utm_source=youtube&utm_campaign=freedominthought_200623
+
+编程不能救中国
