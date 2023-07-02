@@ -158,10 +158,7 @@ vzhongPG3QC:osstpclients vzhong$ git branch -r --merged
 - git clone repo to specific path
   - 
 
-<<<<<<< HEAD
 Squash multi commits as one, in this case, what the comment will be like ?
-=======
->>>>>>> c25886e7649047e674b4321cb2051ff4997b14ed
 
 
 - What is a changeset in Git?
@@ -209,14 +206,10 @@ To add an exception for this directory, call:
 # 
 # git branch
 * master
-<<<<<<< HEAD
-```
-=======
 ```
 
+```
 - git add -A  &   git add -a
-
-
 ```
 $ git push origin topic/vzhong/PORSCHE-6136-Automatically-check-version-upgrade-when-osstp-load-is-executed-1
 To gitlab.eng.vmware.com:core-build/osstpclients.git

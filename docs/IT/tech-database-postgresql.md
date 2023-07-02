@@ -6,9 +6,6 @@ docker run -it --name postgres --restart always -e POSTGRES_PASSWORD='abc123' -e
 
 - Restore db from folder pgdata
 
-<<<<<<< HEAD
-- Tablespace
-=======
 - Tablespace
 
 - ENGINE=InnoDB 什么意思 ？
@@ -19,5 +16,3 @@ docker run -it --name postgres --restart always -e POSTGRES_PASSWORD='abc123' -e
         区别如下原来是MyISAM类型不支持事务处理等高级处理，而InnoDB类型支持。
         MyISAM类型的表强调的是性能，其执行数度比InnoDB类型更快，但是不提供事务支持，而InnoDB提供事务支持已经外部键等高级数据库功能。
         ```
-        
->>>>>>> c25886e7649047e674b4321cb2051ff4997b14ed

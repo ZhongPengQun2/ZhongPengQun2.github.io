@@ -1,4 +1,4 @@
-### Similar
+### \#近义词\#
 - figure, character, people
 - cause, reason
 - against
@@ -14,7 +14,7 @@
 - legal, league
 - flag & argument
 - Crash & Crush
-
+- that, which
 
 ## Confusions
 - 为什么 radical 既有基数，又有激进分子的意思？
@@ -26,9 +26,6 @@ dealt, gave, existentialism, apotheosis, adequate, authentic, glittering, alive,
 
 
 https://hackernoon.com/how-to-run-macos-on-virtualbox-in-less-than-30-mins
-
-### 近义词
-that, which
 
 
 ### Encountered during work
@@ -139,13 +136,10 @@ workaround
 
 seamlessly
 
-<<<<<<< HEAD
-=======
 scattered
 
 I have revised the occurrence of this retro meeting once every month per the feedback. Please respond to the revised meeting invite
 
->>>>>>> c25886e7649047e674b4321cb2051ff4997b14ed
 checked in
 
 out-of-the-box
@@ -1344,7 +1338,6 @@ either or 不是…就是…
 Could you look able to help on it on priority ?
 
 compliant & complain
-<<<<<<< HEAD
   - make your APIs compliant
   - compliance reports
 
@@ -1357,11 +1350,8 @@ Hi all, I am moving to accommodate holiday and schedule conflicts. Please let me
 
 Please consider purchasing it today
 
-=======
-
 Hi all, I am moving to accommodate holiday and schedule conflicts. Please let me know if this works.
 
->>>>>>> c25886e7649047e674b4321cb2051ff4997b14ed
 could barely talk
 
 comment out
@@ -1400,13 +1390,10 @@ cheatsheet
 
 as of today
 
-<<<<<<< HEAD
 set forth
   - 阐述
   - The President set forth his views in a television broadcast. 
 
-=======
->>>>>>> c25886e7649047e674b4321cb2051ff4997b14ed
 obscurely
 
 equipped with
@@ -1435,11 +1422,8 @@ in absence of: 在缺少的情况下
 
 pre-existing
 
-<<<<<<< HEAD
 Apache v2 licensed packages listed in the second section
 
-=======
->>>>>>> c25886e7649047e674b4321cb2051ff4997b14ed
 Pick one square that shows two identical objects：选择一个显示两个相同对象的正方形
 
 blast
@@ -1448,7 +1432,6 @@ i'll try to get this squared away today
 
 distinct packages
 
-<<<<<<< HEAD
 on the fly
 匆忙地;赶紧地
 It was all pretty much done on the fly
@@ -1460,10 +1443,8 @@ differ for
 Though solutions differ for everybody in different families, what are the general principles?
 或许办法因人而异，但有哪些通用的原则我们可以参考？ 
 
-=======
 by chance
 
->>>>>>> c25886e7649047e674b4321cb2051ff4997b14ed
 proceed with
 
 moderator: 调解人; 调停人; 仲裁人
@@ -1473,8 +1454,6 @@ chargeback: 退款
 <<<<<<< HEAD
 it is showing in the OSM Portal
 
-=======
->>>>>>> c25886e7649047e674b4321cb2051ff4997b14ed
 catastrophe 垮塌四周飞
 
 Originating BU
@@ -1491,13 +1470,10 @@ out of compliance
 
 Mutually exclusive
 
-<<<<<<< HEAD
-=======
 In summary
 
 All man pages are copyrighted by their respective authors
 
->>>>>>> c25886e7649047e674b4321cb2051ff4997b14ed
 come in handy
 
 我一直在朝着这个方向走
@@ -1509,11 +1485,10 @@ most recent
 Component Usage Attestation
 
 To illustrate
-=======
+
 JFrog Bintray
 
 Component Usage Attestation
->>>>>>> c25886e7649047e674b4321cb2051ff4997b14ed
 
 free of charge:  免费的
 
@@ -1535,13 +1510,12 @@ to run them with "-h" option
 
 respond to cyber threats
 
-<<<<<<< HEAD
 The minimum set of information
 
 increase transparency and help organizations better understand the composition of their software, identify vulnerabilities, and mitigate risks
 
 directive VS instruction
-=======
+
 Not at all
 
 The only issue is the cost of the school?  I `estimate` it costs around  $30k USD per year.
@@ -1554,7 +1528,6 @@ increase transparency and help organizations better understand the composition o
 
 directive VS instruction
   - A directive may establish policy, assign responsibilities, define objectives and delegate authority to those working in and with the authoritative figure. Instructions, on the other hand, act as guidelines. They often appear as a series of steps or stages one must complete one after the other.
->>>>>>> c25886e7649047e674b4321cb2051ff4997b14ed
 
 Looks like this targets xxx functionality
 
@@ -1562,11 +1535,7 @@ Looks like this targets xxx functionality
 
 failover
 
-<<<<<<< HEAD
-Issue is still ongoing
-=======
 Issue is still `ongoing`
->>>>>>> c25886e7649047e674b4321cb2051ff4997b14ed
 
 maturity
 
@@ -1582,11 +1551,8 @@ unique opportunity
 
 decommission
 
-<<<<<<< HEAD
-=======
 `Bypass password validation` and create user anyway?
 
->>>>>>> c25886e7649047e674b4321cb2051ff4997b14ed
 Keep this list open for reference.
 
 under the hood
