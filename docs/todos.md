@@ -228,3 +228,12 @@ AI根据文字生成图片
 
 老弟我是那种不听劝的人吗？
 
+菜床，蔬菜脱水
+  - 【如何保存蔬菜】不腌制,不加防腐剂,能存放大半年依然味道好,菜园的菜吃不完，保存有妙招 How to preserve vegetables
+    - https://www.youtube.com/watch?v=_gKeh_Qoj0E
+  - 
+
+用车床弄一个大蒜压碎器
+
+The best way to learn math and computer science
+  - https://brilliant.org/?utm_medium=sponsor&utm_source=youtube&utm_campaign=freedominthought_200623

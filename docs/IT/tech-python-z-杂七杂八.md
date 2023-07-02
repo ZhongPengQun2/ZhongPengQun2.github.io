@@ -106,3 +106,6 @@ The 'enum34' package is an obsolete backport of a standard library package and i
 - upx
   - upx=True
     - UPX is a free utility available for most operating systems. UPX compresses executable files and libraries, making them smaller, sometimes much smaller. UPX is available for most operating systems and can compress a large number of executable file formats
+
+- raise_for_status()
+  - 

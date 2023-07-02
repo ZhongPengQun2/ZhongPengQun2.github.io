@@ -174,15 +174,24 @@ The implication here is that
 
 pervasive
 
+overdue
+
+The two files are identical
+
 URL must be `percent-encoded` if it contains one or more special characters.
 
 stroke
+
+When you believe something, you don't know something
 
 you should see the summary view as depicted bellow
 
 consists in
 
 pivotal
+
+no point in doing sth
+没有意义
 
 The workspace was wiped out and no build has been done `since then`
 
@@ -197,6 +206,8 @@ consolidation
 infected
 
 intended
+
+Thanks for the heads up
 
 package manager information that is provided upfront
 
@@ -280,6 +291,8 @@ we initially decided to
 promotion recipients
 
 is still around
+
+Your password is set to expire in 30 days, at 2023-07-29 08:02 PacificTime
 
 Would you like to take a look and see how complex the problem is?
 
@@ -1188,6 +1201,8 @@ I ended up using something similar to the accepted answer, with minor modificati
 Sundial: An instrument that indicates the time of day `by means of` the position
 
 ought to
+
+takes precedence
 
 with no guarantees whatsoever
 

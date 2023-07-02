@@ -36,4 +36,5 @@
 - mute_signals
     - Disable the list of selected signals when calling the factory, and reactivate them upon leaving.
 
-    
+
+- from django.core.management.base import BaseCommand

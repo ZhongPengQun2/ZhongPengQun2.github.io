@@ -77,3 +77,6 @@ The BSD fopen manpage defines them as follows:
 
 - python -c 中 tab 怎么写？
 
+
+- io.BytesIO()
+  - .seek(0)
