@@ -130,8 +130,6 @@ vzhongPG3QC:osstpclients vzhong$ git branch -r --merged
 ```
 
 - gitlab squash
-<<<<<<< HEAD
-=======
   - In gitlab, Squash multi commits as one, in this case, what the comment will be like ?
   - git squash
     - https://stackoverflow.com/questions/5189560/how-do-i-squash-my-last-n-commits-together
@@ -140,7 +138,6 @@ vzhongPG3QC:osstpclients vzhong$ git branch -r --merged
       git reset --soft HEAD~2
       git commit
       ```
->>>>>>> c25886e7649047e674b4321cb2051ff4997b14ed
 - fast-forward
 - git revert
 

@@ -15,6 +15,9 @@
 - flag & argument
 - Crash & Crush
 - that, which
+- in future & in the future
+- remediation vs meditation
+
 
 ## Confusions
 - 为什么 radical 既有基数，又有激进分子的意思？
@@ -29,458 +32,536 @@ https://hackernoon.com/how-to-run-macos-on-virtualbox-in-less-than-30-mins
 
 
 ### Encountered during work
-take into account
 
-comes with： 附带
+- take into account
+  - 考虑到;把…计算在内
 
-stay the same for a lifetime： 终生不变
+- comes with
+  - 附带
 
-I put a page on confluence. Let’s coordinate there.
+- stay the same for a lifetime
+  - 终生不变
 
-Boosters
+- I put a page on confluence. `Let’s coordinate there`.
 
-whether or not  不管是否, We will go to the zoo whether it rains or not.
+- Boosters
 
-Prod upgrade cadence
+- whether or not
+  - 不管是否
+  - We will go to the zoo whether it rains or not.
 
-It turned out that
+- Prod upgrade cadence
+  - n. (说话时语调的)抑扬顿挫，起落;(乐段或乐句的)收束，静止
 
-```
-sudo snap install helm
-[sudo] password for zhong: 
-error: This revision of snap "helm" was published using classic confinement and
-       thus may perform arbitrary system changes outside of the security
-       sandbox that snaps are usually confined to, which may put your system at
-       risk.
+- It turned out that
 
-       If you understand and want to proceed repeat the command including
-       --classic.
-```
+- confined to
+  - 限于
 
-I can pick up
+- If you understand and want to proceed `repeat the command including` --classic.
 
-Virus scanning result: Infected
+- I can pick up
 
-manipulate
+- Virus scanning result: Infected
+  - Infected
+    -  感染;传染;感染者;已感染;染上
 
-Symptom
+- manipulate
 
-proposition
+- Symptom
 
-that's on me  由我负责
+- proposition
+  - 命题
 
-Top 5 NBA Signature Moves
+- that's on me
+  - 由我负责
 
-the xxx team should be able to facilitate
+- Top 5 NBA Signature Moves
+  - NBA五大招牌动作
 
-Asset Owner
+- the xxx team should be able to facilitate
 
-minimal reproducible example
+- Asset Owner
 
-Corrective Actions
+- minimal reproducible example
 
-Please feel free to add recipients if required.
+- Corrective Actions
+  - 纠正措施
 
-takes precedence over
+- Please feel free to add `recipients` if required
 
-has 4 host outages
+- takes precedence over
+  - 优先于
 
-Serializers define the API representation
+- has 4 host outages
+  - 有4次主机停机
 
-The code is provided as-is with no warranties.
+- Serializers define the API representation
 
-velocity
+- The code is provided as-is with no warranties.
+  - 该代码是按原样提供的，没有任何保证
 
-Censorship circumvention tool
-Lantern allows you to access sites blocked by internet censorship
+- velocity
 
-Shard
+- Censorship circumvention tool, Lantern allows you to access sites blocked by internet censorship
+  - Censorship
+    - 审查制度
 
-revert
+- Shard
+  - 碎片
 
-as for
+- revert
+  - 恢复
 
-VOS-3921-Add-an-arg-to-support-filter-scan-report-by-cvss-score
+- as for
+  -  至于，关于
 
-Everybody can help out with
+- Everybody can `help out` with
 
-```shell
-# Copyright (C) 2011-2012 Yaco Sistemas <lgs@yaco.es>
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#            http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-```
+- Licensed under the Apache License, Version 2.0 (the "License"), you may not use this file except in compliance with the License. You may obtain a copy of the License at xxx
 
-enrolled
+- enrolled
+  -  注册;登记;(使)加入
 
-is not qualified
+- is not qualified
+  - 不合格
+  - He is not qualified to be a teacher
+  - 他不配做一名教师
 
-start over
+- start over
 
-Finally it appears that with our changes related to xxx, we have violated the following
+- Finally `it appears that` with our changes `related to` xxx, we have violated the following
 
-In case
+- In case
 
-Per xxx policy, this training is an annual requirement and colleagues are required to re-certify annually. Failure to complete this training will result in escalation.
+- Per xxx policy, this training is an annual requirement and colleagues are required to re-certify annually. Failure to complete this training will result in escalation.
 
-workaround
+- workaround
 
-seamlessly
+- seamlessly
+  - 无缝的
 
-scattered
+- scattered
+  - 分散的
 
-I have revised the occurrence of this retro meeting once every month per the feedback. Please respond to the revised meeting invite
+- I have revised `the occurrence of this retro meeting once every month` `per the feedback`. Please respond to the revised meeting invite
+  - 我已经根据反馈意见每月修改一次这次回顾会议的发生情况。请回复修改后的会议邀请
 
-checked in
+- checked in
+  -  已签入;检入状态
 
-out-of-the-box
+- out of the box
+  - 开箱即用
 
-provision
+- provision
+  - 法律文件的）规定，条款;提供;(为将来做的)准备;供给;(尤指旅途中的)粮食;给养;供应品;饮食供应
+  - vt. 为…提供所需物品(尤指食物)
 
-Even though pipeline did not succeeded yet the FE e2e tests passed once
+- Even though pipeline did not succeeded yet the FE e2e tests passed once
 
-seal
+- seal
+  - 密封
 
-Has this change been rolled out in production yet ?
+- Has this change been rolled out in production yet ?
+  - 这种变化已经在生产中推出了吗？
 
-exemplify
+- exemplify
+  - 例示
 
-grant access to a specific namespace
+- grant access to a specific namespace
 
-据说
+- 据说
 
-portal 泼透
+- portal
+  - 泼透
 
-severely
-Atm OSSPI does not have Production logs, which severely affects maintenance/problem resolving capacity of the team.
+- severely
+  - 严重地
+  - Atm XPI does not have Production logs, which severely affects maintenance/problem resolving capacity of the team.
 
-gain a better insight into
+- gain a better insight into
+  - 更好地了解
+  - How can we gain a better insight into the causes of the variations?
+    -  怎样才能更好的研究术语变异的原因呢?
 
-As you would expect
+- As you would expect
 
-The implication here is that 
+- The implication here is that 
 
-pervasive
+- pervasive
+  - 普遍的;弥漫的;遍布的;充斥各处的 
 
-overdue
+- overdue
+  - 逾期的
 
-The two files are identical
+- The two files are identical
 
-URL must be `percent-encoded` if it contains one or more special characters.
+- URL must be `percent-encoded` if it contains one or more special characters.
 
-stroke
+- stroke
 
-When you believe something, you don't know something
+- When you believe something, you don't know something
 
-you should see the summary view as depicted bellow
+- you should see the summary view as `depicted` bellow
+  - 描绘
 
-consists in
+- consists in
 
-pivotal
+- pivotal
+  -  核心的;关键性的 
 
-no point in doing sth
-没有意义
+- no point in doing sth
+  - 没有意义
 
-The workspace was wiped out and no build has been done `since then`
+- The workspace was wiped out and no build has been done `since then`
 
-conjunction
+- conjunction
+  - 结合
 
-Escalation Policy
+- Escalation Policy
+  - 升级政策
 
-it will be provisioned upon manager approval
+- it will be provisioned upon manager approval
+  - 将在经理批准后提供
 
-consolidation
+- consolidation
+  - （企业、诉讼和诉讼人的）合并;巩固;加强;联合;充实;变坚固;（股票等）价格平稳期
 
-infected
+- intended
 
-intended
+- Thanks for the heads up
 
-Thanks for the heads up
+- package manager information that is provided upfront
+  - 预先提供的包管理器信息
+  - upfront
+    - 预付的
 
-package manager information that is provided upfront
+- IMHO
+  - in my humble opinion, 恕我直言
 
-IMHO
-in my humble opinion, 恕我直言
+- Instantiated
+  - 被实例化;具现化
 
-Instantiated
+- Deriving
+  - derive的现在分词
+    - 得到;获得;(使)产生;取得;(使)起源
 
-Deriving
+- tentative
+  - 暂定的;实验性的;不确定的;踌躇的;犹豫不定的;不果断的;不肯定的
+  - n. 尝试;实验;假设
 
-tentative
+- waiting for docker to come up...
 
-waiting for docker to come up...
+- The initial set of users associated with this issue is
 
-The initial set of users associated with this issue is
+- Only approved if you are oncall
+  - 只有当您是oncall时才批准
+  - 随时待命
 
-Your request was DECLINED and the status changed to Closed
-
-Only approved if you are oncall
-
-the pipeline is currently paused. to unpause, either:
+- the pipeline is currently paused. to unpause, `either`:
   - run the unpause-pipeline command:
     fly -t tutorial unpause-pipeline -p booklit
   - click play next to the pipeline in the web ui
 
-Migrate package endpoints that is a a lot of work, but ultimately has to be done.
+- Migrate package endpoints that is a lot of work, but ultimately has to be done.
 
-As part of our ongoing effort to migrate data from xx to yy
+- As part of our ongoing effort to migrate data from xx to yy
+  - ongoing
+    - adj. 持续存在的，仍在进行的，不断发展的
+    - n. 进行，前进，发展;（不正常或不正当的）行为, 举动;发生的事情，事态
 
-warning which complained that both audit.User and osstp.User models are user models
+- by means of
+  - 通过 ; 用，依靠 
+  - The bathroom is ventilated by means of an extractor fan.
+  - 这个浴室使用抽风扇通风。 
 
-by means of
+- Attestation
 
-Attestation
+- Third-Party Component `Usage Attestation`
+  - 第三方组件`使用证明`
 
-Third-Party Component Usage Attestation
+- Participation is `voluntary` and your responses are `confidential`.
 
-Thanks for the heads up!
+- What is the data log retention period? (i.e in months / years)
 
-Participation is voluntary and your responses are confidential.
+- interim
+  - 临时的;过渡的;期中的;暂时的
+  - n. 间歇，过渡期间
 
-What is the data log retention period? (i.e in months / years)
+- respectively
+  - 分别;各自;分别地;依次为;顺序为
 
-interim
+- As of now
+  - 截至目前
+  - as of
+    - 截至;自…起;到…时为止;从…时起 
 
-respectively
+- tedious
+  - 乏味的;冗长的;令人厌烦的;啰唆的
 
-As of now
+- the best chance of
+  - 最好的机会
+  - It's all about who has the best chance of coming out
+    - 关键在于谁活着出来的机会比较大 
 
-tedious
+- screenshot
 
-the best chance of
+- The bundle has been archived
 
-screenshot
+- fatal: option '--pretty=format:%h' must come before non-option arguments
 
-The bundle has been archived
+- click to `enlarge`
 
-fatal: option '--pretty=format:%h' must come before non-option arguments
+- cited
+  - cite的过去分词和过去式
+  - 引用;援引;列举;引述;举出(示例);提及(原因);传唤;传讯
 
-click to enlarge
+- As per prior communications
+  - 根据之前的沟通
 
-cited
+- retrieved
+  - 检索，找回，恢复
 
-As per prior communications
+- Audit Trail Reporting allows you to examine updates to the setup and configuration of your account so you can understand what's going on at a `larger scale`. Audit records are available for `up to one year`, and can be viewed in `maximum durations` of `thirty-one` days
+  - 审计跟踪报告允许您检查帐户设置和配置的更新，以便您能够更大规模地了解发生的情况。审计记录的有效期最长为一年，最长为三十一天。 
 
-You're not on-call
+- The two jobs are related to one-another `by means of` passed constraint.
 
-retrieved 检索，找回，恢复
+- 1 and 2 are looking good, but I still need some time to `polish` it a bit
 
-Audit Trail Reporting allows you to examine updates to the setup and configuration of your account so you can understand what's going on at a `larger scale`. Audit records are available for `up to one year`, and can be viewed in `maximum durations` of `thirty-one` days.
- 审计跟踪报告允许您检查帐户设置和配置的更新，以便您能够更大规模地了解发生的情况。审计记录的有效期最长为一年，最长为三十一天。 
+- or point 3 we initially decided to move to latest Django 2 release, so Vincent can leverage the SSO library that he needs
 
-The two jobs are related to one-another `by means of` passed  constraint.
+- we initially decided to
 
-1 and 2 are looking good, but I still need some time to polish it a bit
+- promotion recipients
+  - 促销接受者
 
-or point 3 we initially decided to move to latest Django 2 release, so Vincent can leverage the SSO library that he needs
+- is still around
+  - 仍然存在
+  - The second type, however, is still around
+    - 而第二类人却留了下来
 
-we initially decided to
+- `Your password is set to expire in 30 days`, `at` 2023-07-29 08:02 PacificTime
 
-promotion recipients
+- Would you like to take a look and see how complex the problem is?
 
-is still around
+- Meanwhile, please let me know if you have any clue to `track down` the issue.
 
-Your password is set to expire in 30 days, at 2023-07-29 08:02 PacificTime
+- We’ll be discussing on the Phase 2 approach, but I doubt there’ll be time for that till next week.
 
-Would you like to take a look and see how complex the problem is?
+- most likely
 
-Meanwhile, please let me know if you have any clue to track down the issue.
+- compensating
+  - 补偿
+  - He did not have the means to compensate her
+    - 他没有钱来补偿她
 
-We’ll be discussing on the Phase 2 approach, but I doubt there’ll be time for that till next week.
+- Thanks, nonetheless
+  - 尽管如此，还是谢谢
 
-most likely
+- In order to deal with this situation
 
-compensating
 
-Thanks, nonetheless.
+- TL:DR   too long, didn't read
+  - https://www.techtarget.com/whatis/definition/tldr-TLDR
 
-If this is the case, be careful not to end up with two different instances of the same file when making changes
+- other than
+  - 不同，不同于，不 ; 除了…以外，除外
 
-In order to deal with this situation
+- on the go
 
-in future & in the future
+- left over
 
-TL:DR   too long, didn't read
-https://www.techtarget.com/whatis/definition/tldr-TLDR
+- transient
 
-other than
+- left over
 
-on the go
+- If i manually check, the file is `present`
 
-left over
+- This question was removed from Stack Overflow for reasons of moderation
 
-transient
+- Opaque
+  - 发音：欧佩克
+  - 不透明的
 
-left over
+- Compound
 
-If i manually check, the file is `present`
-
-This question was removed from Stack Overflow for reasons of moderation
-
-Opaque
-
-Compound
-
-Perforce, obsolete 过时的, deferring, intake
+- Perforce, obsolete 过时的, deferring, intake
   - obsolete & out of date
 
-But if u want to extend then its ur call
-但如果你想延期，那就是你的选择
+- But if u want to extend then its ur call
+  - 但如果你想延期，那就是你的选择
 
-This might qualify as a separate requirement
+- This might qualify as a separate requirement
 
-I’m scheduling sessions with respective leads
+- I’m scheduling sessions with respective leads
 
-This signifies the original offering name before subsequent rebranding
+- This signifies the original offering name before subsequent rebranding
 
-premise, leftovers
+- premise
 
-你能帮我买包烟吗？
+- leftovers
+  - n. 剩菜;残羹剩饭;吃剩的食物;遗留物;残存物;遗留下来的风俗习惯
 
-snob, boast about
+- 你能帮我买包烟吗？
 
-rather, 相反
+- snob, boast about
 
-on purpose 故意的
+- rather
+  - 相反
 
-nicely summarized
+- on purpose
+  - 故意的
 
-in large part 很大程度上
+- nicely summarized
 
-In the case of artwork 就艺术品而言
+- in large part
+  - 很大程度上
 
-make a case
+- In the case of artwork
+  - 就艺术品而言
 
-forgery 赝品
+- make a case
+  - 提出一个理由
+  - You can't make a case on your intuitions, Phil.
+    - 菲尔，你不能凭直觉来作出解释。 
+  - They want to make a case out of it.
+    - 他们想要为这件事立案。 
 
-but he didn't count it
+- forgery
+  - 赝品
 
-she comes up
+- but he didn't count it
+  - 但他没有数
 
-递给他20元
+- she comes up
+  - he comes up to the van, and opens the back.
+    - 她走到厢式送货车前，将后门打开。 
 
-brief clip of this
+- 递给他20元
 
-is rooted in
+- brief clip of this
 
-Typical usage
-equivalent to this
+- is rooted in
 
-Examples, recipes, and other code in the documentation are additionally licensed under the Zero Clause BSD License.
+- Typical usage
 
-bringing in
+- equivalent to this
 
-in the Northern Hemisphere 北半球
+- Examples, recipes, and other code in the documentation are `additionally` licensed under the Zero Clause BSD License.
 
-do you remember by chance (劝四)
+- bringing in
+  - 带来
+  - He also got a commission for bringing in new clients.
+    - 他还因为带来了很多新客户拿到一笔佣金。 
 
-result in
+- in the Northern Hemisphere
+  - 北半球
 
-the result is accurate and solid
+- do you remember `by chance` (劝四)
+  -  偶然，碰巧;意外地
 
-urge
-urge users to do
+- result in
 
-under the term and conditions
+- the result is accurate and solid
+  - 结果准确可靠
 
-在5月9号 On May 9th
+- urge
+  - urge users to do
 
-caveats
+- under the term and conditions
 
-compliance terms
+- 在5月9号
+  - On May 9th
 
-this image is corrupted for unknown reason
+- caveats
 
-on-demand
+- compliance terms
 
-There is no point in skipping sections if we want the
-pipeline to finish faster.
+- this image is corrupted for unknown reason
 
-paradigm
+- on-demand
 
-streamline
+- There is no point in skipping sections if we want the pipeline to finish faster.
 
-and supply the following information
+- paradigm
 
+- streamline
 
-I was able to clarify that this is to streamline our process of reporting false positives to the vendor. We currently give users the following instructions for filing false positives
+- and supply the following information
 
-respecting
+- I was able to clarify that this is to streamline our process of reporting false positives to the vendor. We currently give users the following instructions for filing false positives
 
-ATM
+- ATM
 
-it's up to the user
-is up to you
+- it's up to the user
+  - is up to you
 
-remediation vs meditation
-permissive
-severity
-ongoing
-fluend
-provisioned
-leased
-polling frequency
-downtime, throughout
-alternate
-all dangling images
+- permissive
 
-docker save & docker export
+- severity
 
-from time to time
+- fluend
 
-embody
+- provisioned
 
-inherent
+- leased
 
-commitments
+- polling frequency
 
-comprehension
+- downtime, throughout
 
-Overly
+- alternate
 
-fitness
+- all dangling images
 
-engage in
+- from time to time
 
-unrivaled
+- embody
 
-The five tenets of engineering excellence in open source
+- inherent
 
-Pitfalls/Gotchas
+- commitments
 
-estate
+- comprehension
 
-onboarding, landing
+- Overly
 
-embody the ethos
+- fitness
 
-at once
+- engage in
 
-ambiguous
-俺必纠(广东)啊死
+- unrivaled
 
-controversial
+- The five tenets of engineering excellence in open source
 
-as per
+- Pitfalls/Gotchas
 
-i would
+- estate
 
-I'd not worry for
+- onboarding, landing
 
-IIRC(if I recall correctly / if I remember correctly)
+- embody the ethos
 
-My take is
+- at once
 
-In addition to
+- ambiguous
+  - 俺必纠(广东)啊死
+
+- controversial
+
+- as per
+
+- i would
+
+- I'd not worry for
+
+- IIRC
+  - (if I recall correctly / if I remember correctly)
+
+- My take is
+
+- In addition to
 
 falls into 2 categories
 分为2类
@@ -1200,11 +1281,9 @@ specifically
 we'll try this out
 
 在密码到期前提示用户更改密码
-<<<<<<< HEAD
 
 I was riding in the car.
 
-=======
 Prompt users to change their password before it expires
 
 This diagram shows the overall process
@@ -1213,7 +1292,6 @@ I was riding in the car.
 
 is still evolving
 
->>>>>>> c25886e7649047e674b4321cb2051ff4997b14ed
 I ended up using something similar to the accepted answer, with minor modifications
 
 Sundial: An instrument that indicates the time of day `by means of` the position
@@ -1451,7 +1529,6 @@ moderator: 调解人; 调停人; 仲裁人
 
 chargeback: 退款
 
-<<<<<<< HEAD
 it is showing in the OSM Portal
 
 catastrophe 垮塌四周飞
@@ -1481,7 +1558,6 @@ I have been walking in this direction
 
 most recent
 
-<<<<<<< HEAD
 Component Usage Attestation
 
 To illustrate
@@ -1491,6 +1567,8 @@ JFrog Bintray
 Component Usage Attestation
 
 free of charge:  免费的
+
+Contact me if you are willing to help translate the documentation
 
 implications 可能的影响(或作用、结果); 含意; 暗指; (被)牵连，牵涉
 

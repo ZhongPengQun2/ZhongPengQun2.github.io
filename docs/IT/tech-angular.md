@@ -7,11 +7,8 @@
 
 
 - .component.ts
-<<<<<<< HEAD
-=======
     - `.ts` 文件
         - ts 应该是表示 typescript
->>>>>>> c25886e7649047e674b4321cb2051ff4997b14ed
 
 - npm install
 
@@ -45,8 +42,6 @@ sudo npm install -g @angular/cli
 
 
 "Yarn 是为了弥补 npm 的一些缺陷而出现的"
-<<<<<<< HEAD
-=======
 
 
 - dependency injection
@@ -95,4 +90,3 @@ sudo npm install -g @angular/cli
     - APPMODULE: THE ROOT MODULE; Tell Angular how to construct and bootstrap the app in the root "AppModule".
         - https://v2.angular.io/docs/ts/latest/guide/appmodule.html
     
->>>>>>> c25886e7649047e674b4321cb2051ff4997b14ed
