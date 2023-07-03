@@ -205,8 +205,9 @@ To add an exception for this directory, call:
 * master
 ```
 
-```
 - git add -A  &   git add -a
+
+
 ```
 $ git push origin topic/vzhong/PORSCHE-6136-Automatically-check-version-upgrade-when-osstp-load-is-executed-1
 To gitlab.eng.vmware.com:core-build/osstpclients.git
@@ -240,4 +241,3 @@ From: https://stackoverflow.com/questions/22532943/how-to-resolve-git-error-upda
     But any local file that's not tracked by Git will not be affected.
     ```
       - git reset --hard HEAD 表示回退到当前版本，HEAD指向当前版本。如果你修改了一些代码，想去除，就可以用git reset --hard HEAD一次性去除
->>>>>>> c25886e7649047e674b4321cb2051ff4997b14ed

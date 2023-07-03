@@ -1,22 +1,22 @@
 import os
-
-#docs_path = "/Users/vzhong/Documents/ZhongPengQun2.github.io/docs"
-docs_path = os.path.abspath(os.path.join(os.getcwd(), "../docs"))
-
-doc_postfixs = ['md', 'txt']
-
-
-search_input = ""
-
 import re
 import glob
 import time
+import yaml
+
+
 
 RELATED_LINES_UP_COUNT = 5
 RELATED_LINES_DOWN_COUNT = 10
+SETTINGS_FILE_PATH = os.path.abspath(os.path.join(os.getcwd(), "settings.yml"))
+
+with open(SETTINGS_FILE_PATH, "r") as f:
+    settings = yaml.full_load(f)
+
+print(settings)
+raise
 
 all_lines = []
-# all_lines_lower = []
 
 current_clipboard_content = ""
 
@@ -26,13 +26,14 @@ def read_from_clipboard():
         'pbpaste', env={'LANG': 'en_US.UTF-8'}).decode('utf-8')
 
 def get_all_lines():
-    for path, subdirs, files in os.walk(docs_path):
-        for name in files:
-            if not name.endswith(tuple(doc_postfixs)):
-                continue
-            with open(f'{path}/{name}') as f:
-                for _line in f.readlines():
-                    all_lines.append(_line)
+    for document_dir in settings.get('document_dirs'):
+        for path, subdirs, files in os.walk(document_dir):
+            for name in files:
+                if not name.endswith(tuple(settings.get('extensions'))):
+                    continue
+                with open(f'{path}/{name}') as f:
+                    for _line in f.readlines():
+                        all_lines.append(_line)
 
 get_all_lines()
 
@@ -56,23 +57,8 @@ current_keyword = ''
 while True:
     clipboard_content = read_from_clipboard()
     if clipboard_content != current_keyword:
+        print('\n\n\n\n')
+        print('========== RESULT ==========')
         print_keyword_related_note(clipboard_content)
         current_keyword = clipboard_content
     time.sleep(2)
-
-
-    # if __name__ == "__main__":
-#     while 1:
-#         clipboard_text = read_from_clipboard()
-
-#         # Escape keywords of re, ?=
-#         clipboard_text = clipboard_text.replace('?', '\?')
-
-#         if clipboard_text != current_clipboard_content:
-#             matcheds = re.findall('.{100}' + clipboard_text + '.{100}', all_docs_text, re.DOTALL)
-#             for matched in matcheds:
-#                 print('-----------------%s'%clipboard_text)
-#                 print(matched)
-
-#             time.sleep(1)
-#             current_clipboard_content = clipboard_text
