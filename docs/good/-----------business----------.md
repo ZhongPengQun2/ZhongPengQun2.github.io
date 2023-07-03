@@ -12,3 +12,6 @@
 - What is inventory? | Types of inventory
   - https://www.youtube.com/watch?v=trreap294A0
 
+#### vmware
+- VMware Offerings for Small & Midsize Businesses
+  - /home/vincent-zhong/ZhongPengQun2.github.io/docs/Business

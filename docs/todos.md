@@ -180,7 +180,7 @@ https://www.youtube.com/watch?v=PY9Ws-7SaDg
 Don't Be a Sucker
 https://www.youtube.com/watch?v=vGAqYNFQdZ4
 
-景德镇：笔筒，茶杯（大，小，带柄的，茶罐，食物罐），饭碗， 烟灰缸
+景德镇：笔筒，茶杯（大，小，带柄的，茶罐，食物罐），饭碗， 烟灰缸, 装菜的盆
 
 机箱，炼丹炉
 

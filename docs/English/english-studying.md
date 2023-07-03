@@ -531,7 +531,11 @@ https://hackernoon.com/how-to-run-macos-on-virtualbox-in-less-than-30-mins
 
 - engage in
 
+- this code is BSD-2-Clause licensed
+
 - unrivaled
+
+- The license is BSD, which should allow incorporating the code into other open source and commercial projects.
 
 - The five tenets of engineering excellence in open source
 
@@ -876,8 +880,8 @@ google translator: 相反，在分发时添加产品名称
 
 confined
 
-renewal
-恢复;更新;重新开始;(对合同等的)有效期延长，展期，续订;改进;复兴;振兴 
+- renewal
+  - 恢复;更新;重新开始;(对合同等的)有效期延长，展期，续订;改进;复兴;振兴 
 
 vzhong@vzhong:~/buildaudit/bdba-lb/helm$ sudo snap install helm
 [sudo] password for vzhong:
@@ -985,6 +989,8 @@ This is also not entirely trivial
 by means of
 
 initiatives contribute to revenue generation
+  - Initiative
+    - 名词
 
 vacation
 
@@ -1021,6 +1027,12 @@ from scratch  从头开始
 This is not a mere parking, this is art
 
 ETA
+
+Business Criticality of Third-party Vendors
+
+- Non-critical - vendors that are mainly for internal use or `customer would unlikely be impacted` if unavailable for weeks
+
+Outbound resell agreements
 
 estimated time of arrival   估计的到达时间
 

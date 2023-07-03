@@ -1,9 +1,3 @@
----
-layout: default
-title: Hello
-description: Introduction about this site and me.
----
-
 https://www.youtube.com/watch?v=ajlWqQ0vrxE
 https://china.usc.edu/president-jiangs-speech-harvard-university-1997
 ## President Jiang's Speech At Harvard University, 1997
@@ -60,5 +54,3 @@ I am glad to learn that you, Mr. President, will come to China next year. I look
 I highly appreciate the motto on the gate of your University. It reads: "Enter to grow in wisdom" and "Depart to serve better the country and the kind." Young people in China have also a motto, that is, "keep the motherland in heart and serve the people with heart and soul." I hope that in the cause of building our own countries and promoting world peace and development, younger generations of China and the United States will understand each other better, learn from each other, enhance the friendship and strive for a better future.
 
 Thank you very much for your attention.
-
-[back](./)
