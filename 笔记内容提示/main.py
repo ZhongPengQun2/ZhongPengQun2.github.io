@@ -56,6 +56,7 @@ current_keyword = ''
 while True:
     clipboard_content = read_from_clipboard()
     if clipboard_content != current_keyword:
+        os.system('clear')  
         print_keyword_related_note(clipboard_content)
         current_keyword = clipboard_content
     time.sleep(2)
