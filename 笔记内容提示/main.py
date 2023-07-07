@@ -13,9 +13,6 @@ SETTINGS_FILE_PATH = os.path.abspath(os.path.join(os.getcwd(), "settings.yml"))
 with open(SETTINGS_FILE_PATH, "r") as f:
     settings = yaml.full_load(f)
 
-print(settings)
-raise
-
 all_lines = []
 
 current_clipboard_content = ""
@@ -37,15 +34,17 @@ def get_all_lines():
 
 get_all_lines()
 
+
 def print_keyword_related_note(keyword):
+    result = []
+
     for _i, _line in enumerate(all_lines):
-        if keyword in _line.lower():
+        if keyword.lower() in _line.lower():
             all_lines[_i] = all_lines[_i].replace(keyword, f'\033[92m{keyword}\033[0m')
-            print('\n'.join(all_lines[_i - RELATED_LINES_UP_COUNT : _i + RELATED_LINES_DOWN_COUNT]))
-            # print(_line)
-            # print(_i)
-            # print('\n\n')
-            print('-'*50)
+            item = '\n'.join(all_lines[_i - RELATED_LINES_UP_COUNT : _i + RELATED_LINES_DOWN_COUNT])
+            result.append(item)
+
+    print('\n----------------------------------------\n'.join(result[:5]))
 
 # all_lines_lower = [x.lower() for x in all_lines]
 

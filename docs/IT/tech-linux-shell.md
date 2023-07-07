@@ -227,3 +227,9 @@ $ git branch | grep -vw '$mm1\|$mm2'
 
 bash有[[, 但是sh没有该语法
 ```
+
+- mount
+	- 查看已经mount的目录
+		- 要查看当前系统中的所有挂载点，可以直接在终端中输入 mount 命令
+	- sudo mount -t nfs -o nolock x.si01.oc.xxx.com:/xxx /tmp/yyy
+		- sudo umount /tmp/yyy

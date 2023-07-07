@@ -241,4 +241,17 @@ AI根据文字生成图片
 The best way to learn math and computer science
   - https://brilliant.org/?utm_medium=sponsor&utm_source=youtube&utm_campaign=freedominthought_200623
 
-编程不能救中国
+编程不能救中国...
+
+穷游
+
+捡石头
+
+
+小伙囤了170斤银砖，在当铺能卖多少钱？
+- https://www.bilibili.com/video/BV1xc41177Zn/?spm_id_from=333.337.search-card.all.click&vd_source=f209dde1a1d76e06b060a034f36bb756
+- 这是原始视频是哪的？
+
+
+Nietzsche: Pain creates a “Higher Health”
+- https://www.youtube.com/watch?v=fB1Zr1GcH4M

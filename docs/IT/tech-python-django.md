@@ -38,3 +38,33 @@
 
 
 - from django.core.management.base import BaseCommand
+
+- viewsets
+    - GenericViewSet
+        - GenericViewSet 的 filter_class
+        - e.g
+        ```
+        class XxxViewSet(viewsets.GenericViewSet):
+            serializer_class = XxxSerializer
+            filter_fields = ('query_option_1',)
+            filter_backeds = (DjangoFilterBackend,)
+            filter_class = SomeFilter
+
+            def list(self, request):
+                name = request.query_params['query_option_1']
+                serializer = self.get_serializer({'xx': 'xx'})
+                return Response(serializer.data)
+        ```
+
+- filterset
+    - `strict = True` `strict=True`
+    - filter_fields, filter_backeds, filter_class
+    - filterset 非 model的，怎么弄
+
+
+- get_object
+
+- get_queryset
+
+- basename
+    - 

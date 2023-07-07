@@ -147,6 +147,8 @@ checked in
 
 out-of-the-box
 
+即使
+
 provision
 
 Even though pipeline did not succeeded yet the FE e2e tests passed once
@@ -226,6 +228,13 @@ Migrate package endpoints that is a a lot of work, but ultimately has to be done
 
 As part of our ongoing effort to migrate data from xx to yy
 
+
+```
+This will upgrade your computer the latest version of macOS. It will quit out of all open applications. Please make sure to save your documents and data before proceeding. This installation will restart your computer and may take up to an hour to complete. If you have questions and/or concerns, please contact Oasis for support. 
+
+You have 7 deferrals remaining before the upgrade will automatically commence
+```
+
 warning which complained that both audit.User and osstp.User models are user models
 
 by means of
@@ -280,6 +289,8 @@ we initially decided to
 promotion recipients
 
 is still around
+
+quo ante
 
 Would you like to take a look and see how complex the problem is?
 
