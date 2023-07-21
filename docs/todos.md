@@ -255,3 +255,22 @@ The best way to learn math and computer science
 
 Nietzsche: Pain creates a “Higher Health”
 - https://www.youtube.com/watch?v=fB1Zr1GcH4M
+
+
+教师资格考试
+  - 普通话考试
+  - 年满18岁，未退休即可，但是教师编制是有年龄限制的，一般35
+
+
+wacom: Video Tutorial: macOS driver installation
+https://support.wacom.com/hc/en-us/articles/4406605870999-Video-Tutorial-macOS-driver-installation
+
+
+鑫源650
+
+
+如何自己种菊花
+
+The World Of Hackers | Political Documentary | Counterculture | Hacking
+https://www.youtube.com/watch?v=9DgMPFkZmPY
+

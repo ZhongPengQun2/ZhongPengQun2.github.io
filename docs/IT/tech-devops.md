@@ -129,3 +129,17 @@ For locally investigation, you can register a fluentd cloud log. e.g https://www
 $ kubectl apply -f f.yml
 fluentdconfig.logs.vdp.vmware.com/fluentd-config created
 ```
+
+
+- nginx `location`
+```
+    location /b/ {
+        alias /srv/src/xx/;
+    }
+    location /a/ {
+        alias /srv/src/;
+    }
+
+so how to access file /srv/src/xx/cc.tar from URL
+/a/b/cc.tar   or  /b/cc.tar  ?
+``` 

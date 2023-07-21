@@ -151,8 +151,7 @@ The BSD fopen manpage defines them as follows:
 - python -c 中 tab 怎么写？
 
 
-- io.BytesIO()
-  - .seek(0)
+
 
 ### PyInstaller
 - .spec file
@@ -275,6 +274,15 @@ The 'enum34' package is an obsolete backport of a standard library package and i
     - https://www.digitalocean.com/community/tutorials/python-io-bytesio-stringio
   - io.BytesIO
     - `Python io module allows us to manage the file-related input and output operations`
+    - 
+    ```
+     io.BytesIO()
+     .seek(0)
+    ```
+    - 用于在内存中读写二进制数据,它的作用类似于文件对象，但是数据并不是存储在磁盘上，而是存储在内存中的字节串。你可以像文件对象一样对其进行读写、查找和截断等操作。通常用来操作二进制数据，如图片、音频、视频等。也可以用于测试或者临时存储数据
+      - https://blog.csdn.net/qq_41604569/article/details/129835209
+        - bytes转换成字符串
+        - 输出的为什么是b开头的
   - io.StringIO
 
 #### pytest
@@ -287,8 +295,7 @@ The 'enum34' package is an obsolete backport of a standard library package and i
 - pytest's fixture
 
 
-#### pyinstaller
-### PyInstaller
+#### PyInstaller
 - .spec file
 ```python
 # 该 moccasin/__main__.py 会被pyinstaller生成为一个可执行文件
@@ -424,6 +431,77 @@ Expanding the usefulness of the serializers is something that we would like to a
 - what should a serializer be ? i mean how to design a suitable serializer ?
 
 
+- django signal post_save 如何获取到changed的field？
+    - Identify the changed fields in django post_save signal
+    - 可以在pre_save的signal中设置一个varible来保存old值
+
+
+```
+/usr/local/lib/python3.6/dist-packages/django/db/models/fields/__init__.py:1369: RuntimeWarning: DateTimeField Release.created received a naive datetime (2020-05-03 00:00:00) while time zone support is active.
+
+
+```
+
+
+- migration file, elidable=True
+
+- Squashing migrations
+    - xx
+
+- queryset 
+    - https://www.oschina.net/translate/django-querysets?print
+        - queryset是有cache的，因此 `for x in A.objects.filter()`只会运行一次select，但是result会都塞在memory中.
+            - iterator可以防止大cache，但是会增加查询次数
+
+- iterator
+
+- from_db
+    - Official doc: https://docs.djangoproject.com/en/4.1/ref/models/instances/#customizing-model-loading
+    - 该方法什么时候被调用？每次query是都会被调用吗？
+
+- update_fields
+    - for better performance
+        - https://dev.to/sankalpjonna/save-your-django-models-using-updatefields-for-better-performance-50ig
+
+
+- django 的 signal 什么时候用比较好？
+
+- mute_signals
+    - Disable the list of selected signals when calling the factory, and reactivate them upon leaving.
+
+
+- from django.core.management.base import BaseCommand
+
+- viewsets
+    - GenericViewSet
+        - GenericViewSet 的 filter_class
+        - e.g
+        ```
+        class XxxViewSet(viewsets.GenericViewSet):
+            serializer_class = XxxSerializer
+            filter_fields = ('query_option_1',)
+            filter_backeds = (DjangoFilterBackend,)
+            filter_class = SomeFilter
+
+            def list(self, request):
+                name = request.query_params['query_option_1']
+                serializer = self.get_serializer({'xx': 'xx'})
+                return Response(serializer.data)
+        ```
+
+- filterset
+    - `strict = True` `strict=True`
+    - filter_fields, filter_backeds, filter_class
+    - filterset 非 model的，怎么弄
+
+
+- get_object
+
+- get_queryset
+
+- basename
+    - 
+
 #### Software lifecycle
 - product & release
 - release
@@ -488,3 +566,83 @@ kubeconfig: Configured
         - HTTP Host header attacks
   - Django-rest-framework
       - 2种url参数的区别，为什么要这样？
+
+
+- http header Range bytes=0-1023
+  - 
+
+```
+>>> os.path.sep
+'/'
+
+# os.path.dirname() method in Python is used to get the directory name from the specified path.
+>>> os.path.dirname('/tmp/xx.txt')
+'/tmp'
+```
+
+- metavar="SERVER-NAME"
+```
+  -S SERVER-NAME        Execute against the named server (default "default"),
+                        add http(s) to designate protocol
+```
+
+
+```
+a.py
+abc = None
+
+b.py
+abc = 1
+
+c.py
+from 
+```
+
+```
+Reloading modules in Python2.x
+reload(module)
+
+For above 2. x and <=Python3.3
+import imp
+imp.reload(module)
+
+Reloading modules for >=Python3.4 and above
+import importlib
+importlib.reload(module)
+```
+
+- ipynb
+
+- tiktoken
+
+- langchain
+
+- gpt-3.5-turbo
+
+- next(iter(
+
+- @pytest.fixture()
+  - https://blog.csdn.net/qq_42610167/article/details/119818358
+
+- APITestCase
+  - rest_framework.test.APIClient
+
+- @retry(stop=stop_after_attempt(2), reraise=True)
+  - reraise=True
+    - https://github.com/jd/tenacity#error-handling
+```
+from tenacity import retry, stop_after_attempt
+#@retry(reraise=True, stop=stop_after_attempt(3))
+@retry(stop=stop_after_attempt(3))
+def raise_my_exception():
+    raise Exception("Fail")
+
+try:
+    raise_my_exception()
+except Exception as e:
+    # timed out retrying
+    print(e)
+```
+
+- python mock a function raise an Exception
+  - https://stackoverflow.com/questions/28305406/mocking-a-function-to-raise-an-exception-to-test-an-except-block

@@ -1,6 +1,8 @@
 比较适合什么领域？
 https://www.zhihu.com/question/57404512
 
+TinyGo on Arduino
+https://blog.arduino.cc/2019/08/23/tinygo-on-arduino/
 
 Go 包管理工具 dep 和 go module 的对比, 已经go vendor
 https://liqiang.io/post/golang-package-manager-compare-module-vs-dep-d1b2db90
@@ -162,3 +164,9 @@ package k8s.io/cli-runtime@3141d5468ff0d7b0af2c2991c64d1816d33e7721: cannot down
 
 小马技术 --【Go语言】包(模块项目)管理工具 - go mod, golang Modules
 https://www.youtube.com/watch?v=cfcT_3ad-_0
+
+
+- go dep  & go module
+```
+In my previous article, I used go-dep as my dependency management tool for a Go project. However, Go Modules have recently been released and announced as the official Go dependency management tool. A lot of Go 3rd libraries are being migrated to use Go Modules and require dependent projects to use Go Modules as well. Therefore, Go Dep is going to be deprecated soon.
+```

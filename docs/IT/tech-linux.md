@@ -131,3 +131,12 @@ Inconsistency detected by ld.so: dl-call-libc-early-init.c: 37: _dl_call_libc_ea
 
 
 - sticky bit set
+
+- Drive, Partition, and Volumes in Linux
+	- Differences
+		- drive is commonly used to refer to an actual physical storage device. Examples of these devices are hard-disk drives and `solid-state` drives.
+		- partitions are subdivisions of a single physical storage drive
+			- It offers the flexibility to divide a large physical storage device into a few smaller independent storage units.
+		- volume is a higher level of abstraction over the partition. Specifically, the volume helps us in managing our storage in the form of aggregated storage space, instead of the individual storage device
+	- \#共同点#\ common ground
+		- they are all `non-volatile` computer storage

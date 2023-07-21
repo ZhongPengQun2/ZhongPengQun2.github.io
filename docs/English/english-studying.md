@@ -8,6 +8,7 @@
 - subsequent  /  consequent
 - mandarin   /  mandatory
 - exists、existing、existed
+  - Querying for pre-existing "pypi" packages ..."
 - succeed, success, successful, successfully
 - flag & argument
 - ??buy的过去式&bring的过去式??
@@ -41,8 +42,12 @@ stay the same for a lifetime： 终生不变
 I put a page on confluence. Let’s coordinate there.
 
 Boosters
+  - boost 加强
+  - weaken 减弱
 
 whether or not  不管是否, We will go to the zoo whether it rains or not.
+
+Tentative
 
 Prod upgrade cadence
 
@@ -80,6 +85,8 @@ Asset Owner
 
 minimal reproducible example
 
+bump up
+
 Corrective Actions
 
 Please feel free to add recipients if required.
@@ -103,6 +110,12 @@ revert
 
 as for
 
+wizard
+
+a small number of
+
+To add many at once, instead use the xx
+
 VOS-3921-Add-an-arg-to-support-filter-scan-report-by-cvss-score
 
 Everybody can help out with
@@ -124,6 +137,8 @@ Everybody can help out with
 ```
 
 enrolled
+
+in-demand
 
 is not qualified
 
@@ -418,6 +433,8 @@ I was able to clarify that this is to streamline our process of reporting false 
 respecting
 
 ATM
+
+`Permissions or other restrictions` provided by plugins may prevent this job from running on those nodes.
 
 it's up to the user
 is up to you
@@ -1124,9 +1141,6 @@ right after
 
 TypeError: unsupported operand type(s) for &: 'str' and 'int'
 
-Below neither works
-下面两个都不起作用
-
 如果都不存在
 
 大于或等于
@@ -1329,8 +1343,14 @@ negotiation
 借助于这个机制
 
 either or 不是…就是…
+  - either 英美发音不一样，(挨嘚), (依嘚)
+
+Below neither works
+下面两个都不起作用
 
 Could you look able to help on it on priority ?
+
+
 
 compliant & complain
   - make your APIs compliant
@@ -1445,6 +1465,8 @@ proceed with
 moderator: 调解人; 调停人; 仲裁人
 
 chargeback: 退款
+
+If you would rather see the exception...
 
 it is showing in the OSM Portal
 

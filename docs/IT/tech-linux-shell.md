@@ -47,6 +47,8 @@ curl --unix-socket /var/run/docker.sock http://localhost/version
 wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
 ```
 
+- wget http://xx.com/x.zip 下载下来的文件不一定是你想要的x.zip文件，如果这里url是一个html页面，只是叫了 http://xx.com/x.zip 这个名字而已，那么你wget download下来虽然是zip文件，但是unzip后是html file
+
 ## Shell
 ```Shell
 tar zcvf dist.tar.gz -C dist 
@@ -116,8 +118,6 @@ make: *** [install] Error 2
 ```shell
 Inconsistency detected by ld.so: dl-call-libc-early-init.c: 37: _dl_call_libc_early_init: Assertion `sym != NULL' failed!
 ```
-
-- echo $?
 
 - OS
   - Lock
@@ -231,5 +231,22 @@ bash有[[, 但是sh没有该语法
 - mount
 	- 查看已经mount的目录
 		- 要查看当前系统中的所有挂载点，可以直接在终端中输入 mount 命令
+		- /etc/fstab
+			- 一般也可以通过该命令来查看 mounted 的 filesystem
 	- sudo mount -t nfs -o nolock x.si01.oc.xxx.com:/xxx /tmp/yyy
 		- sudo umount /tmp/yyy
+	- terminologies
+		- partition
+			- storage devices VS partitions
+		- mount device
+		- Mount point
+			- the directory where the partition or disk will be mounted
+			- Mounting means attaching a partition, hard disk, or file system to the system in use
+			- Similarly, when we insert a CD in Windows operating systems, the default mount point would be D:/ or Cdrom, the “directory” where files become accessible to the user.Of course, this is different than in Linux because in Linux mount points are regular directories, like any other directory.
+			- Usually, the mount point is a dedicated directory for mounting purposes, but users can use any directory as a mount point, including directories containing files and subdirectories
+			- Normally, the default mount points in Linux are /media, /mnt, /usb and /media/mnt, but users can mount devices in any directory.
+
+
+- jq
+	- $ echo '{"foo": "bar"}' | jq -r '.foo'
+		bar

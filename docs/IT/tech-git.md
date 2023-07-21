@@ -36,6 +36,11 @@ $ git branch --merged vt2
 ### Git
 - Git
     - git submodule [Chinese: https://www.youtube.com/watch?v=jhl7ruTPV-o]
+      - git submodule update --init
+      - git submodule add
+        - 
+      - remove submodule ?
+        - rm -r <dir-path>, then git commit
     - Git branch strategy
 
 
@@ -150,12 +155,10 @@ vzhongPG3QC:osstpclients vzhong$ git branch -r --merged
   - 只针对当前分支，只会拉当前的分支，这种东西一次性更新所有分支，万一有冲突，够你吃一壶。所以基本都是只更新当前分支
     - 你说的不准确，是同步所有的远程分支到本地，只不过只对当前分支进行merge
 
-- How to squash multi commits as one ? when MR merged, we can squash them as one so that to pretty the commit log.
-
 - git clone repo to specific path
   - 
 
-Squash multi commits as one, in this case, what the comment will be like ?
+[gitlab] Squash multi commits as one, in this case, what the comment will be like ?
 
 
 - What is a changeset in Git?
@@ -221,6 +224,8 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 solution:
 
 git stash save
+  - 使用场景
+    - 
   - stash:
     n.藏匿处；藏匿物
     vt.存放；贮藏
@@ -241,3 +246,6 @@ From: https://stackoverflow.com/questions/22532943/how-to-resolve-git-error-upda
     But any local file that's not tracked by Git will not be affected.
     ```
       - git reset --hard HEAD 表示回退到当前版本，HEAD指向当前版本。如果你修改了一些代码，想去除，就可以用git reset --hard HEAD一次性去除
+
+- 修改existing commit的message
+- .gitmodules

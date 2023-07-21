@@ -125,6 +125,13 @@ https://blog.51cto.com/u_15162069/2743910
                 - docker import - new_hangger_server < hangger_server.tar
     - save 和 load 这两个命令是通过镜像来保存、加载镜像文件的
 
+- dockerfile中export失效，在dockerfile中的RUN中export，但是进入container后，echo该变量，并没有
+    - 可以用ENV
+    - 相关的问题
+        - How to export an environment variable to a docker image?
+            - https://stackoverflow.com/questions/41315737/how-to-export-an-environment-variable-to-a-docker-image
+
+
 - save docker running container and push to dockerhub
 ```shell
 docker commit 0a887a75b48b centos5.8-pkgs-and-tools-preinstalled:v1
@@ -495,3 +502,28 @@ Solution:
     - https://zhuanlan.zhihu.com/p/487901733
     - 1. 使用-v时，主机没有这个文件则新建；
     - 2. 使用--mount时，主机没有这个文件则报错。
+    - docker run -v 时需要使用 absolute path
+
+
+#### docker-compose services
+
+
+#### docker-compose network
+- network_mode
+
+- eth 0
+
+- 如何让remote的机器上的端口能被访问，即设置为0.0.0.0这种，在remote上curl http://localhost:5000可以访问，但是curl 类似http://139.196.8.9:5000没用
+
+
+
+```
+↓ 为什么 PORTS 这列是空的 ？
+
+CONTAINER ID   IMAGE                                                                                        COMMAND                  CREATED          STATUS                  PORTS                                                                                                                                NAMES
+ace91934cb7b   internationaldjangoedition_flask                                                             "python app.py runse…"   30 seconds ago   Up 29 seconds                                                                                                                                                internationaldjangoedition_flask_1
+c3a63f84aaa5   public.ecr.aws/y5z1i2v3/zhongpengqun:postgres9.6                                             "docker-entrypoint.s…"   31 seconds ago   Up 30 seconds           0.0.0.0:6432->5432/tcp, :::6432->5432/tcp                                                                                            postgresql
+```
+
+- docker-compose 只 restart 某个 service, 比如只改了项目的业务逻辑代码，想只restart这部分的某个service
+    - $ docker-compose restart websvc
