@@ -180,7 +180,7 @@ https://www.youtube.com/watch?v=PY9Ws-7SaDg
 Don't Be a Sucker
 https://www.youtube.com/watch?v=vGAqYNFQdZ4
 
-景德镇：笔筒，茶杯（大，小，带柄的，茶罐，食物罐），饭碗， 烟灰缸
+景德镇：笔筒，茶杯（大，小，带柄的，茶罐，食物罐），饭碗， 烟灰缸, 装菜的盆
 
 机箱，炼丹炉
 
@@ -226,3 +226,54 @@ https://www.bilibili.com/video/BV1Qs41127EJ/?spm_id_from=333.788.recommend_more_
 AI根据文字生成图片
 
 ba tie wei xiu
+https://www.youtube.com/watch?v=qEP-AF3PrSg
+
+你他妈这样玩是吧？
+逆变器
+AI根据文字生成图片
+
+老弟我是那种不听劝的人吗？
+
+菜床，蔬菜脱水
+  - 【如何保存蔬菜】不腌制,不加防腐剂,能存放大半年依然味道好,菜园的菜吃不完，保存有妙招 How to preserve vegetables
+    - https://www.youtube.com/watch?v=_gKeh_Qoj0E
+  - 
+
+用车床弄一个大蒜压碎器
+
+The best way to learn math and computer science
+  - https://brilliant.org/?utm_medium=sponsor&utm_source=youtube&utm_campaign=freedominthought_200623
+
+编程不能救中国...
+
+穷游
+
+捡石头
+
+
+小伙囤了170斤银砖，在当铺能卖多少钱？
+- https://www.bilibili.com/video/BV1xc41177Zn/?spm_id_from=333.337.search-card.all.click&vd_source=f209dde1a1d76e06b060a034f36bb756
+- 这是原始视频是哪的？
+
+
+Nietzsche: Pain creates a “Higher Health”
+- https://www.youtube.com/watch?v=fB1Zr1GcH4M
+
+
+教师资格考试
+  - 普通话考试
+  - 年满18岁，未退休即可，但是教师编制是有年龄限制的，一般35
+
+
+wacom: Video Tutorial: macOS driver installation
+https://support.wacom.com/hc/en-us/articles/4406605870999-Video-Tutorial-macOS-driver-installation
+
+
+鑫源650
+
+
+如何自己种菊花
+
+The World Of Hackers | Political Documentary | Counterculture | Hacking
+https://www.youtube.com/watch?v=9DgMPFkZmPY
+

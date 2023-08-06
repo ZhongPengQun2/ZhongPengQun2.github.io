@@ -58,6 +58,19 @@ below are my notes of this video tutorial.
 
 - 链接器 ld
 - ldd
+```shell
+$ ldd /tmp/git/libexec/git-core/git-remote-https
+ linux-vdso.so.1 (0x00007fff99f66000)
+ libcurl.so.4 => not found
+ libexpat.so.1 => not found
+ libz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x00007f50b1a32000)
+ libpthread.so.0 => /lib/x86_64-linux-gnu/libpthread.so.0 (0x00007f50b1813000)
+ librt.so.1 => /lib/x86_64-linux-gnu/librt.so.1 (0x00007f50b160b000)
+ libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f50b121a000)
+ /lib64/ld-linux-x86-64.so.2 (0x00007f50b1c4f000)
+```
+  - You can run the `ldd --version` command to check your GLIBC version.
+
 - ldconfig
 
 - https://www.cnblogs.com/god-of-death/p/12767113.html

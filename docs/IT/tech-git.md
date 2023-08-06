@@ -36,6 +36,11 @@ $ git branch --merged vt2
 ### Git
 - Git
     - git submodule [Chinese: https://www.youtube.com/watch?v=jhl7ruTPV-o]
+      - git submodule update --init
+      - git submodule add
+        - 
+      - remove submodule ?
+        - rm -r <dir-path>, then git commit
     - Git branch strategy
 
 
@@ -130,6 +135,14 @@ vzhongPG3QC:osstpclients vzhong$ git branch -r --merged
 ```
 
 - gitlab squash
+  - In gitlab, Squash multi commits as one, in this case, what the comment will be like ?
+  - git squash
+    - https://stackoverflow.com/questions/5189560/how-do-i-squash-my-last-n-commits-together
+      - 亲测有效
+      ```shell
+      git reset --soft HEAD~2
+      git commit
+      ```
 - fast-forward
 - git revert
 
@@ -142,12 +155,10 @@ vzhongPG3QC:osstpclients vzhong$ git branch -r --merged
   - 只针对当前分支，只会拉当前的分支，这种东西一次性更新所有分支，万一有冲突，够你吃一壶。所以基本都是只更新当前分支
     - 你说的不准确，是同步所有的远程分支到本地，只不过只对当前分支进行merge
 
-- How to squash multi commits as one ? when MR merged, we can squash them as one so that to pretty the commit log.
-
 - git clone repo to specific path
   - 
 
-Squash multi commits as one, in this case, what the comment will be like ?
+[gitlab] Squash multi commits as one, in this case, what the comment will be like ?
 
 
 - What is a changeset in Git?
@@ -196,3 +207,45 @@ To add an exception for this directory, call:
 # git branch
 * master
 ```
+
+- git add -A  &   git add -a
+
+
+```
+$ git push origin topic/vzhong/PORSCHE-6136-Automatically-check-version-upgrade-when-osstp-load-is-executed-1
+To gitlab.eng.vmware.com:core-build/osstpclients.git
+ ! [rejected]        topic/vzhong/PORSCHE-6136-Automatically-check-version-upgrade-when-osstp-load-is-executed-1 -> topic/vzhong/PORSCHE-6136-Automatically-check-version-upgrade-when-osstp-load-is-executed-1 (non-fast-forward)
+error: failed to push some refs to 'git@gitlab.eng.vmware.com:core-build/osstpclients.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+solution:
+
+git stash save
+  - 使用场景
+    - 
+  - stash:
+    n.藏匿处；藏匿物
+    vt.存放；贮藏
+    vi.存放；藏起来
+
+
+git pull --rebase
+From: https://stackoverflow.com/questions/22532943/how-to-resolve-git-error-updates-were-rejected-because-the-tip-of-your-current
+```
+
+- How do I force "git pull" to overwrite local files?
+    ```
+    This will remove all uncommitted changes, even if staged,
+    and then pull:
+
+    git reset --hard HEAD
+    git pull
+    But any local file that's not tracked by Git will not be affected.
+    ```
+      - git reset --hard HEAD 表示回退到当前版本，HEAD指向当前版本。如果你修改了一些代码，想去除，就可以用git reset --hard HEAD一次性去除
+
+- 修改existing commit的message
+- .gitmodules

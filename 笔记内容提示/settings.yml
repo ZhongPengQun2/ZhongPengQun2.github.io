@@ -1,0 +1,11 @@
+version: '0.1'
+# Will search from these documents, item at first position takes higher priority 
+document_dirs:
+- /Users/vzhong/Documents/ZhongPengQun2.github.io/docs
+- /Users/vzhong/suoha
+# Files with these extensions will be token account in
+extensions:
+- txt
+- md
+exclude:
+- /Users/vzhong/suoha/materials/*

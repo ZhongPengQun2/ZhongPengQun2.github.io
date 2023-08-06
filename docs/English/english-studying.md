@@ -8,6 +8,7 @@
 - subsequent  /  consequent
 - mandarin   /  mandatory
 - exists、existing、existed
+  - Querying for pre-existing "pypi" packages ..."
 - succeed, success, successful, successfully
 - flag & argument
 - ??buy的过去式&bring的过去式??
@@ -41,8 +42,12 @@ stay the same for a lifetime： 终生不变
 I put a page on confluence. Let’s coordinate there.
 
 Boosters
+  - boost 加强
+  - weaken 减弱
 
 whether or not  不管是否, We will go to the zoo whether it rains or not.
+
+Tentative
 
 Prod upgrade cadence
 
@@ -80,6 +85,8 @@ Asset Owner
 
 minimal reproducible example
 
+bump up
+
 Corrective Actions
 
 Please feel free to add recipients if required.
@@ -87,6 +94,8 @@ Please feel free to add recipients if required.
 takes precedence over
 
 has 4 host outages
+
+Serializers define the API representation
 
 The code is provided as-is with no warranties.
 
@@ -100,6 +109,12 @@ Shard
 revert
 
 as for
+
+wizard
+
+a small number of
+
+To add many at once, instead use the xx
 
 VOS-3921-Add-an-arg-to-support-filter-scan-report-by-cvss-score
 
@@ -123,6 +138,8 @@ Everybody can help out with
 
 enrolled
 
+in-demand
+
 is not qualified
 
 start over
@@ -137,9 +154,15 @@ workaround
 
 seamlessly
 
+scattered
+
+I have revised the occurrence of this retro meeting once every month per the feedback. Please respond to the revised meeting invite
+
 checked in
 
 out-of-the-box
+
+即使
 
 provision
 
@@ -220,6 +243,13 @@ Migrate package endpoints that is a a lot of work, but ultimately has to be done
 
 As part of our ongoing effort to migrate data from xx to yy
 
+
+```
+This will upgrade your computer the latest version of macOS. It will quit out of all open applications. Please make sure to save your documents and data before proceeding. This installation will restart your computer and may take up to an hour to complete. If you have questions and/or concerns, please contact Oasis for support. 
+
+You have 7 deferrals remaining before the upgrade will automatically commence
+```
+
 warning which complained that both audit.User and osstp.User models are user models
 
 by means of
@@ -275,6 +305,8 @@ promotion recipients
 
 is still around
 
+quo ante
+
 Would you like to take a look and see how complex the problem is?
 
 Meanwhile, please let me know if you have any clue to track down the issue.
@@ -302,13 +334,20 @@ on the go
 
 left over
 
+transient
+
+left over
+
+If i manually check, the file is `present`
+
 This question was removed from Stack Overflow for reasons of moderation
 
 Opaque
 
 Compound
 
-Perforce, obsolete, deferring, intake
+Perforce, obsolete 过时的, deferring, intake
+  - obsolete & out of date
 
 But if u want to extend then its ur call
 但如果你想延期，那就是你的选择
@@ -395,6 +434,8 @@ respecting
 
 ATM
 
+`Permissions or other restrictions` provided by plugins may prevent this job from running on those nodes.
+
 it's up to the user
 is up to you
 
@@ -442,6 +483,11 @@ embody the ethos
 
 at once
 
+ambiguous
+俺必纠(广东)啊死
+
+controversial
+
 as per
 
 i would
@@ -454,6 +500,9 @@ My take is
 
 In addition to
 
+falls into 2 categories
+分为2类
+
 undergoing
 
 As per
@@ -461,6 +510,19 @@ As per
 along with
 
 run book
+
+Inbound Compliance Requirements
+入境合规要求
+
+be composed of
+
+along with
+
+if this requirement is indicated
+
+run book
+
+vary from
 
 hand book
 
@@ -530,6 +592,8 @@ warehouse
 
 hands-on
 
+therapy
+
 diverged
 
 hint: Pulling without specifying how to reconcile divergent branches is
@@ -544,6 +608,10 @@ hint: You can replace "git config" with "git config --global" to set a default
 hint: preference for all repositories. You can also pass --rebase, --no-rebase,
 hint: or --ff-only on the command line to override the configured default per
 hint: invocation.
+
+invocation    (向神或权威人士的)求助;祈祷;调用;启用 
+
+我之前考虑过这种情况
 
 unlikely
 
@@ -572,6 +640,8 @@ We have received a PD for this issue
 
 ETA
 
+VMware-originated open source projects
+
 plenary
 
 the plan is to go live on the 22nd
@@ -593,6 +663,22 @@ lag
 mimic
 
 underlying
+
+Five Tenets of Open Source Engineering
+开源工程的五个原则
+
+mimic
+
+commitments
+n.承诺，保证；不得不做的事；（资金、人力等的）投入，花费（commitment 的复数）
+  - Consult with OSPO before making any commitments.
+
+Delivering quality solutions
+提供优质的解决方案
+
+underlying
+
+unrivaled quality
 
 inverted
 
@@ -712,6 +798,8 @@ as a benchmark
 
 attest
 
+provide needed information
+
 monolithic architecture
 
 Rather, add name of product along with this is distributed.
@@ -804,6 +892,9 @@ without qualification
 
 more or less
 
+Why China Doesn't Identify with the West
+为什么中国不认同西方
+
 I'm applying to re-join xxx
 
 Once you get a chance please keep us posted
@@ -860,6 +951,7 @@ from scratch  从头开始
 
 This is not a mere parking, this is art
 
+ETA
 estimated time of arrival   估计的到达时间
 
 vice versa      反之亦然
@@ -1049,9 +1141,6 @@ right after
 
 TypeError: unsupported operand type(s) for &: 'str' and 'int'
 
-Below neither works
-下面两个都不起作用
-
 如果都不存在
 
 大于或等于
@@ -1127,6 +1216,14 @@ we'll try this out
 在密码到期前提示用户更改密码
 
 I was riding in the car.
+
+Prompt users to change their password before it expires
+
+This diagram shows the overall process
+
+I was riding in the car.
+
+is still evolving
 
 I ended up using something similar to the accepted answer, with minor modifications
 
@@ -1246,10 +1343,27 @@ negotiation
 借助于这个机制
 
 either or 不是…就是…
+  - either 英美发音不一样，(挨嘚), (依嘚)
+
+Below neither works
+下面两个都不起作用
 
 Could you look able to help on it on priority ?
 
+
+
 compliant & complain
+  - make your APIs compliant
+  - compliance reports
+
+inventory
+  - It provides a `comprehensive` inventory of the software elements that make up a product
+  - it is an `inventory` of the open source and third party packages distributed in a release
+  - The following commands inventory the usage for their `respective` framework
+
+Hi all, I am moving to accommodate holiday and schedule conflicts. Please let me know if this works.
+
+Please consider purchasing it today
 
 Hi all, I am moving to accommodate holiday and schedule conflicts. Please let me know if this works.
 
@@ -1291,6 +1405,10 @@ cheatsheet
 
 as of today
 
+set forth
+  - 阐述
+  - The President set forth his views in a television broadcast. 
+
 obscurely
 
 equipped with
@@ -1319,6 +1437,8 @@ in absence of: 在缺少的情况下
 
 pre-existing
 
+Apache v2 licensed packages listed in the second section
+
 Pick one square that shows two identical objects：选择一个显示两个相同对象的正方形
 
 blast
@@ -1327,6 +1447,17 @@ i'll try to get this squared away today
 
 distinct packages
 
+on the fly
+匆忙地;赶紧地
+It was all pretty much done on the fly
+那几乎都是匆忙之中完成的。 
+
+by chance
+
+differ for
+Though solutions differ for everybody in different families, what are the general principles?
+或许办法因人而异，但有哪些通用的原则我们可以参考？ 
+
 by chance
 
 proceed with
@@ -1334,6 +1465,10 @@ proceed with
 moderator: 调解人; 调停人; 仲裁人
 
 chargeback: 退款
+
+If you would rather see the exception...
+
+it is showing in the OSM Portal
 
 catastrophe 垮塌四周飞
 
@@ -1351,12 +1486,22 @@ out of compliance
 
 Mutually exclusive
 
+In summary
+
+All man pages are copyrighted by their respective authors
+
 come in handy
 
 我一直在朝着这个方向走
 I have been walking in this direction
 
 most recent
+
+Component Usage Attestation
+
+To illustrate
+
+JFrog Bintray
 
 Component Usage Attestation
 
@@ -1382,11 +1527,21 @@ respond to cyber threats
 
 The minimum set of information
 
+increase transparency and help organizations better understand the composition of their software, identify vulnerabilities, and mitigate risks
+
+directive VS instruction
+Not at all
+
+The only issue is the cost of the school?  I `estimate` it costs around  $30k USD per year.
+
+The minimum set of information
+
 It provides a comprehensive inventory of the software elements that make up a product
 
 increase transparency and help organizations better understand the composition of their software, identify vulnerabilities, and mitigate risks
 
 directive VS instruction
+  - A directive may establish policy, assign responsibilities, define objectives and delegate authority to those working in and with the authoritative figure. Instructions, on the other hand, act as guidelines. They often appear as a series of steps or stages one must complete one after the other.
 
 Looks like this targets xxx functionality
 
@@ -1394,7 +1549,7 @@ Looks like this targets xxx functionality
 
 failover
 
-Issue is still ongoing
+Issue is still `ongoing`
 
 maturity
 
@@ -1409,6 +1564,8 @@ nonetheless
 unique opportunity
 
 decommission
+
+`Bypass password validation` and create user anyway?
 
 Keep this list open for reference.
 
