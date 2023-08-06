@@ -22,6 +22,10 @@
 ### photon OS
 
 
+- bitnami
+    - 
+
+- Tanzu
 
 
 ### news

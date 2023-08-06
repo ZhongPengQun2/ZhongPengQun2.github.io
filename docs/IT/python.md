@@ -279,6 +279,8 @@ The 'enum34' package is an obsolete backport of a standard library package and i
      io.BytesIO()
      .seek(0)
     ```
+      - Python: are seek(0) and open() essentially doing the same thing?
+        - https://stackoverflow.com/questions/40143525/python-are-seek0-and-open-essentially-doing-the-same-thing
     - 用于在内存中读写二进制数据,它的作用类似于文件对象，但是数据并不是存储在磁盘上，而是存储在内存中的字节串。你可以像文件对象一样对其进行读写、查找和截断等操作。通常用来操作二进制数据，如图片、音频、视频等。也可以用于测试或者临时存储数据
       - https://blog.csdn.net/qq_41604569/article/details/129835209
         - bytes转换成字符串
