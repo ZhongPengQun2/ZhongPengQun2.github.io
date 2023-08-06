@@ -285,3 +285,5 @@ https://www.youtube.com/watch?v=GSqxR0Hq-zE
 sbom_minimum_elements_report.pdf
 https://www.ntia.doc.gov/files/ntia/publications/sbom_minimum_elements_report.pdf
 
+
+https://www.quora.com/Did-Nietzsche-have-any-dark-secrets
