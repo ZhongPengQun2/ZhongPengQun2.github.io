@@ -20,6 +20,9 @@
     docker build -t xxx .
     docker run -d xxx
     ```
+        - Build with -
+            - https://docs.docker.com/engine/reference/commandline/build/#build-with--
+
     - `docker ps` vs `docker ps -a`
 
     - docker --detach
@@ -40,10 +43,12 @@
 #### Dockerfile
     - USER
     - ARG
-    - ENTRYPOINT
     - COPY --chown
     - RUN & CMD & ENTRYPOINT
+        - RUN executes commands and creates new image layers
         - CMD命令是当Docker镜像被启动后Docker容器将会默认执行的命令。一个Dockerfile仅仅最后一个CMD起作用
+            - However CMD can be replaced by docker run command line parameters.
+        - ENTRYPOINT configures the command to run when the container starts, similar to CMD from a functionality perspective
     - `$PATH`
     - `ENV PYTHONIOENCODING UTF-8`
 
@@ -527,3 +532,5 @@ c3a63f84aaa5   public.ecr.aws/y5z1i2v3/zhongpengqun:postgres9.6                 
 
 - docker-compose 只 restart 某个 service, 比如只改了项目的业务逻辑代码，想只restart这部分的某个service
     - $ docker-compose restart websvc
+
+

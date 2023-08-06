@@ -335,6 +335,7 @@ https://www.cnblogs.com/gengxiaonuo/p/16840026.html
       So, argument `--path` & `--folder` must pass one, and not allowed pass two simultaneously.
       ```
     - argparse nargs='+'
+    - nargs='*'
     - action='store'
     ```shell
     在action='store'中提到：选项名成为了解析结果对象的成员，而选项对应的值则成了成员的值，所以如果我们需要获取解析后的结果，直接使用解析结果的成员值就好了

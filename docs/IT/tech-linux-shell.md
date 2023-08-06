@@ -250,3 +250,7 @@ bash有[[, 但是sh没有该语法
 - jq
 	- $ echo '{"foo": "bar"}' | jq -r '.foo'
 		bar
+
+- shell函数返回值赋值给变量
+
+- local 关键字

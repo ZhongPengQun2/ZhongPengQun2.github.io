@@ -1549,6 +1549,8 @@ Looks like this targets xxx functionality
 
 failover
 
+As an aside
+
 Issue is still `ongoing`
 
 maturity
@@ -1623,7 +1625,7 @@ https://www.quora.com/Did-Nietzsche-have-any-dark-secrets
 - 作用域
 - 关注国际新闻
   - keep trace of
-
+- 只适用于
 ## Culture-independent
 - 时间
   - 持续地

@@ -455,6 +455,8 @@ Expanding the usefulness of the serializers is something that we would like to a
 
 - iterator
 
+- from django.core.cache import caches
+
 - from_db
     - Official doc: https://docs.djangoproject.com/en/4.1/ref/models/instances/#customizing-model-loading
     - 该方法什么时候被调用？每次query是都会被调用吗？
@@ -646,3 +648,7 @@ except Exception as e:
 
 - python mock a function raise an Exception
   - https://stackoverflow.com/questions/28305406/mocking-a-function-to-raise-an-exception-to-test-an-except-block
+
+- __import__
+
+- sys.modules

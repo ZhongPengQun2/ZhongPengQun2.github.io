@@ -143,3 +143,19 @@ fluentdconfig.logs.vdp.vmware.com/fluentd-config created
 so how to access file /srv/src/xx/cc.tar from URL
 /a/b/cc.tar   or  /b/cc.tar  ?
 ``` 
+    - root VS alias
+        - root 是拼接起来
+        ```
+            location /lxx {
+                root /etc/nginx/conf.d;
+            }
+
+            http://10.79.128.26:9998/lxx/vz.txt
+            open() "/etc/nginx/conf.d/lxx/vz.txt" failed (2: No such file or directory)
+        ```
+        - alias 则是替换
+            - open() "/etc/nginx/conf.d/vz.txt" failed (2: No such file or directory
+
+```
+2023/07/23 08:01:29 [error] 785#785: *1 open() "/etc/nginx/html/l/vz.txt" failed (2: No such file or directory), client: 10.111.0.201, server: localhost, request: "GET /l/vz.txt HTTP/1.1", host: "10.79.128.26:9998"
+```
