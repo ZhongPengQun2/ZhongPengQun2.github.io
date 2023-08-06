@@ -1679,13 +1679,10 @@ https://www.quora.com/Did-Nietzsche-have-any-dark-secrets
 - 作用域
 - 关注国际新闻
   - keep trace of
-<<<<<<< HEAD
 - 只适用于
-=======
 - 你在跑这个命令的时候设置了这个参数吗
   - Did you set this parameter when running this command
 
->>>>>>> f67bc32f43659f496a19b3c847153639b2be1a37
 ## Culture-independent
 - 时间
   - 持续地
