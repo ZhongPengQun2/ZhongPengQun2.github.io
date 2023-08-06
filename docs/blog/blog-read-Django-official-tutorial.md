@@ -76,9 +76,12 @@ Security is a topic of `paramount` importance in the development of web applicat
 				- solely
 					- adv 唯一地;仅;只;唯;单独地
 					- solely VS merely
+<<<<<<< HEAD
+=======
 
 the `outer` directory, its name doesn't matter to Djanog
 	- the `inner` directory
 
 
 This feature is meant as a shortcut, not as `definitive` model generation.
+>>>>>>> bfbea71116a617afc42a1a99131af8bd98f60e6a

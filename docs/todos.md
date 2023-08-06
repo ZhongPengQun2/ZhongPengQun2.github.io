@@ -223,6 +223,9 @@ https://www.bilibili.com/video/BV1Qs41127EJ/?spm_id_from=333.788.recommend_more_
 
 自酿酒
 
+AI根据文字生成图片
+
+ba tie wei xiu
 https://www.youtube.com/watch?v=qEP-AF3PrSg
 
 你他妈这样玩是吧？
