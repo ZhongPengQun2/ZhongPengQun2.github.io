@@ -646,3 +646,21 @@ except Exception as e:
 
 - python mock a function raise an Exception
   - https://stackoverflow.com/questions/28305406/mocking-a-function-to-raise-an-exception-to-test-an-except-block
+
+@receiver(package_updated, dispatch_uid="hello")
+def hello(**kwargs):
+  - https://docs.djangoproject.com/en/4.2/topics/signals/#preventing-duplicate-signals
+    - A unique identifier for a signal receiver in cases where duplicate signals may be sent.
+  
+- 使用VS Code调试Python程序
+  - https://www.youtube.com/watch?v=0peiVKd37wI
+  - https://blog.csdn.net/Kefenggewu_/article/details/124158946
+
+- pdb;pdb.set_trace()
+  - GDB是GNU项目中的一个强大的调试工具，它可以用于调试多种程序语言，如C、C++、汇编等语言。在程序出现问题的时候，通过GDB可以帮助我们定位并解决这些问题。在Python中，通常使用CPython来解释执行Python代码，因此GDB也可以用来调试Python程序
+  
+- os.path.sep
+  - 该os下的分隔符
+
+django.db models.Manager
+

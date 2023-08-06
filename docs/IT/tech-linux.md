@@ -109,8 +109,6 @@ make: *** [install] Error 2
 Inconsistency detected by ld.so: dl-call-libc-early-init.c: 37: _dl_call_libc_early_init: Assertion `sym != NULL' failed!
 ```
 
-- echo $?
-
 - OS
   - Lock
   - linux cpio

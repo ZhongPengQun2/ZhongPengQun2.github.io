@@ -274,3 +274,11 @@ https://support.wacom.com/hc/en-us/articles/4406605870999-Video-Tutorial-macOS-d
 The World Of Hackers | Political Documentary | Counterculture | Hacking
 https://www.youtube.com/watch?v=9DgMPFkZmPY
 
+
+k0s vs k3s - Which is best for home lab?
+https://www.youtube.com/watch?v=GSqxR0Hq-zE
+
+
+sbom_minimum_elements_report.pdf
+https://www.ntia.doc.gov/files/ntia/publications/sbom_minimum_elements_report.pdf
+

@@ -143,3 +143,5 @@ fluentdconfig.logs.vdp.vmware.com/fluentd-config created
 so how to access file /srv/src/xx/cc.tar from URL
 /a/b/cc.tar   or  /b/cc.tar  ?
 ``` 
+    - NGINX Alias vs Root
+        - 

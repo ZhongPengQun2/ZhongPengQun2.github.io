@@ -17,8 +17,11 @@
         - `docker stop $(docker ps -aq)`
     - run container from dockerfile
     ```shell
-    docker build -t xxx .
+    docker build -t xxx .  
     docker run -d xxx
+
+    # ↓ docker build from file
+    docker build - < Dockerfile
     ```
     - `docker ps` vs `docker ps -a`
 
@@ -29,7 +32,7 @@
     - 如果pg_restore一个db.dump到docker container中，如果这个container stop了，这个数据库的内容是否也消失了?
     - `Sending build context to Docker daemon  26.44GB`
         - 考虑当前目录下是否有大文件
-
+        - 
     - 实现docker run mycmd, 然后mycmd可以在host上执行，这样的dockerfile怎么写？
     - /var/lib/docker/containers
     - container的log保存在container内部的什么位置?是否保存在container的内部？
@@ -259,6 +262,9 @@ secrets:
     host_ssh_key:
         file: ~/.ssh/id_rsa
 ```
+
+- docker-compose run --rm --entrypoint 
+
 
 # docker-compose up -d
 [+] Running 0/0
@@ -527,3 +533,4 @@ c3a63f84aaa5   public.ecr.aws/y5z1i2v3/zhongpengqun:postgres9.6                 
 
 - docker-compose 只 restart 某个 service, 比如只改了项目的业务逻辑代码，想只restart这部分的某个service
     - $ docker-compose restart websvc
+

@@ -26,6 +26,23 @@ $ git pull
 $ git branch --merged vt2
 ```
 
+https://stackoverflow.com/questions/29007821/git-checkout-all-the-files
+  - `git checkout -- .`
+  - `git reset --hard`
+
+```
+$ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> topic/vzhong/PORSCHE-6163-Update-OSM-client-download-link-to-download-latest-version-on-NFS-mount
+```
+
 - head
     - 查看当前head
     - git checkout 到一个新的branch，但是head却是原来的，是这样的吗？
@@ -182,6 +199,7 @@ https://stackoverflow.com/questions/10641361/get-all-files-that-have-been-modifi
 
 $ git diff 66c264a2851cd56c8f2b5ae9b62fee801be145ad
 
+- git index
 
 - git squash commits into one
   - 
@@ -247,5 +265,25 @@ From: https://stackoverflow.com/questions/22532943/how-to-resolve-git-error-upda
     ```
       - git reset --hard HEAD 表示回退到当前版本，HEAD指向当前版本。如果你修改了一些代码，想去除，就可以用git reset --hard HEAD一次性去除
 
-- 修改existing commit的message
+- 将2个不连续的commit合并
+  - 亲测有效 https://blog.csdn.net/qq_29518275/article/details/122052289
+
+- 修改 commit的message
+  - latest commit
+    - git commit --amend
+  - 任意一个commit
+    - 用一个土办法，随意new 一个 commit, 然后根据'将2个不连续的commit合并': https://blog.csdn.net/qq_29518275/article/details/122052289 去改动特定的commit的message
+
 - .gitmodules
+
+
+
+
+- how to check if a file is git ignored [duplicate]
+  - git status 就行了
+
+- Exporting a software bill of materials for your repository
+  - https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/exporting-a-software-bill-of-materials-for-your-repository
+  - SBOM与SPDX的关系
+    - sbom
+      - https://zhuanlan.zhihu.com/p/595187798
