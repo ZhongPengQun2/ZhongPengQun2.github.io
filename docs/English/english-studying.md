@@ -112,6 +112,8 @@ as for
 
 wizard
 
+It's not goodbye, it's see you later alligator
+
 a small number of
 
 To add many at once, instead use the xx
@@ -191,6 +193,15 @@ The implication here is that
 
 pervasive
 
+a `sophomore` from Shanghai University
+
+strive to
+
+There are required fields to target the package request, and optional fields to configure it.
+
+deal with & handle
+  - 
+
 URL must be `percent-encoded` if it contains one or more special characters.
 
 stroke
@@ -200,6 +211,8 @@ you should see the summary view as depicted bellow
 consists in
 
 pivotal
+
+vote up  & vote down
 
 The workspace was wiped out and no build has been done `since then`
 
@@ -212,6 +225,8 @@ it will be provisioned upon manager approval
 consolidation
 
 infected
+
+inferring that
 
 intended
 
@@ -254,7 +269,14 @@ warning which complained that both audit.User and osstp.User models are user mod
 
 by means of
 
+First and foremost we are a community dedicated to solving the issues and problems around Open Source licensing compliance.
+
 Attestation
+
+In 2013, the SPDX community conducted a survey of organizations and people to see what they thought as well. The results of this survey were that most people/organizations polled believe this to be important/very important.
+
+WHY JOIN THE LINUX FOUNDATION
+Forge the future of open source
 
 Third-Party Component Usage Attestation
 
@@ -299,6 +321,10 @@ The two jobs are related to one-another `by means of` passed  constraint.
 
 or point 3 we initially decided to move to latest Django 2 release, so Vincent can leverage the SSO library that he needs
 
+NOT prompt the user for input of any kind
+
+in few days
+
 we initially decided to
 
 promotion recipients
@@ -319,7 +345,27 @@ compensating
 
 Thanks, nonetheless.
 
+permissive license
+
 If this is the case, be careful not to end up with two different instances of the same file when making changes
+
+require further refining
+
+discrepancies
+
+suspicion
+
+assertion
+
+incantation
+
+Hydrate
+
+initial thought
+
+To elaborate a bit further
+
+interoperable
 
 In order to deal with this situation
 
@@ -937,8 +983,6 @@ inadvertent
 
 trim
 
-Fostering Inclusive Communities
-
 all XXX originated tickets
 
 I got knocked out of Grafana admin account
@@ -986,17 +1030,23 @@ error-prone
 
 periodic
 
-Fostering
-
 norms
 
 out of the question
 
 counterpart   副本(法律)
 
+first acquaint yourself with
+
+xx values open source collaboration
+
+Fostering Inclusive Communities
+
 acquaint yourself with 
 
 out of personal interest
+
+in reference to
 
 incorporate
 
@@ -1529,6 +1579,12 @@ The minimum set of information
 
 increase transparency and help organizations better understand the composition of their software, identify vulnerabilities, and mitigate risks
 
+Mitigate xxx issue
+
+increased
+
+as they can use it to orchestrate complex workflows.
+
 directive VS instruction
 Not at all
 
@@ -1537,8 +1593,6 @@ The only issue is the cost of the school?  I `estimate` it costs around  $30k US
 The minimum set of information
 
 It provides a comprehensive inventory of the software elements that make up a product
-
-increase transparency and help organizations better understand the composition of their software, identify vulnerabilities, and mitigate risks
 
 directive VS instruction
   - A directive may establish policy, assign responsibilities, define objectives and delegate authority to those working in and with the authoritative figure. Instructions, on the other hand, act as guidelines. They often appear as a series of steps or stages one must complete one after the other.
@@ -1625,7 +1679,13 @@ https://www.quora.com/Did-Nietzsche-have-any-dark-secrets
 - 作用域
 - 关注国际新闻
   - keep trace of
+<<<<<<< HEAD
 - 只适用于
+=======
+- 你在跑这个命令的时候设置了这个参数吗
+  - Did you set this parameter when running this command
+
+>>>>>>> f67bc32f43659f496a19b3c847153639b2be1a37
 ## Culture-independent
 - 时间
   - 持续地

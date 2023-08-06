@@ -159,3 +159,5 @@ so how to access file /srv/src/xx/cc.tar from URL
 ```
 2023/07/23 08:01:29 [error] 785#785: *1 open() "/etc/nginx/html/l/vz.txt" failed (2: No such file or directory), client: 10.111.0.201, server: localhost, request: "GET /l/vz.txt HTTP/1.1", host: "10.79.128.26:9998"
 ```
+    - NGINX Alias vs Root
+        - 

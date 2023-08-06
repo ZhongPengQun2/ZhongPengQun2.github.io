@@ -58,6 +58,8 @@ Shell 中的 `:=` ?
 
 make all
 
+shell中的段落注释
+
 ```shell
 ldconfig
 ```
@@ -214,6 +216,20 @@ $ git branch | grep -vw '$mm1\|$mm2'
 - lsof
 	- lsof 没任何显示，或没有期望的显示，也有可能是没用sudo
 
+- kill all processes from lsof
+	- sudo lsof -i:9998 | awk 'FNR >= 2 {print $2}' |xargs sudo kill -9 $1
+
+```
+$ sudo lsof -i:9998 | awk '{print $2}'
+PID
+476530
+476537
+
+$ sudo lsof -i:9998 | awk 'FNR >= 2 {print $2}'
+476530
+476537
+```
+
 有没有这样的工具，比如我在一个shell文件里输入 cp -, 然后会有参数提示 ？
 
 - sed
@@ -254,3 +270,10 @@ bash有[[, 但是sh没有该语法
 - shell函数返回值赋值给变量
 
 - local 关键字
+- 如何在一个shell文件中把一个长的command拆解成多段，以方便阅读
+	- 
+
+How to Use the ts Command to Add Timestamps to Output
+	- https://levelup.gitconnected.com/how-to-use-the-ts-command-to-add-timestamps-to-output-686c92ef6124#:~:text=The%20ts%20command%20is%20a,timestamps%20according%20to%20their%20needs.
+		- standard streams (stdin, stdout, and stderr), pipes, and redirection in Linux
+		- `sudo apt-get install moreutils`
