@@ -670,3 +670,7 @@ def hello(**kwargs):
   - 该os下的分隔符
 
 django.db models.Manager
+
+
+#### Celery
+- xxx.delay(x, on_demand=True)

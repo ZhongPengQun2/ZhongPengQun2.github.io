@@ -287,3 +287,10 @@ https://www.ntia.doc.gov/files/ntia/publications/sbom_minimum_elements_report.pd
 
 
 https://www.quora.com/Did-Nietzsche-have-any-dark-secrets
+
+
+行為藝術之父中國首展！數億人曾為他的愛情落淚 The first exhibition of the father of performance art in Aisa
+https://www.youtube.com/watch?v=QtJQgM_JboM
+
+python代码提示有库吗？像pycharm那种点击一个方法然后进入
+

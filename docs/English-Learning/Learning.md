@@ -454,6 +454,7 @@
   - 受限制的
 - renewal
   - 恢复;更新;重新开始;(对合同等的)有效期延长，展期，续订;改进;复兴;振兴 
+    - 续费
 - This website is unrelated to Apple Inc
 All trademarks and copyrights on this website are property of their respective owners.
 - Reap finished successfully
@@ -1168,7 +1169,9 @@ Though solutions differ for everybody in different families, what are the genera
 
 184. in addition to 除...之外(还)
 
-185. in advance 预先，事先
+- in advance
+  - 预先，事先
+  - thanks in advance
 
 186. in all 总共，合计
 
@@ -1518,6 +1521,7 @@ This was in reference to the ongoing and violent dispute between Azerbaijan and 
 - 它的作用是...
 - 我粗略地估算了一下
 - 掌握一门外语
+- 帮我买瓶水
 - 必须同时满足以下几个条件
   - 
 - 遵循这样的格式

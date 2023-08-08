@@ -127,7 +127,11 @@ Inconsistency detected by ld.so: dl-call-libc-early-init.c: 37: _dl_call_libc_ea
 
 - xrdb
 - build-essential
-- ttyd
+
+- tty
+	- ttyd
+
+
 
 ### Alpine Linux
 
