@@ -1188,6 +1188,7 @@ Though solutions differ for everybody in different families, what are the genera
 
 - in general
   - 一般来说，大体上
+197. in general 一般来说，大体上
 
 204. in line with 与...一致
 
@@ -1256,6 +1257,9 @@ Though solutions differ for everybody in different families, what are the genera
 
 - in vain
   - 徒劳，白费力
+244. in turn 依次，轮流；转而
+
+245. in vain 徒劳，白费力
 
 246. instead of 代替，而不是
 
