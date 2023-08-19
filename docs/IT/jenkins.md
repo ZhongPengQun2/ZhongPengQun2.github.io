@@ -99,6 +99,10 @@
         - x
 
 - Plugin: `build with parameter`
+    - 
+
+- `This project is parameterized`
+    - x
 
 - builtin varible `$gitlabBranch` vs `$gitlabSourceBranch`
 

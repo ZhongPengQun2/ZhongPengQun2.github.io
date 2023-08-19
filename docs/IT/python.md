@@ -444,6 +444,8 @@ Expanding the usefulness of the serializers is something that we would like to a
 
 ```
 
+- Django: Query using contains each value in a list
+  - https://stackoverflow.com/questions/4824759/django-query-using-contains-each-value-in-a-list
 
 - migration file, elidable=True
 

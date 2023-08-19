@@ -154,6 +154,7 @@
   - 维持原状
 - Would you like to take a look and see how complex the problem is?
 - Meanwhile, please let me know if you have any clue to track down the issue.
+- At the meanwhile
 - We’ll be discussing on the Phase 2 approach, but I doubt there’ll be time for that till next week.
 - most likely
 - compensating
@@ -339,7 +340,11 @@
 - invocation
   - (向神或权威人士的)求助;祈祷;调用;启用 
 - unlikely
+- be vetted by
+  - 由审查
 - tumbled
+- be informed about this project
+- This description must be adequate to convey...
 - derived, derived from
   - derived from
     - 来源于
@@ -351,6 +356,7 @@
 - can be used to both create the xxx packages and report their usage against the kk tool in the XX system
   - 百度翻译：可用于创建xxx软件包，并根据XX系统中的kk tool报告其使用情况
 - replication
+- to replicate the build
 - ripple
 - Canonical
   - adj. 典型的;经典的;(数学表达式)最简洁的;被收入真经篇目的;按照基督教会教规的
@@ -408,6 +414,8 @@
   - 充分发挥其潜力
 - prompt
 - cipher
+- cohesive
+- on hold
 - so in theory you could download ....
 - omit
   - v. 省去，遗漏；不做，未能做
@@ -489,6 +497,8 @@ All trademarks and copyrights on this website are property of their respective o
   - n 差异;不符合;不一致
 - right-most
   - 最右边
+- out of the way
+  - 我只想解决一个潜在的问题
 - You will land on configuration page
 - I have 10 years of diverse experience in software development
 - cut-off
@@ -530,6 +540,7 @@ All trademarks and copyrights on this website are property of their respective o
 - revision
 - inadvertent
 - trim
+  - Trim the string
 - all XXX originated tickets
 - I got knocked out of Grafana admin account
 - I've managed to reproduce it
@@ -587,6 +598,8 @@ All trademarks and copyrights on this website are property of their respective o
 - out of curiosity
   - 出于好奇
 - across
+- I’ll need to defer to someone on our tech team in Shanghai
+  - 我需要听从我们上海技术团队的人的意见
 - timely updates
 - should fulfill the needs of Dashboard scan capability
 - Informative
@@ -714,15 +727,20 @@ All trademarks and copyrights on this website are property of their respective o
   - 永恒的
 - on-demand
 - specifically
+- misconception
+- unified
 - we'll try this out
   - 我们试试这个
 - I was riding in the car.
+- dos not guarantee the correctness
 - Prompt users to change their password before it expires
 - This diagram shows the overall process
 - I was riding in the car.
 - is still evolving
 - I ended up using something similar to the accepted answer, with minor modifications
 - ought to
+- had no tick
+- You're sorted now
 - with no guarantees whatsoever
 - Error: No such executable `in place` for x86_64
 - in some other fashion
@@ -736,6 +754,7 @@ All trademarks and copyrights on this website are property of their respective o
 - It’s better to avoid the use of LD_LIBRARY_PATH and use alternatives
 - configure: error: changes in the environment can compromise the build
 - Accreditation
+- which licenses govern this project?
 - foreseeable
 - distraction
 - maybe something wrong with the URL concatenation
@@ -834,6 +853,7 @@ All trademarks and copyrights on this website are property of their respective o
   - adv. 晦涩地;费解地，晦涩地；隐匿地
 - equipped with
 - directive
+- strikethrough
 - mitigations
 - Encountered errors while bringing up the project
 - TypeError: exceptions must derive from BaseException
@@ -855,11 +875,14 @@ All trademarks and copyrights on this website are property of their respective o
 - Apache v2 licensed packages listed in the second section
 - Pick one square that shows two identical objects
   - 选择一个显示两个相同对象的正方形
+- I'm out of time to research more tonight
 - blast
   - 爆炸
+- let me summon
 - I'll try to get this squared away today
   - 我今天会设法解决这个问题
 - distinct packages
+- and we hope you take this time to focus on your wellbeing
 - on the fly
   - 匆忙地;赶紧地
   - It was all pretty much done on the fly
@@ -888,6 +911,7 @@ Though solutions differ for everybody in different families, what are the genera
 - Mutually exclusive
   - 互斥;互斥的;互相排斥;相互独立;互斥事件
 - In summary
+- We will allocate time to this issue
 - All man pages are copyrighted by their respective authors
 - come in handy
   - 派上用场
@@ -901,10 +925,12 @@ Though solutions differ for everybody in different families, what are the genera
 - free of charge
   - 免费的
 - implications 可能的影响(或作用、结果); 含意; 暗指; (被)牵连，牵涉
+- try it out
 - Orchestration
   - 管弦乐编曲
 - accompanying slides
 - Product Attestations
+- whether the version changes as the product evolves
 - accountability
   - n. 责任；有义务，有责任;（档案）保管责任
 - if any
@@ -1148,129 +1174,127 @@ Though solutions differ for everybody in different families, what are the genera
   - 为了
 - for the time being
   - 暂时，眼下
-
-171. from time to time 有时，不时地
-
-172. hand in hand 手拉手 ，密切关联
-
-173. head on 迎面地，正面的
-
-176. in a hurry 匆忙，急于
-
-178. in a moment 立刻，一会儿
-
-179. in a sense 从某种意义上说
-
-180. in a way 在某种程度上
-
-182. in accordance with 与...一致，按照
-
-183. in addition 另外，加之
-
-184. in addition to 除...之外(还)
-
+- from time to time
+  - 有时，不时地
+- hand in hand
+  - 手拉手 ，密切关联
+- head on
+  - 迎面地，正面的
+- in a hurry
+  - 匆忙，急于
+- in a moment
+  - 立刻，一会儿
+- in a sense
+  - 从某种意义上说
+- in a way
+  - 在某种程度上
+- in accordance with
+  - 与...一致，按照
+- in addition
+  - 另外，加之
+- in addition to
+  - 除...之外(还)
 - in advance
   - 预先，事先
   - thanks in advance
-
-186. in all 总共，合计
-
-187. in any case 无论如何
-
-188. in any event 无论如何
-
-189. in brief 简单地说
-
-190. in charge of 负责，总管
-
-192. in consequence(of) 因此；由于
-
-193. in debt 欠债，欠情
-
-196. in effect 实际上，事实上
-
+- in all
+  - 总共，合计
+- in any case
+  - 无论如何
+- in any event
+  - 无论如何
+- in brief
+  - 简单地说
+- in charge of
+  - 负责，总管
+- in consequence(of)
+  - 因此；由于
+- in debt
+  - 欠债，欠情
+- in effect
+  - 实际上，事实上
 - in general
   - 一般来说，大体上
-197. in general 一般来说，大体上
-
-204. in line with 与...一致
-
-205. in memory of 纪念
-
-206. in no case 决不
-
-207. in no time 立即，马上
-
-208. in no way 决不
-
-209. in order 按顺序，按次序
-
-211. in part 部分地
-
-213. in person 亲自，本人
-
-214. in place 在合适的位置
-
-215. in place of 代替，取代，交换
-
-217. in proportion to 与...成比例
-
-219. in quantity 大量
-
-222. in relation to 关于，涉及
-
-223. in return 作为报答/回报/交换
-
-224. in return for 作为对...的报答
-
-226. in sight 被见到；在望
-
-227. in spite of 尽管
-
-228. in step 齐步，合拍
-
-229. in step with 与...一致/协调
-
-230. in tears 流着泪，在哭着
-
-231. in the course of 在...期间/过程中
-
-232. in the distance 在远处
-
-234. in the event of 如果...发生，万一
-
-235. in the face of 即使；在...面前
-
-236. in the first place 首先
-
-238. in the least 丝毫，一点
-
-239. in (the)light of 鉴于，由于
-
-240. in the way 挡道
-
-241. in the world 究竟，到底
-
-242. in time 及时
-
-243. in touch 联系，接触
-
+- in general
+  - 一般来说，大体上
+- in line with
+  - 与...一致
+- in memory of
+  - 纪念
+- in no case
+  - 决不
+- in no time
+  - 立即，马上
+- in no way
+  - 决不
+- in order
+  - 按顺序，按次序
+- in part
+  - 部分地
+- in person
+  - 亲自，本人
+- in place
+  - 在合适的位置
+- in place of
+  - 代替，取代，交换
+- in proportion to
+  - 与...成比例
+- in quantity
+  - 大量
+- in relation to
+  - 关于，涉及
+- in return
+  - 作为报答/回报/交换
+- in return for
+  - 作为对...的报答
+- in sight
+  - 被见到；在望
+- in spite of
+  - 尽管
+- in step
+  - 齐步，合拍
+- in step with
+  - 与...一致/协调
+- in tears
+  - 流着泪，在哭着
+- in the course of
+  - 在...期间/过程中
+- in the distance
+  - 在远处
+- in the event of
+  - 如果...发生，万一
+- in the face of
+  - 即使；在...面前
+- in the first place
+  - 首先
+- in the least
+  - 丝毫，一点
+- in (the)light of
+  - 鉴于，由于
+- in the way
+  - 挡道
+- in the world
+  - 究竟，到底
+- in time
+  - 及时
+- in touch
+  - 联系，接触
 - in turn
   - 依次，轮流；转而
-
 - in vain
   - 徒劳，白费力
-244. in turn 依次，轮流；转而
-
-245. in vain 徒劳，白费力
-
-246. instead of 代替，而不是
-
-247. just now 眼下；刚才
-
-248. little by little 逐渐地
-
-252. next door 隔壁的，在隔壁
+- in turn
+  - 依次，轮流；转而
+- in vain
+  - 徒劳，白费力
+- instead of
+  - 代替，而不是
+- just now
+  - 眼下；刚才
+- little by little
+  - 逐渐地
+- next door
+  - 隔壁的，在隔壁
 
 253. no doubt 无疑地
 
@@ -1522,6 +1546,8 @@ This was in reference to the ongoing and violent dispute between Azerbaijan and 
 - 我粗略地估算了一下
 - 掌握一门外语
 - 帮我买瓶水
+- 不需要的
+  - [计算机] undesired
 - 必须同时满足以下几个条件
   - 
 - 遵循这样的格式
@@ -1542,6 +1568,7 @@ This was in reference to the ongoing and violent dispute between Azerbaijan and 
   - I have been walking in this direction
 - 我会到处乱说？
 - 更何况
+- 特殊字符
 
 #### 尴尬
 - How to say `i hope you had a great PTO` ?
@@ -1644,3 +1671,6 @@ error: This revision of snap "helm" was published using classic confinement and 
        which may put your system at risk.
        If you understand and want to proceed repeat the command including --classic.
 ```
+
+
+

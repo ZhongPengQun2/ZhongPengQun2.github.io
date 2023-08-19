@@ -294,3 +294,17 @@ https://www.youtube.com/watch?v=QtJQgM_JboM
 
 python代码提示有库吗？像pycharm那种点击一个方法然后进入
 
+为什么有人说：数据库表设计永远不要使用外键？
+  - 阿里规约
+  
+巴瑶族
+
+I go to absurd tech conference.
+  - https://www.youtube.com/watch?v=xmVt8lC74ns
+
+2016年真实录像，当年的非洲“讨水男孩”，如今过的怎么样了？
+https://www.youtube.com/watch?v=mVLXGCtDAoA
+
+Mash 650cc Six Hundred Classic ★ Review & TestRide ★ - ENGLISH 💯✅
+  - https://www.youtube.com/watch?v=zkLBcj5QLls
+  - 鑫源650

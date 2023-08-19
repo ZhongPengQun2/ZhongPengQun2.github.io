@@ -64,3 +64,44 @@ differences between `helpnow` and `servicedesk`
 
     - GA（General Availability）
     正式发布的版本；在国外都是用GA来说明release版本的。
+
+
+
+### Jira
+- transition
+- Is it free ?
+- How to deploy Jira use docker ?
+```shell
+docker run --detach --publish 8080:8080 cptactionhank/atlassian-jira:latest
+```
+
+
+### Jfrog
+- Installation
+helm upgrade --install artifactory --namespace cicd-lab center/jfrog/artifactory
+
+Release "artifactory" does not exist. Installing it now.
+Error: repo center not found
+
+s:
+
+- trial edition
+https://nonezhong.jfrog.io/ui/repos/tree/General/docker
+
+
+### kerberos
+- https://www.youtube.com/watch?v=5N242XcKAsM
+
+
+### harbor
+https://www.cnblogs.com/gengxiaonuo/p/16840026.html
+
+
+
+### minio
+- 参考文章
+	- https://devopsman.cn/archives/minio-de-ying-yong-chang-jing
+- Minio的使用场景？
+- Minio中有哪些概念？
+	- bucket
+	- set
