@@ -28,6 +28,10 @@ todo
 - 圆子(YuanZi)
 todo
 
+##### 记某段时间，与基督徒的短暂接触
+
+
+
 ##### 2022-6-15
 At XinYu sport gym, played basketball with strangers, one is an old man, i guess about 60 years.
 What surprised me is that after playing, someone are going home, someone are still shooting on the playground, as well as the old man , i sat on the 

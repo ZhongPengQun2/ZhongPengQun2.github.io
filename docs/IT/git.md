@@ -153,6 +153,7 @@ vzhongPG3QC:osstpclients vzhong$ git branch -r --merged
 
 - gitlab squash
   - In gitlab, Squash multi commits as one, in this case, what the comment will be like ?
+    - as my experience, the new commit's title is MR's title.
   - git squash
     - https://stackoverflow.com/questions/5189560/how-do-i-squash-my-last-n-commits-together
       - 亲测有效

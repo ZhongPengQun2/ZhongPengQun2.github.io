@@ -407,7 +407,6 @@ bash有[[, 但是sh没有该语法
 			- Usually, the mount point is a dedicated directory for mounting purposes, but users can use any directory as a mount point, including directories containing files and subdirectories
 			- Normally, the default mount points in Linux are /media, /mnt, /usb and /media/mnt, but users can mount devices in any directory.
 
-
 - jq
 	- $ echo '{"foo": "bar"}' | jq -r '.foo'
 		bar
@@ -424,3 +423,14 @@ How to Use the ts Command to Add Timestamps to Output
 		- `sudo apt-get install moreutils`
 
 - zip all files which has no extension
+
+- shell set variable from function return value
+	- https://stackoverflow.com/questions/12919486/assign-the-returned-value-of-a-function-to-a-variable-in-unix-shell-script
+		- The value returned by the function is stored in $?
+			- only can return integer
+
+- How to Extract Tar Files to Specific or Different Directory in Linux
+	- tar -xf file_name.tar.gz --directory /target/directory
+
+- strip quotes
+	- file_name=$(echo "$_file_name" | tr -d '"')

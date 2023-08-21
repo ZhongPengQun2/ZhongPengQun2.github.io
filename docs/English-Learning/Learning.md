@@ -184,6 +184,9 @@
   - 十分活跃;忙个没完
 - left over
   - 留下;展期
+- presume
+  - v. 推定;假定;假设;设想;设定;妄行
+  - 与 assume 的区别 ？
 - transient
   - adj.短暂的;临时的;转瞬即逝的;暂住的;过往的;倏忽
   - n.临时工;过往旅客;暂住某地的人
@@ -520,7 +523,13 @@ All trademarks and copyrights on this website are property of their respective o
     - adj.复杂的;详尽的;精心制作的
     - v.精心制作;详细描述;详尽阐述;详细制订
 - I will priority this task
+- Was presumably entered that way to save the engineer from entering in a new ticket for every minor version bump of this driver.
+  - 大概是为了避免工程师为这个驱动的每一次小版本碰撞都输入一张新的罚单。
+  - minor version bump
+  - presumably
+    - adv. 很可能;大概;想必是
 - take some significant time
+- liaison
 - redact
   - 编辑;编校;编写;拟订
 - in favor of

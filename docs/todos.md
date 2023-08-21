@@ -308,3 +308,11 @@ https://www.youtube.com/watch?v=mVLXGCtDAoA
 Mash 650cc Six Hundred Classic ★ Review & TestRide ★ - ENGLISH 💯✅
   - https://www.youtube.com/watch?v=zkLBcj5QLls
   - 鑫源650
+
+- 形式开启质料
+
+- 像艺术家一样去利用自己的弱点
+
+- 给我一个支点，我可以撬动整个地球
+
+- 同质异构

@@ -192,4 +192,5 @@ Finished: FAILURE
         - 还能trigger！
 
 
-    
+- `Inject environment variables to the build process` VS `This project is parameterised`
+    - 
