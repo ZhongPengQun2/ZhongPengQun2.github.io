@@ -26,6 +26,7 @@
 - elide
 - Virus scanning result: Infected
 - manipulate
+  - Utility to manipulate Kubernetes YAML files
 - Symptom
 - with a few minor additions
   - 加上一些小的补充
@@ -1648,6 +1649,10 @@ This was in reference to the ongoing and violent dispute between Azerbaijan and 
 - 更何况
 - 特殊字符
 - Jacob 在推特上写道：“Heroku 就像是一个失落的文明。美丽、不朽，但却没有未来可言。”
+
+#### 这就叫专业
+- DNS解析失败
+
 
 #### 尴尬
 - How to say `i hope you had a great PTO` ?

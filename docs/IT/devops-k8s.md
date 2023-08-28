@@ -444,7 +444,6 @@ kibana-kibana-77656d9cdd-xt4m2   0/1     Running       0          6h50m
   accessModes:
     - ReadWriteMany  # the volume can be mounted as read-write by many nodes.
 
-
   annotations:
     external-dns.alpha.kubernetes.io/hostname:
 ```
@@ -474,3 +473,29 @@ kibana-kibana-77656d9cdd-xt4m2   0/1     Running       0          6h50m
   - how to calculate k8s namespace required resource from deployment yaml file
   - replicas: 0
   
+
+- Why Kustomize is better than Helm?
+
+```
+kustomize: cannot execute binary file: Exec format error
+可能是下载的tar与系统不兼容，换一个tar下载
+```
+
+- `kustomize edit add base`
+  - can run `kustomize edit add` to see help text
+
+- kustomize edit add secret fk --disableNameSuffixHash --from-file=./secrets/xx --from-file=./secrets/yy
+  - 
+
+- kustomize build
+
+- gitops
+
+- kyaml
+
+- --load_restrictor=none
+  - kustomize build -h
+    - if set to 'LoadRestrictionsNone', local kustomizations may load files from outside their root. This does, however, break the relocatability of the kustomization. (default "LoadRestrictionsRootOnly")
+
+- --enable_kyaml=false
+  - x
