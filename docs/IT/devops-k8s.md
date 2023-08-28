@@ -448,3 +448,29 @@ kibana-kibana-77656d9cdd-xt4m2   0/1     Running       0          6h50m
   annotations:
     external-dns.alpha.kubernetes.io/hostname:
 ```
+
+- Kubernetes 101: Pods, Nodes, Containers, and Clusters
+  - https://medium.com/google-cloud/kubernetes-101-pods-nodes-containers-and-clusters-c1509e409e16
+    - `A node is the smallest unit of computing hardware in Kubernetes.`
+    - `Pods are used as the unit of replication in Kubernetes`
+    - `Any containers in the same pod will share the same resources and local network.`
+      - `pods should remain as small as possible, typically holding only a main process and its tightly-coupled helper containers`
+
+- 同一个node上部署2个相同的pod，有必要吗，有何优势？
+  - https://stackoverflow.com/questions/69897258/advantage-of-multiple-pod-on-same-node
+
+- Kubernetes as a service
+  - k8s on-premise
+  - 本地磁盘当做 data-center
+  - https://komodor.com/learn/kubernetes/
+    - `Kubernetes can be deployed in all public clouds and also in a local data center, creating a private cloud.`
+  - What is Kubernetes multi-cluster?
+    - https://www.mirantis.com/cloud-native-concepts/getting-started-with-kubernetes/what-is-kubernetes-multi-cluster/
+      - `These clusters may be on the same physical host, on different hosts in the same data center, or even in different clouds in different countries, for a multi-cloud environment.`
+
+- Namespace resources
+  - 
+  - 如果Deployment 中的 replicas 是2，那么namespcae所需的resource会 x2 吗？
+  - how to calculate k8s namespace required resource from deployment yaml file
+  - replicas: 0
+  

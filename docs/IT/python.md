@@ -674,5 +674,12 @@ def hello(**kwargs):
 django.db models.Manager
 
 
+- pip3 install ghapi, 也会install一个fastcore，在shell中可以 import fastcore
+
 #### Celery
-- xxx.delay(x, on_demand=True)
+  - xxx.delay(x, on_demand=True)
+
+- encoding="u8"
+  - the following are all valid aliases: 'U8', 'UTF', 'utf8'
+
+- fastcore

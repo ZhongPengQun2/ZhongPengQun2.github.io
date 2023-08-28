@@ -316,3 +316,25 @@ Mash 650cc Six Hundred Classic ★ Review & TestRide ★ - ENGLISH 💯✅
 - 给我一个支点，我可以撬动整个地球
 
 - 同质异构
+
+- Building a bare-metal Kubernetes cluster on Raspberry Pi
+  - https://anthonynsimon.com/blog/kubernetes-cluster-raspberry-pi/
+
+- Build a Kubernetes Home Lab from Scratch step-by-step!
+  - https://www.youtube.com/watch?v=_WW16Sp8-Jw
+
+- Automate a K8s cluster on bare metal
+  - https://www.youtube.com/watch?v=q59KLqvjQXU
+
+
+- Surviving China's high unemployment and cost of living
+  - https://www.youtube.com/watch?v=rLDGBYJwFTo
+
+
+- 南昌大学
+  - GOOD Lab
+    - https://good.ncu.edu.cn/index.html
+    - JerryYin777
+      - https://github.com/JerryYin777
+  - 南昌大学超算队官方网站
+    - https://github.com/NCUSCC/NCUSCC.github.io/tree/latest

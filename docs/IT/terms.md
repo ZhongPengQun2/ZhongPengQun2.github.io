@@ -494,3 +494,7 @@ https://getsentry.github.io/symbolicator/advanced/source-bundles/
 
 - backported
     - 向後移植是一種對現有軟體進行更改（修補程式）的動作，其將較新版本的改變部份移植到舊版軟體上。它構成了軟體開發過程中的軟體維護步驟，通常用於修復舊版軟體中的安全性錯誤。
+
+- Infrastructure as a Code (IaaC)
+
+- housekeeping tasks

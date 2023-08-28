@@ -19,10 +19,16 @@
   - cadence
     - n.(说话时语调的)抑扬顿挫，起落;(乐段或乐句的)收束，静止
 - It turned out that
+- You can tune some options
+  - fine-tuning
+  - stay tuned
 - I can pick up
+- elide
 - Virus scanning result: Infected
 - manipulate
 - Symptom
+- with a few minor additions
+  - 加上一些小的补充
 - proposition
 - that's on me
   - 由我负责
@@ -101,6 +107,8 @@
 - infected
 - inferring that
 - intended
+- went live in July 2018
+  - 于2018年7月上线
 - package manager information that is provided - upfront
 - IMHO
   - in my humble opinion
@@ -115,6 +123,7 @@
 - Only approved if you are oncall
 - Migrate package endpoints that is a lot of work, but ultimately has to be done.
 - As part of our ongoing effort to migrate data from xx to yy
+  - Thank you for your ongoing engagement and support.  
 - by means of
 - First and foremost we are a community dedicated to solving the issues and problems around Open Source licensing compliance.
 - Attestation
@@ -223,6 +232,7 @@
 - 递给他20元
 - brief clip of this
 - is rooted in
+- If you have a valid concern, please reach out and we will try to accommodate you
 - Typical usage
 - equivalent to this
 - Examples, recipes, and other code in the documentation are additionally licensed under the Zero Clause BSD License.
@@ -233,13 +243,23 @@
   - I met her by chance at the airport.
     - 我碰巧在机场遇见她。 
 - result in
+- The Moneta team is reaching out to teams
+  - 莫尼塔团队正在联系其他团队
 - the result is accurate and solid
+- in a rolling fashion
+  - 以滚动的方式
 - urge
   - urge users to do
 - under the term and conditions
+- So, the answer is that it varies
+  - 答案是不同的
 - 在5月9号
   - On May 9th
 - caveats
+- so expediency is warranted
+- Customer brings their Application up while pointing to the xx hosted DB.
+- designated
+- Customer gives a go ahead for decommissioning the xx instance.
 - compliance terms
 - this image is corrupted for unknown reason
 - on-demand
@@ -339,13 +359,18 @@
 - warehouse
 - hands-on
 - therapy
+- hand off
 - diverged
+- Focal
 - invocation
   - (向神或权威人士的)求助;祈祷;调用;启用 
 - unlikely
 - be vetted by
   - 由审查
 - tumbled
+- The Python 3.7 has reached the EOS , so we'd better bump the version to Python 3.8
+  - EOS
+    - end of season
 - be informed about this project
 - This description must be adequate to convey...
 - derived, derived from
@@ -377,7 +402,6 @@
 - disregard
 - interfere
 - Is that intentional?
-- stay tuned
 - lag behind
   - 落后于
 - mimic
@@ -473,12 +497,20 @@ All trademarks and copyrights on this website are property of their respective o
 - get missing   找不到
 - Black Duck is comprised of multiple containers
 - negotiation
+- just for awareness of the page
 - a release against this product
 - This feature shows exactly what other meeting participants are seeing and is rolling out now
 - any other variant of Linux
 - request an exception
 - Summit
+- one is sufficient
+  - 一个就足够了
+- at that point
+  - 就在那时
+- existing tickets remain intact and undisturbed
 - corp
+- due to corner cases
+  - 由于极端情况
 - uglified
 - Intervention
 - If you like to make your limit permanent,
@@ -832,8 +864,15 @@ All trademarks and copyrights on this website are property of their respective o
 - Please consider purchasing it today
 - could barely talk
 - comment out
+- Affiliations
 - By this change
 - in favor of
+- responsive
+- fall within
+  - 属于；在…范围内；符合
+- you have to fulfill the required information in order
+- tick this checkbox
+- team currently hosts the following clusters.
 - Miscellaneous
   - 各种各样的
 - lane
@@ -841,6 +880,8 @@ All trademarks and copyrights on this website are property of their respective o
 - get a feel of
   - 感受
 - instantiate
+- as though
+  - 好像，仿佛
 - Deterministic
   - 确定性的;确定的;决定性;定数性
 - Admission
@@ -888,6 +929,7 @@ All trademarks and copyrights on this website are property of their respective o
 - blast
   - 爆炸
 - let me summon
+- In terms of
 - I'll try to get this squared away today
   - 我今天会设法解决这个问题
 - distinct packages
@@ -900,12 +942,33 @@ All trademarks and copyrights on this website are property of their respective o
 Though solutions differ for everybody in different families, what are the general principles?
 或许办法因人而异，但有哪些通用的原则我们可以参考？ 
 - proceed with
+- a steep learning curve
+- I would like to share how we tackled the problem of building an internal Kubernetes offering to help our development teams getting most out of Kubernetes
+  - tackled
+  - most out of
+    - 大部分的
+- bank holiday
+- substitute
+- intelligently
+- newcomer
+- customer-centric
+  - 以客户为中心的，客户导向的
+- backbone
+- can be utilized
+- shift around work
+  - 轮班工作
+- a compelling product
+  - 引人注目的产品
 - moderator
   - 调解人; 调停人; 仲裁人
+- mighty
 - chargeback
   - 退款
+  - Is there a chargeback for Moneta?
 - If you would rather see the exception...
 - It is showing in the AOSIM Portal
+- with storage and compute quota assigned to the micro-services in our staging and production environments
+  - usage quotas
 - but that would be extra overhead
   - 但那将是额外的开销
 - catastrophe
@@ -915,11 +978,17 @@ Though solutions differ for everybody in different families, what are the genera
 - liability
   - 责任; 负债; 债务; (法律上对某事物的)义务
 - Service Engagement
+- a huge bet
+- to align on direction
 - out of compliance
   - 不合规
+- are working hand in hand
 - Mutually exclusive
   - 互斥;互斥的;互相排斥;相互独立;互斥事件
 - In summary
+- transition
+- verbatim
+- This priority has been reiterated all the way from the CEO
 - We will allocate time to this issue
 - All man pages are copyrighted by their respective authors
 - come in handy
@@ -1578,6 +1647,7 @@ This was in reference to the ongoing and violent dispute between Azerbaijan and 
 - 我会到处乱说？
 - 更何况
 - 特殊字符
+- Jacob 在推特上写道：“Heroku 就像是一个失落的文明。美丽、不朽，但却没有未来可言。”
 
 #### 尴尬
 - How to say `i hope you had a great PTO` ?

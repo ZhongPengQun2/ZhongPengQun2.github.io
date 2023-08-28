@@ -434,3 +434,23 @@ How to Use the ts Command to Add Timestamps to Output
 
 - strip quotes
 	- file_name=$(echo "$_file_name" | tr -d '"')
+
+- /etc/apt/sources.list
+```
+type     软件包所在仓库的地址             发行版     软件包分类
+deb http://site.example.com/debian distribution component1 component2 component3
+deb-src http://site.example.com/debian distribution component1 component2 component3
+
+e.g
+deb http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
+
+deb: 二进制
+deb-src: 源代码
+```	- main，restricted，universe，multiverse有什么区别
+		- 这是按软件的自由度来分的。
+			main:完全的自由软件。
+			restricted:不完全的自由软件。
+			universe:ubuntu官方不提供支持与补丁，全靠社区支持。
+			multiverse：非自由软件，完全不提供支持和补丁。
+	- https://renenyffenegger.ch/notes/Linux/fhs/etc/apt/sources_list
+	- /etc/apt/sources.list.d/*.list
