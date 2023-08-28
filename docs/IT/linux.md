@@ -446,7 +446,7 @@ deb http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe m
 
 deb: 二进制
 deb-src: 源代码
-```	- main，restricted，universe，multiverse有什么区别
+	- main，restricted，universe，multiverse有什么区别
 		- 这是按软件的自由度来分的。
 			main:完全的自由软件。
 			restricted:不完全的自由软件。
@@ -454,3 +454,10 @@ deb-src: 源代码
 			multiverse：非自由软件，完全不提供支持和补丁。
 	- https://renenyffenegger.ch/notes/Linux/fhs/etc/apt/sources_list
 	- /etc/apt/sources.list.d/*.list
+```
+
+- if [ ! -z $STRING ]; then
+    - #如果$JAVA_EXEC的长度为零则为假
+
+- which kustomize || exit 1
+
