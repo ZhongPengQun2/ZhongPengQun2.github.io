@@ -161,3 +161,5 @@ skaffold init --generate-manifests
     Cleaning up resources encountered an error, will continue to clean up other resources.
     Build Failed. No push access to specified image repository. Try running with `--default-repo` flag. Otherwise start a local kubernetes cluster like `minikube`.
     ```
+
+- skaffold config set --global default-repo localhost:5000

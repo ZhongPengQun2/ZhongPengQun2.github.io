@@ -289,20 +289,31 @@ fatal: ..: '..' is outside repository
 VERSION.txt: command not found
 ```
 
-```
-set +x
-```
-
 - grep
 
 - function的参数怎么传？比如传个path /tmp/xx.sh 时
 
 
-- set -e
-	- 在shell脚本开头加上set -e，这句话告诉bash 如果任何语句的执行结果不是true，就直接退出shell脚本
-- set +e
-	- set +e 表示关闭 -e选项，即使出错也依然向下执行脚本
-- set -x
+
+- set命令可以用来定制shell环境
+	- set -e
+		- 在shell脚本开头加上set -e，这句话告诉bash 如果任何语句的执行结果不是true，就直接退出shell脚本
+	- set +e
+		- set +e 表示关闭 -e选项，即使出错也依然向下执行脚本
+	- set -x
+	- set +x
+	- set -o errexit
+		- 使用选项“o”来打开或者关闭选项。例如打开选项：set -o 选项，关闭选项目：set +o 选项
+		- errexit 当命令返回一个非零退出状态（失败）时退出
+		```shell
+		set +o errexit
+		ls /no-such-path
+		echo "+o is set!!"
+
+		output:
+		+o is set!!
+		```
+
 
 - echo $?
 	- 取的上条命令的返回值
@@ -461,3 +472,5 @@ deb-src: 源代码
 
 - which kustomize || exit 1
 
+- pushd
+	- 相比cd，不需要 cd ../../xx （不需要知道当前路径与目标路径的距离）

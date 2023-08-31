@@ -135,13 +135,19 @@
 - Participation is voluntary and your responses are confidential.
 - What is the data log retention period? (i.e in months / years)
 - interim
+- Please `be aware that` the upcoming 0.8 release has `undergone` a significant refactoring `in preparation for` the upcoming SPDX v3.0 release, leading to `breaking changes` in the API
 - respectively
+- Breaking changes
+  - Breaking changes v0.7 -> v0.8
 - As of now
   - 截至目前
+- Note, however, that support is neither complete nor stable `at this point`, as the spec `is still evolving`
 - tedious
   - adj. 乏味的;冗长的;令人厌烦的;啰唆的
 - the best chance of
 - screenshot
+- a total makeover
+  - 彻底改头换面
 - The bundle has been archived
 - fatal: option '--pretty=format:%h' must come before non-option arguments
 - click to enlarge
@@ -216,6 +222,8 @@
 - 你能帮我买包烟吗？
 - snob
 - boast about
+- some minor update
+  - 一些小更新
 - rather
   - 相反
 - on purpose
@@ -229,7 +237,9 @@
 - forgery
   - 赝品
 - but he didn't count it
+- This is where Skaffold comes into play
 - she comes up
+- one-off
 - 递给他20元
 - brief clip of this
 - is rooted in
@@ -369,6 +379,12 @@
 - be vetted by
   - 由审查
 - tumbled
+- whilst
+- move xx over to yy
+  - 将xx移到yy
+- it may well be you do need DEXX still but I would like more info first
+  - 很可能你仍然需要DEXX，但我想先了解更多信息
+- up coming & incoming
 - The Python 3.7 has reached the EOS , so we'd better bump the version to Python 3.8
   - EOS
     - end of season
@@ -721,6 +737,8 @@ All trademarks and copyrights on this website are property of their respective o
 - spanning over
   - 跨越
 - consecutively
+- cascade
+  - 级联
 - deposit
   - 订金
 - right after
@@ -733,13 +751,21 @@ All trademarks and copyrights on this website are property of their respective o
 - principle engineer
 - in case the owner shall be changed with svc account, we forbid that
 - interpolation
+- 121
+  - One-to-One
 - partially
 - inactive time slot
 - would be
   - would be more indicative
-- due diligence process 尽职调查过程
-  - due diligence
-  - 什么意思？
+- due diligence 
+  - 尽职调查是分析以及调查被收购方的一个过程，用来确认被收购方是否适合收购方的需求
+  - Have you done any due diligence yet on the transfer ？
+  - You've got to do your due diligence
+    -  你必须做你的尽职调查
+  - 如何理解“due diligence”？
+    - https://zhuanlan.zhihu.com/p/577500748
+- driving with due care
+- I am aware this is all new info and fast moving
 - obfuscation
   - 混淆;模糊处理;迷惑;模糊化
 - To fully understand what is going on in a Concourse pipeline one have to first have a good grasp of basic terminology. One is for sure, though: Concourse's pipelines are significantly different from the rest!
@@ -751,6 +777,8 @@ All trademarks and copyrights on this website are property of their respective o
 - sustainability
   - 耐久性
 - laid out
+- But I don’t want to fill the bucket as we try to empty it either
+  - 但我也不想在我们试图清空桶的时候装满它
 - They are consecutively numbered
 - non-optimal
   - 非最优
@@ -843,6 +871,7 @@ All trademarks and copyrights on this website are property of their respective o
 - How do you `most often` `engage with` Open Source Software (OSS)? 
   - 您最常如何使用开源软件 (OSS)？
 - recap
+- a Redis tile release
 - just right 恰好
 - We will inform the requester of delays within 1 business day of ticket creation.
 - I‘m delighted to 
@@ -930,6 +959,7 @@ All trademarks and copyrights on this website are property of their respective o
 - blast
   - 爆炸
 - let me summon
+- coerce
 - In terms of
 - I'll try to get this squared away today
   - 我今天会设法解决这个问题
@@ -1649,6 +1679,8 @@ This was in reference to the ongoing and violent dispute between Azerbaijan and 
 - 更何况
 - 特殊字符
 - Jacob 在推特上写道：“Heroku 就像是一个失落的文明。美丽、不朽，但却没有未来可言。”
+- 一定要这个
+  - You must take this
 
 #### 这就叫专业
 - DNS解析失败
@@ -1696,8 +1728,7 @@ This was in reference to the ongoing and violent dispute between Azerbaijan and 
 - reserve  &  preserve
 - consequent & subsequent
 - via, by, through之间的区别
-
-
+- 何时用 validate ？如何准确地使用 validate ？
 
 
 

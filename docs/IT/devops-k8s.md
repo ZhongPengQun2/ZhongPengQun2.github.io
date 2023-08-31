@@ -53,6 +53,7 @@ A Kubernetes namespace is a virtual cluster within a Kubernetes cluster that pro
     - Run a cluster with multiple nodes ?
       - `minikube start --nodes 2 -p multinode-demo`
     - `minikube dashboard`
+      - 和 k8s dashboard 是一个东西吗？
 - 为什么docker ps不会显示出k8s里的containers ？如何看k8s里的containers?
 - What's relationship between Deployment, Pod, Service ?
   - 
@@ -485,7 +486,7 @@ kustomize: cannot execute binary file: Exec format error
   - can run `kustomize edit add` to see help text
 
 - kustomize edit add secret fk --disableNameSuffixHash --from-file=./secrets/xx --from-file=./secrets/yy
-  - 
+  - 通过指定generatorOptions.disableNameSuffixHash=true并将该kustomization.yaml作为base，将使得生成的configmap中不包含hash后缀。但这样就不会有滚动升级来实时更新configmap
 
 - kustomize build
 
