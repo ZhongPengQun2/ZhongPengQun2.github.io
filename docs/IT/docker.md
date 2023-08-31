@@ -538,3 +538,9 @@ c3a63f84aaa5   public.ecr.aws/y5z1i2v3/zhongpengqun:postgres9.6                 
 
 - docker-compose 只 restart 某个 service, 比如只改了项目的业务逻辑代码，想只restart这部分的某个service
     - $ docker-compose restart websvc
+
+- `a local docker registry`
+    - https://www.allisonthackston.com/articles/local-docker-registry
+
+- docker network connect
+    - `Connects a container to a network. You can connect a container by name or by ID. Once connected, the container can communicate with other containers in the same network.`

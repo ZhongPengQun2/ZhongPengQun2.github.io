@@ -458,7 +458,12 @@ Expanding the usefulness of the serializers is something that we would like to a
             - iterator可以防止大cache，但是会增加查询次数
 
 - iterator
-
+- Q函数
+  - 作用：对对象进行复杂查询，并支持&（and）,|（or），~（not）操作符。
+  - Example: search_obj=Asset.objects.filter(Q(hostname__icontains=keyword)|Q(ip=keyword))
+- F函数
+  - 避免竞争
+  - Reporter.objects.all().update(stories_filed=F('stories_filed') + 1)
 - from django.core.cache import caches
 
 - from_db
@@ -683,3 +688,14 @@ django.db models.Manager
   - the following are all valid aliases: 'U8', 'UTF', 'utf8'
 
 - fastcore
+
+- from django.utils.translation import gettext_lazy as _
+
+
+
+
+- 被 @staticmethod 装饰的函数，调用的时候也要用self.xxx吗？
+  - 从我的经验来看，是的，但是有点出乎意料
+
+- 单引号与双引号的区别，有区别吗？
+  - x

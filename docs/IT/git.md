@@ -339,3 +339,6 @@ remote: Please see https://docs.github.com/en/get-started/getting-started-with-g
 fatal: Authentication failed for 'https://github.com/zhongpengqun/mirror.git/'
 ```
 s: https://stackoverflow.com/questions/68775869/message-support-for-password-authentication-was-removed-please-use-a-personal
+
+
+- gitlab ipynb
