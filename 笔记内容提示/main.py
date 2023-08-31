@@ -57,6 +57,7 @@ while True:
     clipboard_content = read_from_clipboard()
     if clipboard_content != current_keyword:
         print('\n\n\n\n')
+        os.system('clear')
         print('========== RESULT ==========')
         print_keyword_related_note(clipboard_content)
         current_keyword = clipboard_content
