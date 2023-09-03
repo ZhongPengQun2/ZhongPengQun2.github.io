@@ -120,4 +120,4 @@ host. To configure Concourse with the URL of your service:
 ```
 
 ##### 如何调试concourse，当某个task failed的时候，比如 e2e-test failed 的时候，能否进入到host中去rerun失败了的test？
-xxx
+  - 如何进入 concourse 的 build ？

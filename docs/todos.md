@@ -338,3 +338,34 @@ Mash 650cc Six Hundred Classic ★ Review & TestRide ★ - ENGLISH 💯✅
       - https://github.com/JerryYin777
   - 南昌大学超算队官方网站
     - https://github.com/NCUSCC/NCUSCC.github.io/tree/latest
+
+
+- 4.2米厢式货车
+  - 江铃全顺
+- 3.6米厢式货车
+  - 庆铃五十铃
+
+
+- (Life) Advice From The Creator of C++
+  - https://www.youtube.com/watch?v=-QxI-RP6-HM
+
+- Linux Training: Intro to SPDX
+  - https://www.youtube.com/watch?v=fAgFJok3QHA
+
+- How to Create a SPDX SBOM Using Mend
+  - https://www.youtube.com/watch?v=qKeYNsw8UdY
+
+
+- 7款超火爆的免费开源软件！Github上的Stars过万，良心又实用，实至名归！！| 零度解说
+  - https://www.youtube.com/watch?v=A2GUgvPlTBE
+    - https://github.com/screego/server
+
+- 推荐8个宝藏级的开源软件！来自GitHub的免费精品项目，完全免费、超级实用！！ | 零度解说
+  - https://www.youtube.com/watch?v=G1Kg7ZsxNrA
+
+- “好”基督徒长什么样子？
+  - https://www.youtube.com/watch?v=89RjGlvFeoQ
+
+- 弗洛姆说爱是一种艺术，真正的爱应该包括的四个要素是什么【小播读书】
+  - https://www.youtube.com/watch?v=p-3FKGEZVA0
+

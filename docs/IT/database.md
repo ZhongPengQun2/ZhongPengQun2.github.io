@@ -16,3 +16,4 @@ docker run -it --name postgres --restart always -e POSTGRES_PASSWORD='abc123' -e
 
 - pgadmin connect db container
 
+- WAL file

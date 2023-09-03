@@ -500,3 +500,10 @@ kustomize: cannot execute binary file: Exec format error
 
 - --enable_kyaml=false
   - x
+
+- `standby promoted to primary`
+
+- replication lag
+  - It’s All About Replication Lag in PostgreSQL
+    - https://www.percona.com/blog/replication-lag-in-postgresql/
+
