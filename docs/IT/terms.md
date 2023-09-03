@@ -498,3 +498,6 @@ https://getsentry.github.io/symbolicator/advanced/source-bundles/
 - Infrastructure as a Code (IaaC)
 
 - housekeeping tasks
+
+- Bearer token
+

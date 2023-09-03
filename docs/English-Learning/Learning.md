@@ -137,6 +137,8 @@
 - interim
 - Please `be aware that` the upcoming 0.8 release has `undergone` a significant refactoring `in preparation for` the upcoming SPDX v3.0 release, leading to `breaking changes` in the API
 - respectively
+- there are more  changes to discover under-the-hood
+  - 还有更多的变化有待发现
 - Breaking changes
   - Breaking changes v0.7 -> v0.8
 - As of now
@@ -146,6 +148,9 @@
   - adj. 乏味的;冗长的;令人厌烦的;啰唆的
 - the best chance of
 - screenshot
+- redefined
+- The smaller this level is, the more permissive this license is
+  - 此级别越小，此许可证的权限就越大
 - a total makeover
   - 彻底改头换面
 - The bundle has been archived
@@ -874,7 +879,9 @@ All trademarks and copyrights on this website are property of their respective o
 - a Redis tile release
 - just right 恰好
 - We will inform the requester of delays within 1 business day of ticket creation.
-- I‘m delighted to 
+- I‘m delighted to
+- Backers
+  - 支持者
 - negotiation
   - 谈判
 - either or
@@ -896,7 +903,6 @@ All trademarks and copyrights on this website are property of their respective o
 - comment out
 - Affiliations
 - By this change
-- in favor of
 - responsive
 - fall within
   - 属于；在…范围内；符合
@@ -1072,8 +1078,12 @@ Though solutions differ for everybody in different families, what are the genera
   - n. 卷展栏;首次展示
 - Nothing turned up
   - 什么也没发现
+- kick off
+  - 开始
 - for ease in
   - 便于
+- Check if cluster is replicating
+  - 检查集群是否正在复制
 - unique opportunity
 - but if we ever need it
 - decommission
@@ -1082,6 +1092,7 @@ Though solutions differ for everybody in different families, what are the genera
 - Keep this list open for reference
   - 保留此列表以供参考
 - Bundle the source code
+- Backbone Issue Sync
 - A large class of
 - to ensure it is structurally sound
 - under the hood
@@ -1681,6 +1692,8 @@ This was in reference to the ongoing and violent dispute between Azerbaijan and 
 - Jacob 在推特上写道：“Heroku 就像是一个失落的文明。美丽、不朽，但却没有未来可言。”
 - 一定要这个
   - You must take this
+- 一开始的时候
+  - At the beginning
 
 #### 这就叫专业
 - DNS解析失败

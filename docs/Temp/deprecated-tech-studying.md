@@ -338,16 +338,15 @@ https://www.cnblogs.com/gengxiaonuo/p/16840026.html
     - nargs='*'
     - action='store'
     ```shell
-    在action='store'中提到：选项名成为了解析结果对象的成员，而选项对应的值则成了成员的值，所以如果我们需要获取解析后的结果，直接使用解析结果的成员值就好了
-
-    -------different
-    parser.add_argument('-c', action='store_true')
-    #python test.py -c         => c是true（触发）
-    #python test.py             => c是false（无触发）
+    self.parser.add_argument(
+        "-n",
+        dest="dryrun",
+        action='store_true', # 一旦有这个参数，做出动作“将其值标为True”
+        default=False,
+        help="xx"
+    )
     ```
-    - parser.add_argument('-c', action='store_true')#python test.py -c         => c是true（触发）#python test.py             => c是false（无触发）
 
-```
 import signal, os
 
 # 定义一个信号处理函数，该函数打印收到的信号，然后raise IOError

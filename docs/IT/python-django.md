@@ -38,3 +38,18 @@ When you use a ModelForm, the call to is_valid() will perform these validation s
 - serializer.is_valid()
     - 会执行哪些valid方法？
 
+
+- from django.test import TestCase
+    - def setUp(self) & def tearDown(self)
+        - allow you to define instructions that will be executed before and after each test method.
+        - python unittest中也有setUp 和 tearDown, 区别是什么？
+            - 我猜测是一样的
+    - def setUpTestData
+        - it does not belong to unittest but to the Django framework. It is introduced in Django 1.8 as a class method of django.test.TestCase
+        - It acts pretty much like setUpClass, except that the operations you do in setUpTestData will be rolled back after all tests of the same TestCase class are executed. Actually, setUpTestData is implemented in Django using setUpClass and tearDownClass.
+        - The class-level atomic block described above allows the creation of initial data at the class level, once for the whole TestCase
+            - 一次用于整个TestCase
+        - Note that if the tests are run on a database with no transaction support (for instance, MySQL with the MyISAM engine), setUpTestData() will be called before each test, negating the speed benefits.
+        Objects assigned to class attributes in setUpTestData() must support creating deep copies with copy.deepcopy() in order to isolate them from alterations performed by each test methods.
+    - def setUpClass  &   def tearDownClass
+        - setUpClass/tearDownClass会被调用一次，setUp/tearDown每个函数执行的时候都会被调用,所以需要一开始就初始化的数据内容，建议放在setUpClass，并且做好保护，譬如设置已存在就不再create数据
