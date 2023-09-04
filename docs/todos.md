@@ -369,3 +369,11 @@ Mash 650cc Six Hundred Classic ★ Review & TestRide ★ - ENGLISH 💯✅
 - 弗洛姆说爱是一种艺术，真正的爱应该包括的四个要素是什么【小播读书】
   - https://www.youtube.com/watch?v=p-3FKGEZVA0
 
+- Raspberry Pi Zero as a DESKTOP? + Best OS to use?
+  - https://www.youtube.com/watch?v=fpErKjnCY-8
+  - Can a Raspberry Pi Zero 2 W be used as a Desktop PC
+    - https://www.youtube.com/watch?v=LV8P8vi1N-0
+  - 10 Best Raspberry pi projects of the year 2022!
+    - https://www.youtube.com/watch?v=tXI3vIXT5us
+  - DIY Smart Mirror - Full Tutorial
+    - https://www.youtube.com/watch?v=OYlloiaBINo

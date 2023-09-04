@@ -99,8 +99,10 @@
     - v. 描绘;描述;描写;刻画;描画, depict的过去分词和过去式
 - consists in
 - pivotal
+- wrap things up
 - vote up  & vote down
 - The workspace was wiped out and no build has been done `since then`
+  - 以后;从那时起;从此一直
 - conjunction
 - Escalation Policy
 - it will be provisioned upon manager approval
@@ -190,6 +192,9 @@
 - assertion
 - incantation
 - Hydrate
+- point in time
+  - At this point in time, no compensation is involved
+    -  在此时间点，不涉及任何补偿
 - initial thought
 - To elaborate a bit further
 - interoperable
