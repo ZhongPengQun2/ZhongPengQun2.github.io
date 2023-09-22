@@ -13,3 +13,15 @@ xx
 ```
 - Kustomize VS Helm
 - Helm DSL syntax ?
+
+
+- newTag
+    - 用来替换所有匹配image的tag
+
+- kustomize edit set image
+```
+Set an image in the kustomization file:
+kustomize edit set image {{busybox=alpine:3.6}}
+```
+
+- kustomize build

@@ -28,6 +28,7 @@ https://concourse-ci.org/resources.html
 
 ### Concourse
 - What is concourse target, why fly -t (target) ?
+  - $ fly --target example login --team-name my-team --concourse-url https://ci.example.com
 - is concourse pipeline yaml file independent of concourse instance ? i mean a yaml file is able to run everywhere.
 - groups
   - x
