@@ -127,6 +127,7 @@ A Kubernetes namespace is a virtual cluster within a Kubernetes cluster that pro
     - resources
     - configMapGenerator
     - patchesStrategicMerge
+  - `个人觉得 Kustomize 更适合做 gitops 而 helm 更合适做应用包的分发。`
 - Kubectl 内置 Kustomize, 怎么用呢？
 - services的selector是select pods which label matched，还是select deployments which label matched ?
 - 一个pod多个containers，deployment yaml怎么写？
@@ -233,8 +234,9 @@ spec:
 - Deploy database is different from deploying applications like a Django application.
 
 - Storage
-    - Storage Class
-    - PV admin
+  - K8S local storage
+  - Storage Class
+  - PV admin
 
 - Stateful
     - why?
@@ -507,3 +509,19 @@ kustomize: cannot execute binary file: Exec format error
   - It’s All About Replication Lag in PostgreSQL
     - https://www.percona.com/blog/replication-lag-in-postgresql/
 
+
+```
+$ kubectl apply -f runtime/local/overlay/osm/kustomization.yaml 
+error: resource mapping not found for name: "" namespace: "" from "runtime/local/overlay/osm/kustomization.yaml": no matches for kind "Kustomization" in version "kustomize.config.k8s.io/v1beta1"
+ensure CRDs are installed first
+
+
+```
+
+- type: Opaque
+  - Opaque：不透明的
+  - 使用base64编码存储信息
+
+
+- Back-off pulling image
+  - 意味着无法拉取所需的容器镜像

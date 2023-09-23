@@ -501,3 +501,11 @@ https://getsentry.github.io/symbolicator/advanced/source-bundles/
 
 - Bearer token
 
+- 幂等
+    - 
+
+- wildcard
+    - Alternatively called a wild character or wildcard character, a wildcard is a symbol used to replace or represent one or more characters. The most common wildcards are the asterisk (*), which represents one or more characters, and the question mark (?), which represents a single character.
+
+- Apache-2.0 是宽松式协议（permissive license）的代表
+- 云服务（即 SAAS）
