@@ -377,3 +377,8 @@ Mash 650cc Six Hundred Classic ★ Review & TestRide ★ - ENGLISH 💯✅
     - https://www.youtube.com/watch?v=tXI3vIXT5us
   - DIY Smart Mirror - Full Tutorial
     - https://www.youtube.com/watch?v=OYlloiaBINo
+
+- 复旦大学公开课：《共产党宣言》导读（张双利教授）
+    - https://www.bilibili.com/video/BV11t411C7Lk/?spm_id_from=333.337.search-card.all.click
+
+
