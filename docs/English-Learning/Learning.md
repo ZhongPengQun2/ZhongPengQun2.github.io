@@ -777,6 +777,7 @@ All trademarks and copyrights on this website are property of their respective o
 - are run at regular cadences (2 week intervals)
 - I want to extend my congratulations to the entire team for this achievement!
 - inactive time slot
+- insufficient
 - it's not a big deal
 - would be
   - would be more indicative
@@ -883,6 +884,8 @@ All trademarks and copyrights on this website are property of their respective o
 - Thank you for all the effort you put into this!
 - Keep the momentum going!
 - by no means
+- The following is a listing of the open source components `detailed` in this
+document
 - Clarification
 - a broader version of python
 - come across
@@ -904,6 +907,7 @@ All trademarks and copyrights on this website are property of their respective o
 - either or
   - 不是…就是…
   - either 英美发音不一样，(挨嘚), (依嘚)
+- either of
 - Below neither works
   - 下面两个都不起作用
 - Could you look able to help on it on priority ?
@@ -931,6 +935,8 @@ All trademarks and copyrights on this website are property of their respective o
 - Miscellaneous
   - 各种各样的
 - Misc
+- The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software
 - lane
   - n. 车道;（比赛的）跑道，泳道;小巷;(乡间)小路;航道;胡同;里弄
 - get a feel of
@@ -957,7 +963,10 @@ All trademarks and copyrights on this website are property of their respective o
   - adv. 晦涩地;费解地，晦涩地；隐匿地
 - equipped with
 - directive
+- This software is licensed under the VMware Proprietary License
+- The uncompromising Python code formatter
 - strikethrough
+- 盲从权威（an appeal to authority）
 - mitigations
 - Encountered errors while bringing up the project
 - TypeError: exceptions must derive from BaseException
@@ -967,6 +976,8 @@ All trademarks and copyrights on this website are property of their respective o
     - 会不会，可能 ; 万一
 - are about to expire
 - designate
+- better estimation
+- Validity Till Date
 - touch base
   - （尤指在近期没有联系的情况下与某人）取得联系 
 - offload
@@ -983,6 +994,7 @@ All trademarks and copyrights on this website are property of their respective o
 - blast
   - 爆炸
 - let me summon
+- Permissive With Patent Implications
 - coerce
 - In terms of
 - I'll try to get this squared away today
