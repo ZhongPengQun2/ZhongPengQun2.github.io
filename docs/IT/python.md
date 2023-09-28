@@ -99,9 +99,6 @@ what doese `?P` mean ?
     - please explain how to use super() by yourself.
   - Future-proof APIs with keyword-only arguments
     - 这个挺实用的
-  - @dataclass
-    - it's to replace `namedtuple` in python2
-      - namedtuple: https://blog.csdn.net/qq_30159015/article/details/80356226
   - Built-in breakpoint()
 
   - references:
@@ -818,3 +815,47 @@ pip3.8 install yaml
 
 - def notice(self) -> "str":
   - xx
+
+- from typing import ClassVar, Final
+  - type hints
+  - ClassVar
+    - 类变量
+    - 适用场景
+  - Final
+    - 告知类型检查器某名称不能再次赋值或在子类中重写的特殊类型构造器
+
+- __subclasses__
+  - 函数获取类的所有子类
+
+- from types import MappingProxyType
+  - 在Python3.3开始
+  - 不可变字典
+
+- from dataclasses import dataclass, field, fields
+  - dataclass
+    - 被dataclass装饰的类，根据类中定义的name，unit_price。。。会自动生成一个__init__方法
+  - @dataclass(frozen=True)
+  - @dataclass
+    - it's to replace `namedtuple` in python2
+      - namedtuple: https://blog.csdn.net/qq_30159015/article/details/80356226
+- 
+```
+myVar: Union[int, str] = "Hello"
+myVar = 5
+
+mylist: List[Union[int, str]] = [1,2,3]
+mylist = ["a", "b"]
+```
+
+- from tastypie.authentication import ApiKeyAuthentication, MultiAuthentication
+  - ApiKeyAuthentication
+  - MultiAuthentication
+  - from rest_framework.authentication import BaseAuthentication
+    - 
+
+- defaultdict(lambda: 0)
+  - 如果key不存在，则不会报错，且key对应的value是0
+  - defaultdict(lambda: defaultdict)
+
+- threading.Semaphore(MAX_THREADS)
+  - why named 'semaphore'

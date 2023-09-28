@@ -82,3 +82,5 @@ ImportError: cannot import name 'QUERY_TERMS' from 'django.db.models.sql.constan
 - django signal and celery
     - https://medium.com/analytics-vidhya/integrating-django-signals-and-celery-cb2876ebd494
 
+- xxx.objects.none()
+    - 调用none() 将创建一个从不返回任何对象的查询集，并且在访问结果时不会执行任何查询。 qs.none() 查询集是 EmptyQuerySet 的一个实例

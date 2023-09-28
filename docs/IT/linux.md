@@ -474,3 +474,5 @@ deb-src: 源代码
 
 - pushd
 	- 相比cd，不需要 cd ../../xx （不需要知道当前路径与目标路径的距离）
+
+- https://stackoverflow.com/questions/67880900/curl-doesnt-return-anything
