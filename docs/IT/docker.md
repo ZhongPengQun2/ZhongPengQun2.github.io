@@ -548,3 +548,13 @@ c3a63f84aaa5   public.ecr.aws/y5z1i2v3/zhongpengqun:postgres9.6                 
 
 
 - 如何进入 kubectl get pods中的一个pod ？
+
+```
+apt-get update
+Reading package lists... Done
+E: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock directory /var/lib/apt/lists/
+
+-------
+
+```
