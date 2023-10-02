@@ -527,3 +527,23 @@ When arrived, my uncle and brother had waited for me more thant one hour.
 
 ↓ start
 <img src="https://github.com/ZhongPengQun2/materials/raw/main/field-2.jpeg" width="90%" />
+
+
+
+#### 2023-10-03
+Today is in Chinese national days, i had a dinner with some 高中 classmates，we 谈笑风生, from 汉武帝 to 俄乌战争, from 刘德华 to 爱因斯坦, most of time, i was 听他们的争论.
+I 总结出 the 分歧 between their views:
+1. Is China becomeing better ?
+   张J: No, still 一团糟
+   谢JM,李Y： Yes, 再也不会被美国欺负, 南斯拉夫大使馆被轰炸 这样的事情 will never happen again 
+2. Is Chinese 制度 better than American.
+   张J：No, 否则 why so many 优秀的人 migrate to USA.
+   谢JM, 李Y, 黄HQ：Yes, USA has developed hundreds years, China has just developed 几十年, but now China is so strong, 世界第二, 仅次于USA
+3. Chinese 脱贫工作 is great
+   张J：But USA 给穷人发钱
+   
+But they 在一些方面却达成了共识
+1. China is getting rid of 对美国的依赖 from technology 方面, many important 设备 is 实现国产化
+2. Chinese policy is serviceing for capital
+3. 在体制内, the leader 说了算
+
