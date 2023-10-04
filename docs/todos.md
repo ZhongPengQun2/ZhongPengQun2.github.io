@@ -376,6 +376,9 @@ Mash 650cc Six Hundred Classic ★ Review & TestRide ★ - ENGLISH 💯✅
   - DIY Smart Mirror - Full Tutorial
     - https://www.youtube.com/watch?v=OYlloiaBINo
 
+- 复旦大学公开课：《共产党宣言》导读（张双利教授）
+    - https://www.bilibili.com/video/BV11t411C7Lk/?spm_id_from=333.337.search-card.all.click
+
 - How to Make Fast Black Powder
   - https://www.youtube.com/watch?v=w4Pzwni45Ac
 
@@ -392,3 +395,5 @@ Mash 650cc Six Hundred Classic ★ Review & TestRide ★ - ENGLISH 💯✅
 
 - 【读书时间】当代中国人的历史观，真的没问题吗？《有所不为的反叛者》
   - https://www.youtube.com/watch?v=BsBpwNHpo_A
+
+- 用Selenium, 按下快捷键来打开比如shell基本使用的文档
