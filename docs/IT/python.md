@@ -8,6 +8,14 @@
 
 - asyncio
 
+- def __invert__(self):
+print(7 .__invert__()) # -8
+  - 7后必须加空格
+  - 
+  >>> ~a
+  __invert__ called on Test(True)
+  False
+
 
 ```python
 >>> a=[]
@@ -699,3 +707,7 @@ django.db models.Manager
 
 - 单引号与双引号的区别，有区别吗？
   - x
+
+```
+The magic methods __and__, __or__ and __invert__ are used to override the operators a & b, a | b and ~a respectively.
+```
