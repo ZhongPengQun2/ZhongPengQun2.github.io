@@ -250,7 +250,6 @@ The best way to learn math and computer science
 
 捡石头
 
-
 小伙囤了170斤银砖，在当铺能卖多少钱？
 - https://www.bilibili.com/video/BV1xc41177Zn/?spm_id_from=333.337.search-card.all.click&vd_source=f209dde1a1d76e06b060a034f36bb756
 - 这是原始视频是哪的？
@@ -355,7 +354,6 @@ Mash 650cc Six Hundred Classic ★ Review & TestRide ★ - ENGLISH 💯✅
 - How to Create a SPDX SBOM Using Mend
   - https://www.youtube.com/watch?v=qKeYNsw8UdY
 
-
 - 7款超火爆的免费开源软件！Github上的Stars过万，良心又实用，实至名归！！| 零度解说
   - https://www.youtube.com/watch?v=A2GUgvPlTBE
     - https://github.com/screego/server
@@ -369,3 +367,33 @@ Mash 650cc Six Hundred Classic ★ Review & TestRide ★ - ENGLISH 💯✅
 - 弗洛姆说爱是一种艺术，真正的爱应该包括的四个要素是什么【小播读书】
   - https://www.youtube.com/watch?v=p-3FKGEZVA0
 
+- Raspberry Pi Zero as a DESKTOP? + Best OS to use?
+  - https://www.youtube.com/watch?v=fpErKjnCY-8
+  - Can a Raspberry Pi Zero 2 W be used as a Desktop PC
+    - https://www.youtube.com/watch?v=LV8P8vi1N-0
+  - 10 Best Raspberry pi projects of the year 2022!
+    - https://www.youtube.com/watch?v=tXI3vIXT5us
+  - DIY Smart Mirror - Full Tutorial
+    - https://www.youtube.com/watch?v=OYlloiaBINo
+
+- 复旦大学公开课：《共产党宣言》导读（张双利教授）
+    - https://www.bilibili.com/video/BV11t411C7Lk/?spm_id_from=333.337.search-card.all.click
+
+- How to Make Fast Black Powder
+  - https://www.youtube.com/watch?v=w4Pzwni45Ac
+
+- 泽连斯基会见英国演员奥兰多·布鲁姆
+  - https://www.youtube.com/watch?v=V0ptPJ3Rd3A
+
+- Beyond Good and Evil #9: Morality as Timidity (V.197 - V.203)
+  - https://www.youtube.com/watch?v=lPxakg5EFrc
+
+- 莫小斯
+
+- 只买交强险就开车上路的朋友，听我一句劝，三者险最好也买上 西瓜视频
+  - https://www.youtube.com/watch?v=RBrdAIippiE
+
+- 【读书时间】当代中国人的历史观，真的没问题吗？《有所不为的反叛者》
+  - https://www.youtube.com/watch?v=BsBpwNHpo_A
+
+- 用Selenium, 按下快捷键来打开比如shell基本使用的文档

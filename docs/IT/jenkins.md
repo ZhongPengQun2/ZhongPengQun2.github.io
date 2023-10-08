@@ -194,3 +194,8 @@ Finished: FAILURE
 
 - `Inject environment variables to the build process` VS `This project is parameterised`
     - 
+
+- returnStdout
+    - 使用sh(script: 'cmd', returnStdout:true)将shell命令的结果返回输出，可以将返回的结果赋值给变量
+- properties([
+    

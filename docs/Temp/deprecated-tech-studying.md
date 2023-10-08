@@ -337,14 +337,19 @@ https://www.cnblogs.com/gengxiaonuo/p/16840026.html
     - argparse nargs='+'
     - nargs='*'
     - action='store'
+        - action 表示活动，只有在具有触发动作时才显示作用，所以 store_xxx 后面的 xxx（true/false）表示的是触发后的参数值；
+        - 所以通常来讲 default=False 和 action='store_true' 会成对出现，default=True 和 action='store_false' 会成对出现 。最终实现既有参数默认赋值功能，又有参数触发切换功能
     ```shell
     self.parser.add_argument(
         "-n",
         dest="dryrun",
-        action='store_true', # 一旦有这个参数，做出动作“将其值标为True”
+        action='store_true', # 一旦有这个参数，做出动作“将其值标为True”,也就是没有时，默认状态下其值为False
         default=False,
         help="xx"
     )
+    # 为什么会需要有这种 ↓
+    action="store_false",   # store_false也就是默认为True，一旦命令中有此参数，其值则变为False
+    default=True,    
     ```
 
 import signal, os

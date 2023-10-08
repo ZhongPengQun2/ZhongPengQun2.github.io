@@ -100,8 +100,10 @@
     - v. 描绘;描述;描写;刻画;描画, depict的过去分词和过去式
 - consists in
 - pivotal
+- wrap things up
 - vote up  & vote down
 - The workspace was wiped out and no build has been done `since then`
+  - 以后;从那时起;从此一直
 - conjunction
 - Escalation Policy
 - it will be provisioned upon manager approval
@@ -142,8 +144,6 @@
   - 还有更多的变化有待发现
 - Breaking changes
   - Breaking changes v0.7 -> v0.8
-- As of now
-  - 截至目前
 - Note, however, that support is neither complete nor stable `at this point`, as the spec `is still evolving`
 - tedious
   - adj. 乏味的;冗长的;令人厌烦的;啰唆的
@@ -191,6 +191,9 @@
 - assertion
 - incantation
 - Hydrate
+- point in time
+  - At this point in time, no compensation is involved
+    -  在此时间点，不涉及任何补偿
 - initial thought
 - To elaborate a bit further
 - interoperable
@@ -388,6 +391,7 @@
   - 由审查
 - tumbled
 - whilst
+- Talend API Tester (formerly known as Restlet Client)
 - move xx over to yy
   - 将xx移到yy
 - it may well be you do need DEXX still but I would like more info first
@@ -404,6 +408,7 @@
       - Anna's strength is derived from her parents and her sisters
         - 安娜的坚强源自于她的父母和姐姐们。 
 - incorporated
+- timeoff
 - Intermediate
   - 中间的
 - can be used to both create the xxx packages and report their usage against the kk tool in the XX system
@@ -440,12 +445,14 @@
 - unrivaled quality
 - inverted
 - negate
+- Total reclaimed space: 6.02GB
 - elaborate
 - Non Disclosure Agreement
 - outline
 - Along with this
 - by now
 - imperative mood
+  - Go (golang) is a general purpose, higher-level, imperative programming language
 - adhere
 - eligible
 - ready-made
@@ -680,8 +687,11 @@ All trademarks and copyrights on this website are property of their respective o
   - most out of
     - 最多
 - retention
+- abundance
+- expedited
 - remove the tailing slash
 - We have received a few submissions
+  - 提交;服从;投稿;降服
 - Aborting the job does not `count as` a failure
 - elidable
   - 可免除的
@@ -697,6 +707,10 @@ All trademarks and copyrights on this website are property of their respective o
 - Eliminating common/default passwords
 - short for & stand for
 - as of
+  - as of now
+    - 截至目前
+  - as of today
+    - 从今天起
 - stretch
   - 伸展
 - By this change
@@ -764,7 +778,12 @@ All trademarks and copyrights on this website are property of their respective o
 - 121
   - One-to-One
 - partially
+- This snippet was truncated for display; see it in full
+- are run at regular cadences (2 week intervals)
+- I want to extend my congratulations to the entire team for this achievement!
 - inactive time slot
+- insufficient
+- it's not a big deal
 - would be
   - would be more indicative
 - due diligence 
@@ -857,7 +876,6 @@ All trademarks and copyrights on this website are property of their respective o
 - Any new PVCs have been failing to get provisioned but the existing ones will continue to work fine.
 - Going forward
 - comprehensive
-- submission
 - Uncheck
   - 取消勾选
 - play around
@@ -871,6 +889,8 @@ All trademarks and copyrights on this website are property of their respective o
 - Thank you for all the effort you put into this!
 - Keep the momentum going!
 - by no means
+- The following is a listing of the open source components `detailed` in this
+document
 - Clarification
 - a broader version of python
 - come across
@@ -892,6 +912,7 @@ All trademarks and copyrights on this website are property of their respective o
 - either or
   - 不是…就是…
   - either 英美发音不一样，(挨嘚), (依嘚)
+- either of
 - Below neither works
   - 下面两个都不起作用
 - Could you look able to help on it on priority ?
@@ -908,6 +929,8 @@ All trademarks and copyrights on this website are property of their respective o
 - comment out
 - Affiliations
 - By this change
+- well-being
+  - 健康;幸福;康乐;安乐
 - responsive
 - fall within
   - 属于；在…范围内；符合
@@ -916,6 +939,9 @@ All trademarks and copyrights on this website are property of their respective o
 - team currently hosts the following clusters.
 - Miscellaneous
   - 各种各样的
+- Misc
+- The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software
 - lane
   - n. 车道;（比赛的）跑道，泳道;小巷;(乡间)小路;航道;胡同;里弄
 - get a feel of
@@ -935,8 +961,6 @@ All trademarks and copyrights on this website are property of their respective o
 - to showcase the real usage
 - testbed
 - cheatsheet
-- as of today
-  - 从今天起
 - set forth
   - 阐述
   - The President set forth his views in a television broadcast. 
@@ -944,7 +968,10 @@ All trademarks and copyrights on this website are property of their respective o
   - adv. 晦涩地;费解地，晦涩地；隐匿地
 - equipped with
 - directive
+- This software is licensed under the VMware Proprietary License
+- The uncompromising Python code formatter
 - strikethrough
+- 盲从权威（an appeal to authority）
 - mitigations
 - Encountered errors while bringing up the project
 - TypeError: exceptions must derive from BaseException
@@ -954,6 +981,8 @@ All trademarks and copyrights on this website are property of their respective o
     - 会不会，可能 ; 万一
 - are about to expire
 - designate
+- better estimation
+- Validity Till Date
 - touch base
   - （尤指在近期没有联系的情况下与某人）取得联系 
 - offload
@@ -970,6 +999,7 @@ All trademarks and copyrights on this website are property of their respective o
 - blast
   - 爆炸
 - let me summon
+- Permissive With Patent Implications
 - coerce
 - In terms of
 - I'll try to get this squared away today

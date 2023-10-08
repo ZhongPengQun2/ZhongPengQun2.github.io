@@ -12,6 +12,11 @@ https://liqiang.io/post/golang-package-manager-compare-module-vs-dep-d1b2db90
     故事：失宠的 Vendor 目录
     Vendor目录是Golang从1.5版本开始引入的，为项目开发提供了一种离线保存第三方依赖包的方法。但是到了Golang 1.11之后，由于引入了Module功能，在运行go build时，优先引用的是Module依赖包的逻辑，所以Vendor目录就被“无视”了，进而可能发生编译错误， moudle 说还是很想他，于是 提供了 go mod vendor 命令用来生成 vendor 目录。这样能避免一些编译问题，依赖可以先从 vendor 目录进行扫描。
     ```
+- 启动一个golang docker环境
+```shell
+docker pull golang
+docker run -it golang /bin/sh
+```
 
 - go build
     - 将 .go 文件build成可执行文件

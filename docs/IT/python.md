@@ -59,7 +59,13 @@ Pythonpath is an environment variable that is used to specify the location of Py
     - https://www.jianshu.com/p/34235f5d484a
         - pip3 install --upgrade pip
 
-
+- How to upgrade to Python 3.8 on Ubuntu 18.04 LTS
+  - https://www.itsupportwale.com/blog/how-to-upgrade-to-python-3-8-on-ubuntu-18-04-lts/
+    - sudo add-apt-repository ppa:deadsnakes/ppa
+    - sudo apt-get update
+    - sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.8 2
+    - sudo update-alternatives --config python3
+      - 
 
 ```
 >>> x=re.search("clients3_linux_amd64_(?P<version>.*).tar.bz2", "clients3_linux_amd64_2022-01-01.tar.bz2")
@@ -101,9 +107,6 @@ what doese `?P` mean ?
     - please explain how to use super() by yourself.
   - Future-proof APIs with keyword-only arguments
     - 这个挺实用的
-  - @dataclass
-    - it's to replace `namedtuple` in python2
-      - namedtuple: https://blog.csdn.net/qq_30159015/article/details/80356226
   - Built-in breakpoint()
 
   - references:
@@ -482,6 +485,13 @@ Expanding the usefulness of the serializers is something that we would like to a
     - for better performance
         - https://dev.to/sankalpjonna/save-your-django-models-using-updatefields-for-better-performance-50ig
 
+    ```
+    >>> record = Record.objects.get(id=1)
+    >>> record.name = "new record name"
+    >>> record.save(update_fields=['name'])
+
+    UPDATE "record" SET "name"='new record name' WHERE  "record"."id" = 1;
+    ```
 
 - django 的 signal 什么时候用比较好？
 
@@ -711,3 +721,152 @@ django.db models.Manager
 ```
 The magic methods __and__, __or__ and __invert__ are used to override the operators a & b, a | b and ~a respectively.
 ```
+- from concurrent.futures import ThreadPoolExecutor
+
+```
+$ python3 -m ensurepip --upgrade
+/home/vincent-zhong/osstpmgt/.venv/bin/python3: No module named ensurepip
+
+--------
+ModuleNotFoundError: No module named 'apt_pkg'
+solution:
+  - https://oldtang.com/6102.html
+    - 2 works
+
+```
+
+```
+$ python3 -m venv .venv
+The virtual environment was not created successfully because ensurepip is not
+available.  On Debian/Ubuntu systems, you need to install the python3-venv
+package using the following command.
+
+    apt-get install python3-venv
+
+You may need to use sudo with that command.  After installing the python3-venv
+package, recreate your virtual environment.
+
+Failing command: ['/home/vincent-zhong/osstpmgt/.venv/bin/python3', '-Im', 'ensurepip', '--upgrade', '--default-pip']
+
+--- 如何确定 ensurepip 是否是 available 的？
+
+```
+
+```
+$ python3 -m venv .venv
+The virtual environment was not created successfully because ensurepip is not
+available.  On Debian/Ubuntu systems, you need to install the python3-venv
+package using the following command.
+
+    apt-get install python3-venv
+
+You may need to use sudo with that command.  After installing the python3-venv
+package, recreate your virtual environment.
+
+Failing command: ['/home/vincent-zhong/osstpmgt/.venv/bin/python3', '-Im', 'ensurepip', '--upgrade', '--default-pip'
+
+----------
+sudo apt-get install python3-venv 安装了 python3-venv，但还是显示下面这个
+
+$ sudo apt-get install python3-venv
+[sudo] password for vincent-zhong: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+python3-venv is already the newest version (3.6.7-1~18.04).
+0 upgraded, 0 newly installed, 0 to remove and 122 not upgraded.
+
+------------
+Solution:
+  - https://stackoverflow.com/questions/66869411/error-command-im-ensurepip-upgrade-default-pip-returned-non-z
+  - $ sudo apt-get install python3.8-venv
+
+```
+
+```
+scrapy 安装报错 This package requires Rust >=1.48.0.
+  - https://www.cnblogs.com/MrHSR/p/16718353.html
+```
+
+
+```
+File "/home/vincent-zhong/osstpmgt/.venv/lib/python3.8/site-packages/setuptools/installer.py", line 103, in _fetch_build_egg_no_warn
+        raise DistutilsError(str(e)) from e
+    distutils.errors.DistutilsError: Command '['/home/vincent-zhong/osstpmgt/.venv/bin/python3.8', '-m', 'pip', '--disable-pip-version-check', 'wheel', '--no-deps', '-w', '/tmp/tmp72qs0tbh', '--quiet', 'cffi>=1.4.1']' returned non-zero exit status 1.
+    
+    ----------------------------------------
+Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-d2bj5_ju/pynacl/
+
+-----
+solution:
+  - pip3 install --upgrade pip
+```
+
+```
+Failed to build mysqlclient psycopg2 pykerberos python-ldap
+ERROR: Could not build wheels for mysqlclient, psycopg2, pykerberos, python-ldap, which is required to install pyproject.toml-based projects
+
+--------
+
+```
+
+```
+$ pip3 install yaml
+Defaulting to user installation because normal site-packages is not writeable
+ERROR: Could not find a version that satisfies the requirement yaml (from versions: none)
+ERROR: No matching distribution found for yaml
+
+----
+pip3.8 install yaml
+```
+
+- Split a Python list into fixed-size chunks
+
+- @pytest.mark.parametrize
+
+- def notice(self) -> "str":
+  - xx
+
+- from typing import ClassVar, Final
+  - type hints
+  - ClassVar
+    - 类变量
+    - 适用场景
+  - Final
+    - 告知类型检查器某名称不能再次赋值或在子类中重写的特殊类型构造器
+
+- __subclasses__
+  - 函数获取类的所有子类
+
+- from types import MappingProxyType
+  - 在Python3.3开始
+  - 不可变字典
+
+- from dataclasses import dataclass, field, fields
+  - dataclass
+    - 被dataclass装饰的类，根据类中定义的name，unit_price。。。会自动生成一个__init__方法
+  - @dataclass(frozen=True)
+  - @dataclass
+    - it's to replace `namedtuple` in python2
+      - namedtuple: https://blog.csdn.net/qq_30159015/article/details/80356226
+- 
+```
+myVar: Union[int, str] = "Hello"
+myVar = 5
+
+mylist: List[Union[int, str]] = [1,2,3]
+mylist = ["a", "b"]
+```
+
+- from tastypie.authentication import ApiKeyAuthentication, MultiAuthentication
+  - ApiKeyAuthentication
+  - MultiAuthentication
+  - from rest_framework.authentication import BaseAuthentication
+    - 
+
+- defaultdict(lambda: 0)
+  - 如果key不存在，则不会报错，且key对应的value是0
+  - defaultdict(lambda: defaultdict)
+
+- threading.Semaphore(MAX_THREADS)
+  - why named 'semaphore'

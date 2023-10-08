@@ -291,7 +291,14 @@ From: https://stackoverflow.com/questions/22532943/how-to-resolve-git-error-upda
 
 - GitHub Forks and Pull Requests | Step by Step
   - https://www.youtube.com/watch?v=a_FLqX3vGR4
-
+    - 不简洁
+  - 什么时候需要用 fork ? 与git clone的区别
+    - fork类似于checkout一个新分支，然后修改比如bug，最后合并到主分支
+    - fork完后需要merge回origin吗？
+      - 一般是要的，pull request合并你的修改
+        - 如果我不想merge回呢？我只想拿来改成自己需要的样子
+          - `If you want to create a new repository from the contents of an existing repository but don't want to merge your changes to the upstream in the future, you can duplicate the repository or, if the repository is a template, you can use the repository as a template. For more information, see "Duplicating a repository" and "Creating a repository from a template".`
+            - https://docs.github.com/en/repositories/creating-and-managing-repositories/duplicating-a-repository
 ```
 # git push -f
 fatal: unable to access 'http://github.com/ZhongPengQun2/Shortcuts.git/': gnutls_handshake() failed: The TLS connection was non-properly terminated.
@@ -342,3 +349,5 @@ s: https://stackoverflow.com/questions/68775869/message-support-for-password-aut
 
 
 - gitlab ipynb
+
+
