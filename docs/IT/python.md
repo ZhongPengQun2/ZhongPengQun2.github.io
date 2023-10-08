@@ -825,7 +825,7 @@ pip3.8 install yaml
 - @pytest.mark.parametrize
 
 - def notice(self) -> "str":
-  - xx
+  - 双引号有必要吗？
 
 - from typing import ClassVar, Final
   - type hints
@@ -870,3 +870,12 @@ mylist = ["a", "b"]
 
 - threading.Semaphore(MAX_THREADS)
   - why named 'semaphore'
+
+- from queue import Queue
+  - 适用场景
+    - A synchronized queue class
+    - queue 模块实现了多生产者、多消费者队列。这特别适用于消息必须安全地在多线程间交换的线程编程。模块中的 Queue 类实现了所有所需的锁定语义
+  - queue.put(1）
+    - 
+    - The method put() will block if the queue has reached its maximum capacity or executed in blocking mode.
+      - 默认有block=True,阻塞时间由timeout确定

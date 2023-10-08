@@ -239,6 +239,7 @@
 - on purpose
   - 故意的
 - nicely summarized
+- ubiquitous
 - in large part
   - 很大程度上
 - In the case of artwork
