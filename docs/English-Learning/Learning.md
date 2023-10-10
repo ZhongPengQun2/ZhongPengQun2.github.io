@@ -31,6 +31,7 @@
 - with a few minor additions
   - 加上一些小的补充
 - proposition
+- error-prone
 - that's on me
   - 由我负责
   - My brother's dead and that's on me.
@@ -38,10 +39,13 @@
 - Top 5 NBA Signature Moves
 - the xxx team should be able to facilitate
 - Asset Owner
+- a personal appointment
 - minimal reproducible example
 - bump up
   - 隆起;压齐;突然增加，提高
 - Corrective Actions
+- If you're having trouble going through this tutorial you can contact us through the ...
+- Timely, but not urgent
 - Please feel free to add recipients if required.
 - takes precedence over
 - has 4 host outages

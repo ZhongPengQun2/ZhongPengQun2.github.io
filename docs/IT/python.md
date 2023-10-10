@@ -859,3 +859,32 @@ mylist = ["a", "b"]
 
 - threading.Semaphore(MAX_THREADS)
   - why named 'semaphore'
+
+- defaultdict(list)
+  - from collections import defaultdict
+    - 在字典中查找某个值时，若key不存在时则会返回一个KeyError错误而不是一个默认值，这时候可以使用defaultdict函数
+    ```
+    >>> x=defaultdict(list)
+    >>> x[1]
+    []
+    ```
+- from kombu import Queue, Exchange
+
+- from celery import Celery
+  - 
+
+- app.autodiscover_tasks(lambda: ["mail"])
+```
+When using celery with django, the autodiscover_tasks function registers all decorated tasks within the task module inside each INSTALLED_APPS entry. e.g.,
+
+if your INSTALLED_APPS settings included app1, app2, and app3, celery would automatically register any decorated tasks that could be found by looking at app1.tasks, app2.tasks, and app3.tasks.
+```
+
+channel.queue_bind(exchange=exchange_name,
+                  queue=queue_name,
+                  routing_key='black')
+  - A binding is a relationship between an exchange and a queue
+  - routing_key
+    - 
+  - rabbitmq的术语？
+    
