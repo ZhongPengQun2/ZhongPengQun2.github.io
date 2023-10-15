@@ -82,3 +82,14 @@ ImportError: cannot import name 'QUERY_TERMS' from 'django.db.models.sql.constan
 - django signal and celery
     - https://medium.com/analytics-vidhya/integrating-django-signals-and-celery-cb2876ebd494
 
+- related_name="+" related_name='+' 
+    - If you’d prefer Django not to create a backwards relation, set related_name to '+' or end it with '+'.
+        - if i have a backwards relation, i can access to related objects conveniently. why not use it? 
+            - 
+    - If you thus have two models A and B, then by setting a ForeignKey from A to B, Django will add a manager to B to obtain all related As for a given B, but by setting it to '+', we disable that behavior.
+
+- migrations.RunPython
+    - 
+
+- 回滚
+    - $ python3 manage.py migrate legal 0018

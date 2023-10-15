@@ -60,4 +60,5 @@ while True:
         print('========== RESULT ==========')
         print_keyword_related_note(clipboard_content)
         current_keyword = clipboard_content
+
     time.sleep(2)

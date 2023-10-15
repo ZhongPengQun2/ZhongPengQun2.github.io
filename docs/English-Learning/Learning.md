@@ -740,21 +740,28 @@ All trademarks and copyrights on this website are property of their respective o
   - 马上
 - out-of-the-box
   - 开箱即用
+- consent page will be open
 - thoughtful
   - adj. 思考的;周到的;深思熟虑的;沉思的;体贴的;深思的;关切的;关心别人的;缜密思考过的
 - On Linux systems, idle overhead is reduced most by using a Minikube cluster deployed on Docker.
   - 在Linux系统上，使用部署在Docker上的Minikube集群可以最大程度地减少空闲开销
   - overhead
     - 开销
+- handover
+  - 移交
 - bring up
   - 谈及，提出;养育，抚养，养大;提审，传讯;呕出，吐出;使某人突然停住
 - facilitates
+- consent
+- Say N if you are working on a remote or headless machine
+- products sold to federal government
 - leave out
   - 遗漏
 - yes, not ready yet, but will be till end of the week
 - preventive measure
 - maternity leave
 - education fever
+- redacted
 - which is mostly done so that the control of where to place a scan is completely going through this new tool
   - 这主要是为了通过这个新工具完全控制扫描的位置
 - spanning over
@@ -904,13 +911,24 @@ document
 - just right 恰好
 - We will inform the requester of delays within 1 business day of ticket creation.
 - I‘m delighted to
+- nasty gotchas
+- President issued Executive Order
+  - 总统发布行政命令
 - Backers
   - 支持者
 - negotiation
   - 谈判
+- negation
+  - n. 否定;拒绝;反面;对立面
+- unary negation
+  - 一元否定
 - either or
   - 不是…就是…
   - either 英美发音不一样，(挨嘚), (依嘚)
+- either and
+  - google说没这种用法
+  - either a, b, c, and d
+    - This means that possible combinations include ad, bd, and cd.
 - either of
 - Below neither works
   - 下面两个都不起作用
@@ -1728,6 +1746,8 @@ This was in reference to the ongoing and violent dispute between Azerbaijan and 
   - You must take this
 - 一开始的时候
   - At the beginning
+- 这个计划有助于我们提高英语成绩
+  - This program helps to improve our english. 
 
 #### 这就叫专业
 - DNS解析失败

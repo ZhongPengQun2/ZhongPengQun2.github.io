@@ -397,3 +397,7 @@ Mash 650cc Six Hundred Classic ★ Review & TestRide ★ - ENGLISH 💯✅
   - https://www.youtube.com/watch?v=BsBpwNHpo_A
 
 - 用Selenium, 按下快捷键来打开比如shell基本使用的文档
+
+- 许巍推荐的John Lennon《Imagine》——我一直认为 有一些作品是来自宇宙的能量，是上帝握着创作者的手写下的，而这些作品中，在我心里这首歌是排第一位
+  - https://www.bilibili.com/video/BV17z4y1V7iV/?spm_id_from=333.337.search-card.all.click&vd_source=f209dde1a1d76e06b060a034f36bb756
+

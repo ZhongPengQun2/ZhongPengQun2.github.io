@@ -887,4 +887,23 @@ channel.queue_bind(exchange=exchange_name,
   - routing_key
     - 
   - rabbitmq的术语？
-    
+
+- AttributeError: module 'lib' has no attribute 'X509_V_FLAG_CB_ISSUER_CHECK'
+  - https://stackoverflow.com/questions/73830524/attributeerror-module-lib-has-no-attribute-x509-v-flag-cb-issuer-check
+    - pip3 install pyopenssl --upgrade
+
+
+- migration 的 'proxy': True,
+  - This setting prevents any SQL from being executed for this migration, and the original table is left untouched
+  - So you may ask, why does Django bother to create an empty migration? That's because the proxy model may be referred to by another model in a future migration.
+
+- __invert__ is the implementation of the "binary not" operator ~
+
+>>> datetime.datetime.now().strftime('%Y-%m-%dT%H:%M:%S.%f')
+'2023-10-12T23:46:42.177554'
+  - %f   microsecond
+
+>>> UseTicket.objects.all().order_by('-id')[0].id
+5009942
+>>> UseTicket.objects.all().order_by('id')[0].id
+1016

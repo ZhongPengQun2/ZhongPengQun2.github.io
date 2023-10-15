@@ -178,6 +178,8 @@ vzhongPG3QC:osstpclients vzhong$ git branch -r --merged
 
 [gitlab] Squash multi commits as one, in this case, what the comment will be like ?
 
+- gitlab code review最佳实践
+  - https://zhuanlan.zhihu.com/p/257857632
 
 - What is a changeset in Git?
   - source: https://stackoverflow.com/questions/38648491/what-is-a-changeset-in-git
