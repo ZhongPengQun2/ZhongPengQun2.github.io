@@ -353,3 +353,13 @@ s: https://stackoverflow.com/questions/68775869/message-support-for-password-aut
 - gitlab ipynb
 
 
+```
+$ git push
+fatal: The current branch lfds has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin lfds
+
+-------
+
+```

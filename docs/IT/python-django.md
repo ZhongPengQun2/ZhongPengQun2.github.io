@@ -93,3 +93,12 @@ ImportError: cannot import name 'QUERY_TERMS' from 'django.db.models.sql.constan
 
 - 回滚
     - $ python3 manage.py migrate legal 0018
+
+- Activity.objects.annotate(**annotates).filter(**filters).values_list("obj_id", flat=True)
+```
+>>> q = Book.objects.annotate(Count('authors'), Count('store'))
+>>> q[0].authors__count
+6
+>>> q[0].store__count
+6
+```

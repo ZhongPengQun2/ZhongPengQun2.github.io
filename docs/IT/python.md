@@ -907,3 +907,6 @@ channel.queue_bind(exchange=exchange_name,
 5009942
 >>> UseTicket.objects.all().order_by('id')[0].id
 1016
+
+- tqdm
+  - 一个展示进度条的库

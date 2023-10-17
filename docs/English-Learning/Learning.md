@@ -686,8 +686,11 @@ All trademarks and copyrights on this website are property of their respective o
   - most out of
     - 最多
 - retention
+- leave it out
 - abundance
 - expedited
+- I regularly use generative AI
+  - 我经常使用生成式AI
 - remove the tailing slash
 - We have received a few submissions
   - 提交;服从;投稿;降服
