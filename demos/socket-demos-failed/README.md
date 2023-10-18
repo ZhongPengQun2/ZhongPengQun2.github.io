@@ -26,5 +26,5 @@ SOCK_DGRAM means that it is a UDP socket.
 ```
 ConnectionRefusedError: [Errno 61] Connection refused
 
-
+- mac 打开防火墙端口
 ```
