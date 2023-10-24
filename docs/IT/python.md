@@ -8,6 +8,14 @@
 
 - asyncio
 
+- def __invert__(self):
+print(7 .__invert__()) # -8
+  - 7后必须加空格
+  - 
+  >>> ~a
+  __invert__ called on Test(True)
+  False
+
 
 ```python
 >>> a=[]
@@ -710,6 +718,9 @@ django.db models.Manager
 - 单引号与双引号的区别，有区别吗？
   - x
 
+```
+The magic methods __and__, __or__ and __invert__ are used to override the operators a & b, a | b and ~a respectively.
+```
 - from concurrent.futures import ThreadPoolExecutor
 
 ```
@@ -815,6 +826,7 @@ pip3.8 install yaml
 
 - def notice(self) -> "str":
   - xx
+  - 双引号有必要吗？
 
 - from typing import ClassVar, Final
   - type hints
@@ -859,3 +871,12 @@ mylist = ["a", "b"]
 
 - threading.Semaphore(MAX_THREADS)
   - why named 'semaphore'
+
+- from queue import Queue
+  - 适用场景
+    - A synchronized queue class
+    - queue 模块实现了多生产者、多消费者队列。这特别适用于消息必须安全地在多线程间交换的线程编程。模块中的 Queue 类实现了所有所需的锁定语义
+  - queue.put(1）
+    - 
+    - The method put() will block if the queue has reached its maximum capacity or executed in blocking mode.
+      - 默认有block=True,阻塞时间由timeout确定

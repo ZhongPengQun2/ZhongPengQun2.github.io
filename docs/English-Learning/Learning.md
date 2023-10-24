@@ -64,6 +64,7 @@
 - start over
 - Finally it appears that with our changes related to xxx, we have violated the following
 - In case
+- violate legal obligation
 - Per xxx policy, this training is an annual requirement and colleagues are required to re-certify annually. Failure to complete this training will result in escalation.
 - workaround
 - seamlessly
@@ -225,6 +226,7 @@
 - I’m scheduling sessions with `respective` leads
 - This signifies the original offering name before subsequent rebranding
 - premise
+- emit
 - leftover
   - n.剩菜;残羹剩饭;吃剩的食物;遗留物;残存物;遗留下来的风俗习惯
 - 你能帮我买包烟吗？
@@ -237,11 +239,13 @@
 - on purpose
   - 故意的
 - nicely summarized
+- ubiquitous
 - in large part
   - 很大程度上
 - In the case of artwork
   - 就艺术品而言
 - make a case
+- statutory holiday
 - forgery
   - 赝品
 - but he didn't count it
@@ -654,6 +658,8 @@ All trademarks and copyrights on this website are property of their respective o
 - acquaint yourself with 
 - out of personal interest
 - in reference to
+- unary negation
+- atomic condition
 - incorporate
 - Please join me in welcoming xxx
 - rotate the password
