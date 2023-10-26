@@ -3,7 +3,8 @@
     - getpass
     - syslog
     - Fabric
-
+      - local(
+        - 前面我们见过了fabric.api模块中的run函数，其功能是在远端主机上执行命令。fabric.api中还提供了local函数，用于执行本地（Fabric所在的主机）命令
 - python中有对应c中make的项目build工具吗？
 
 - asyncio
@@ -910,3 +911,5 @@ channel.queue_bind(exchange=exchange_name,
 
 - tqdm
   - 一个展示进度条的库
+
+- python3.8 -m pip install --upgrade pip

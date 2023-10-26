@@ -19,6 +19,7 @@
     ```shell
     docker build -t xxx .  
     docker run -d xxx
+        - "-t" 选项用于为镜像打上标签
 
     # ↓ docker build from file
     docker build - < Dockerfile
@@ -492,6 +493,12 @@ Sending build context to Docker daemon  175.5MB
 
 显然，--rm选项不能与-d同时使用（或者说同时使用没有意义），即只能自动清理foreground容器，不能自动清理detached容器。
 ```
+    - foreground容器 & detached容器
+        - Docker容器的两种运行模式
+        - 后台模式就是在后台运行，不会让当前进程卡主，你可以做其他事情，而前台模式会导致当前卡住，并输出日志至当前控制台
+        - 前台模式（默认）
+            - 注意，只有在前台模式下，才有必要设置-it命令选项，为容器设置伪TTY
+            - 一般用在开发调试过程中短期运行, 上线多用Detached 模式
 
 - .dockerignore
 ```

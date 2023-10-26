@@ -476,3 +476,22 @@ deb-src: 源代码
 	- 相比cd，不需要 cd ../../xx （不需要知道当前路径与目标路径的距离）
 
 - https://stackoverflow.com/questions/67880900/curl-doesnt-return-anything
+
+- linux test command
+	- The [ and test commands are vital conditional statements when scripting
+	- The [ and the test commands, installed by the GNU Core Utils package, perform the same function using a slightly different syntax.
+	- $ test -e example.txt && echo "foo"
+		- 测试 example.txt 文件是否存在，如果存在就 echo "foo"
+		- The || operator executes when a response is false:
+			- $ test -e example || echo "foo"
+
+```
+$ id -u
+1000
+```
+
+- useradd
+	- -l：不要将此用户添加到最近登录和登录失败数据库
+	- -u：指定用户的UID，不能和现有的冲突
+	- -m：创建用户的主目录
+

@@ -612,7 +612,9 @@ All trademarks and copyrights on this website are property of their respective o
 - Content-Disposition
   - 内容处置;内容布局 
 - revision
+- retrieval
 - inadvertent
+- regression
 - trim
   - Trim the string
 - all XXX originated tickets

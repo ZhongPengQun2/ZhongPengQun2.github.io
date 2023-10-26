@@ -361,5 +361,24 @@ To push the current branch and set the remote as upstream, use
     git push --set-upstream origin lfds
 
 -------
+$ git push --set-upstream origin lfds
+Enumerating objects: 1327, done.
+Counting objects: 100% (1327/1327), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (704/704), done.
+Writing objects: 100% (1327/1327), 238.82 MiB | 1.89 MiB/s, done.
+Total 1327 (delta 667), reused 1168 (delta 545), pack-reused 0
+remote: Resolving deltas: 100% (667/667), done.
+remote: warning: See https://gh.io/lfs for more information.
+remote: warning: File 83c266866de24248d272ad8b27b3437ff550e627 is 77.35 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+remote: warning: File 7a65e1a61859a8298fa387bf9aaf235509aaa0f0 is 72.09 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+remote: 
+remote: Create a pull request for 'lfds' on GitHub by visiting:
+remote:      https://github.com/ZhongPengQun2/ZhongPengQun2.github.io/pull/new/lfds
+remote: 
+To github.com:ZhongPengQun2/ZhongPengQun2.github.io.git
+ * [new branch]      lfds -> lfds
+Branch 'lfds' set up to track remote branch 'lfds' from 'origin'.
 
 ```

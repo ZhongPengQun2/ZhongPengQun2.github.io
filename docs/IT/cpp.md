@@ -146,6 +146,7 @@ https://blog.csdn.net/lailaiquququ11/article/details/126691913
     $(patsubst %.c,%.o, a.c b.c)
     把字串“a.c b.c”符合模式[%.c]的单词替换成[%.o]，返回结果是“a.o b.o”
     ```
+- How to print out a variable in makefile ?
 - include
 ```
 为什么要include其他文件呢?

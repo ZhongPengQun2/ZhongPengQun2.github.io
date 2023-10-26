@@ -1,0 +1,67 @@
+
+
+ID (Package instance)
+
+Package Name (Name of the package)
+
+Package Version (Version of the package)
+
+Release Name (Release associated with the package)
+
+Release Version (Release version associated with the package)
+
+Status (Status of the package)
+
+Resolution (Resolution type for the package)
+
+Reporter (The person who submitted the package)
+
+Assigned To (The person the package is assigned to)
+
+OSPO Contact (The OSPO contact for the package)
+
+Repository (The repository where the package is located)
+
+Keywords (Keywords added to package)
+
+License (The package license)
+
+License Expiration Date (The expiration date of the 3rd party license)
+
+Has copyright notice (If the copyright notices has been filled)
+
+OSSPI Checked (Whether the OSSPI scanning has cross-checked the correctness of this release package)
+
+License Type (The package license)
+
+Interaction Type (How the package is distributed with the release)
+
+Feature Subset (The feature area that the package is being used in)
+
+Modified (Whether or not the package has been modified)
+
+Non-Standard Provisions (Non-standard provisions)
+
+ODP Inclusion (Whether package should be disclosed in the packages ODP)
+
+OSL Inclusion (Whether package should be included in the packages OSL)
+
+Ticket Mode (Whether the package is a clone or has been filed manually)
+
+EULA Change (Does the package impact the customer facing EULA)
+
+Eng Patent Approved (Engineering approved of the patent)
+
+Patent Approved by OSPO (OSPO approved of the patent)
+
+Eng CT Acceptance (Developer compliance terms confirmation status)
+
+Sub License (Licenses for sub-packages distributed with the package)
+
+PM CT Acceptance (Product Manager compliance terms confirmation status)
+
+Security Attributes (Fail type of security attributes)
+
+Last Updated (When this package request was last updated)
+
+Creation Date (When this package request was created)
