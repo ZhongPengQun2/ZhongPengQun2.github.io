@@ -25,6 +25,8 @@
 - I can pick up
 - elide
 - Virus scanning result: Infected
+  - adj. 带菌的;感染病菌的
+  - v. 使感染(计算机病毒);传染;使携带病菌
 - manipulate
   - Utility to manipulate Kubernetes YAML files
 - Symptom
@@ -111,7 +113,6 @@
 - Escalation Policy
 - it will be provisioned upon manager approval
 - consolidation
-- infected
 - inferring that
 - intended
 - went live in July 2018
@@ -602,6 +603,8 @@ All trademarks and copyrights on this website are property of their respective o
 - initiatives contribute to revenue generation
   - 举措有助于创收
 - vacation
+- fall back
+  - 军队）撤退，后撤;略微退后;稍稍后退
 - cryptography
 - will try to sneak it into Q3
   - 将尝试偷偷进入第三季度
@@ -1073,6 +1076,8 @@ Though solutions differ for everybody in different families, what are the genera
   - 责任; 负债; 债务; (法律上对某事物的)义务
 - Service Engagement
 - a huge bet
+- Security & Resiliency at VMware (Annual Requirement)
+  - Resiliency 是啥？
 - to align on direction
 - out of compliance
   - 不合规
@@ -1734,6 +1739,8 @@ This was in reference to the ongoing and violent dispute between Azerbaijan and 
 - 适用于
 - 送个礼物给你
 - 平方米
+- 讲的一套难以符合事实
+  - His was a story difficult to reconcile with the facts
 - 该目录不存在
 - 作用域
 - 关注国际新闻

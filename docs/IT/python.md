@@ -913,3 +913,34 @@ channel.queue_bind(exchange=exchange_name,
   - 一个展示进度条的库
 
 - python3.8 -m pip install --upgrade pip
+
+- from _typeshed import Incomplete
+  - Incomplete: TypeAlias = Any
+  - Idea: "Incomplete" marker #5613
+    - https://github.com/python/typeshed/issues/5613
+
+- What is Three dots(…) or Ellipsis in Python3
+  - Used as Pass Statement inside Functions.
+  - xx
+```
+from typing import Callable
+
+# 此处的...表示allow arbitrary types
+def inject(get_next_item: Callable[..., str]) -> None:
+			...
+# Argument type is assumed as type: Any
+def foo(x: ...) -> None:
+			...
+```
+  - Callable，可调用类型，它通常用来注解一个方法
+  ```
+  # 入参为 [int, int, int], 返回值为 str
+  def get_date_fn() -> Callable[[int, int, int], str]:
+  return date
+  ```
+
+- def __eq__(self, other): ...
+  - 当运用 == 操作符时调用该方法
+
+- def __copy__(self): ...
+  - In order for a class to define its own copy implementation, it can define special methods __copy__() and __deepcopy__(). 

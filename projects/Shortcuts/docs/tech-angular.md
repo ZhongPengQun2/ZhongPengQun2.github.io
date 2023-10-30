@@ -1,34 +1,3 @@
-npm i
-    - npm install
-
-npm run build:prod
-    - 读取package.json文件
-
-node 与 webpack 与 angular的关系
-    - Angular Cli 依赖webpack，简化创建项目流程；npm属于node一部分，npm 从package.json找对应的scripts执行命令
-    - webpack的运行依赖于node的环境
-    - 
-
-调试时也不再是用浏览器打开静态html调试了，直接yarn serve后在本地就会形成http://localhost:xxx的标准网站结构，而且页面内容热重载，任何代码改动，页面都会自动更新。
-
-产品发布时，也不再是各种js,css,img文件夹了，而是对各种js、vue、ts源代码进行编译打包，最后形成了一个dist文件夹，里面拥有打包混淆好鬼都没法理解的最终文件，直接扔进nginx中就能跑。
-
-- max_old_space_size
-    - is a V8 engine parameter that can be used to raise the limit of heap memory that is allowed for us to use.
-
-- NG_CLI_ANALYTICS=ci
-    - script circle ci to disable it, if the analytics prompt blocking the ci
-
-- SASS_BINARY_PATH
-    - sass_binary_path是一个可选的设置，用于指定node-sass要使用的本地二进制文件的路径,如果没有设置sass_binary_path，node-sass会自动下载并编译本地的二进制文件。
-
-
-```
-node: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.28' not found (required by node)
-
-
-```
-
 # Angular
 - angular vs angularJs
 - What's the relationship between angular and Typescript ?
@@ -65,18 +34,6 @@ $ npm rebuild node-sass
 - ===
 
 - ngOnInit
-    - ngOnInit()在angular第一次显示数据绑定和设置指令/组件的输入属性之后，初始化指令/组件
-
-- implements OnInit {
-    - x
-
-export interface Itest
-{
- exampleValue?: string; // optional
- neededValue: string; // non-optional
-}
-    - ?:
-        - ternary operator （三元运算符)
 
 - Install ng
 ```
@@ -86,11 +43,6 @@ sudo npm install -g @angular/cli
 
 "Yarn 是为了弥补 npm 的一些缺陷而出现的"
 
-- placeholder: 'Yes'
-    - 当用户还没有输入值的时候,向用户显示默认的描述性说明或提示信息
-
-- filterType: 'singleValue'
-    - dropdown ？
 
 - dependency injection
 
@@ -137,6 +89,4 @@ sudo npm install -g @angular/cli
 - app.module.ts
     - APPMODULE: THE ROOT MODULE; Tell Angular how to construct and bootstrap the app in the root "AppModule".
         - https://v2.angular.io/docs/ts/latest/guide/appmodule.html
-
-- <a href="javascript:void(0);"
-    - it's focusable, but it doesn't navigate to a new page. 0 is an argument passed to void that does nothing, and returns nothing.
+    
