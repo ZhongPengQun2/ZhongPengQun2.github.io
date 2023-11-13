@@ -74,6 +74,10 @@ docker run -it golang /bin/sh
         - What is the difference between go get command and go mod download command
             - https://stackoverflow.com/questions/66356034/what-is-the-difference-between-go-get-command-and-go-mod-download-command
         - x        
+    - go.mod文件如何生成 ?
+
+- go mod tidy
+    - 该命令用于整理和清理项目的文件和依赖项。它的主要作用是移除未使用的依赖项，更新依赖项的版本，以及将 go.mod 文件中的依赖项列表与实际使用的依赖项列表保持一致。
 
 - 升级go版本
     - ubuntu下安装指定版本, e.g go1.20.2
@@ -108,9 +112,6 @@ error obtaining VCS status: exit status 128
 - go env -w GOFLAGS="-buildvcs=false"
     - OK,可以
 ```
-
-- go mod tidy
-
 
 ```
 $ ./go get github.com/gin-gonic/gin

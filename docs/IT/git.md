@@ -382,3 +382,6 @@ To github.com:ZhongPengQun2/ZhongPengQun2.github.io.git
 Branch 'lfds' set up to track remote branch 'lfds' from 'origin'.
 
 ```
+
+- github CLA
+  - x

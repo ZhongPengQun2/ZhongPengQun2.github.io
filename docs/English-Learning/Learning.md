@@ -152,6 +152,7 @@
 - tedious
   - adj. 乏味的;冗长的;令人厌烦的;啰唆的
 - the best chance of
+- to the best of my knowledge
 - screenshot
 - redefined
 - The smaller this level is, the more permissive this license is
@@ -1735,6 +1736,7 @@ This was in reference to the ongoing and violent dispute between Azerbaijan and 
 - 遵循这样的格式
   - follow this format
 - 老用户
+- 2个都没用上
 - 实验性功能
 - 适用于
 - 送个礼物给你

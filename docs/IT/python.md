@@ -944,3 +944,25 @@ def foo(x: ...) -> None:
 
 - def __copy__(self): ...
   - In order for a class to define its own copy implementation, it can define special methods __copy__() and __deepcopy__(). 
+
+- elasticsearch_dsl
+  - elasticsearch-dsl是基于elasticsearch-py封装实现的，提供了更简便的操作elasticsearch的方法
+  - vzhong
+
+- @patch.object
+  - https://docs.python.org/3/library/unittest.mock.html#patch-object
+    - patch.object(target, attribute, new=DEFAULT, spec=None, create=False, spec_set=None, autospec=None, new_callable=None, **kwargs)
+    - patch the named member (attribute) on an object (target) with a mock object.
+
+- .reset_mock()  比如  patched_bulk.reset_mock()
+  - https://docs.python.org/3/library/unittest.mock.html#unittest.mock.Mock.reset_mock
+    - 其实就是初始化，比如
+```
+>>> mock = Mock(return_value=None)
+>>> mock('hello')
+>>> mock.called
+True
+>>> mock.reset_mock()
+>>> mock.called
+False
+```
