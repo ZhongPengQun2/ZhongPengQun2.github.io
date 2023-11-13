@@ -54,7 +54,6 @@ When you use a ModelForm, the call to is_valid() will perform these validation s
     - def setUpClass  &   def tearDownClass
         - setUpClass/tearDownClass会被调用一次，setUp/tearDown每个函数执行的时候都会被调用,所以需要一开始就初始化的数据内容，建议放在setUpClass，并且做好保护，譬如设置已存在就不再create数据
 
-<<<<<<< HEAD
 ```
     class Meta:
         proxy = True
@@ -67,7 +66,6 @@ class Person(User):
 对Person的操作会更新到父类User中，Person只是一个代理，并不会创建一个新的表，只是在父类的基础上
 添加方法
 ```
-=======
 - from tastypie.resources import ALL_WITH_RELATIONS
 /# Enable all basic ORM filters but do not allow filtering across relationships.
 ALL = 1

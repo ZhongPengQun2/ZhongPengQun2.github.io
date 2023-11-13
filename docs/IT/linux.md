@@ -480,4 +480,3 @@ deb-src: 源代码
 - 查看端口是否open
 	- $ echo > /dev/tcp/192.168.1.7/12001 && echo "Port is open"
 	- 打开一个端口
-	
