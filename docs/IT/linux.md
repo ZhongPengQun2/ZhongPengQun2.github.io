@@ -115,8 +115,9 @@ Inconsistency detected by ld.so: dl-call-libc-early-init.c: 37: _dl_call_libc_ea
 
 - xrdb
 - build-essential
+	- The build-essentials packages are the form of meta-packages that are essential to compile software. They contain the GNU/g++ compiler collection, GNU debugger, and a few more libraries and tools that are needed for compiling a program.
 - ttyd
-
+- RUN apt install ca-certificates -y
 - sudo sysctl fs.inotify.max_user_instances=8192
 	```
 	fs.inotify.max_user_watches：表示同一用户同时可以添加的watch数目（watch一般是针对目录，决定了同时同一用户可以监控的目录数量）
@@ -494,4 +495,14 @@ $ id -u
 	- -l：不要将此用户添加到最近登录和登录失败数据库
 	- -u：指定用户的UID，不能和现有的冲突
 	- -m：创建用户的主目录
+	- useradd -l -u 1001 -m osm_user
 
+- epel-release-7-11.noarch.rpm
+	- https://centos.pkgs.org/7/centos-extras-x86_64/epel-release-7-11.noarch.rpm.html
+		- Package architecture	noarch
+			- noarch (not comparable) (computing) Used by the RPM Package Manager to mark software packages that contain only content, such as graphics, documentation or similar data that can be used on any architecture.
+
+- deb https://xxxxware.com/ubuntu-remote bionic universe
+	- x
+	- deb http://tw.archive.ubuntu.com/ubuntu/ bionic universe
+	- deb-src http://tw.archive.ubuntu.com/ubuntu/ bionic universe

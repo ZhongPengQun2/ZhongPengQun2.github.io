@@ -140,3 +140,6 @@ sudo npm install -g @angular/cli
 
 - <a href="javascript:void(0);"
     - it's focusable, but it doesn't navigate to a new page. 0 is an argument passed to void that does nothing, and returns nothing.
+
+- typescript console print
+    - 

@@ -215,6 +215,9 @@ subprocess.check_output(cmd, shell=True, text=True)
 ```python
 >>> 'http://xx.com'.lstrip('xhttfffff://p')
 '.com'
+
+>>> 'x.json'.strip('.txt')
+'json'
 ```
 ```shell
 pytest tox.ini lint
@@ -684,6 +687,8 @@ def hello(**kwargs):
 - pdb;pdb.set_trace()
   - GDB是GNU项目中的一个强大的调试工具，它可以用于调试多种程序语言，如C、C++、汇编等语言。在程序出现问题的时候，通过GDB可以帮助我们定位并解决这些问题。在Python中，通常使用CPython来解释执行Python代码，因此GDB也可以用来调试Python程序
   
+- container环境下如何使用pdb ？
+
 - os.path.sep
   - 该os下的分隔符
 
@@ -966,3 +971,21 @@ True
 >>> mock.called
 False
 ```
+
+
+
+
+
+curl 'http://10.79.128.26/api/v1/release-attachments/?format=json&release__id=27782&limit=0' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: en-GB,en;q=0.9,zh-CN;q=0.8,zh;q=0.7' \
+  -H 'Cookie: sidebar_collapsed=false; jenkins-timestamper-offset=-28800000; jenkins-timestamper=system; jenkins-timestamper-local=true; hide_auto_devops_implicitly_enabled_banner_2=false; _pk_id.0.eecb=22cd28e6d28d11e9.1681831114.; OUTFOX_SEARCH_USER_ID_NCOO=370227996.86710703; csrftoken=oqMbGPgNfq5FF9DRkv8A7idYWMKcRWt6jTnlckdqRMXgXdUlTIsPOosbeDoO5nF1; sessionid=5dpcmlzbyr63wl96turr7d66fmlybcco' \
+  -H 'Proxy-Connection: keep-alive' \
+  -H 'Referer: http://10.79.128.26/oss/' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36' \
+  -H 'X-OSS-DATETIME: 2023-11-17T06:03:46.959Z' \
+  -H 'X-OSS-URL: http://10.79.128.26/oss/#/release/27782' \
+  -H 'X-OSS-USER: vzhong@vmware.com' \
+  -H 'X-SESSION-ID: vzhong@vmware.com--page.releaseDetail--2023-11-17T06:03:46.959Z' \
+  --compressed \
+  --insecure

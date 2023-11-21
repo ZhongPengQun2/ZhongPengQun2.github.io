@@ -19,6 +19,12 @@
   - cadence
     - n.(说话时语调的)抑扬顿挫，起落;(乐段或乐句的)收束，静止
 - It turned out that
+- selectively
+- endorse
+  - ADVERTISING: You may not use the names and/ or trademarks/logos of the Package's/subcomponent's authors/contributors to endorse or promote your Product without the prior written permission of the author/contributor
+    - advertising
+    - the prior written permission of the author
+      - 作者的事先书面许可
 - You can tune some options
   - fine-tuning
   - stay tuned
@@ -125,6 +131,8 @@
   - 被实例化
 - Deriving
   - v. 获得;取得;得到;(使)起源;(使)产生; derive的现在分词
+  - derivative
+    - 派生物
 - waiting for docker to come up...
 - The initial set of users associated with this issue is
 - Your request was DECLINED and the status changed to Closed
@@ -968,6 +976,7 @@ document
 - Misc
 - The above copyright notice and this permission notice shall be
 included in all copies or substantial portions of the Software
+  - 上述版权声明和本许可声明应包含在软件的所有副本或实质部分中
 - lane
   - n. 车道;（比赛的）跑道，泳道;小巷;(乡间)小路;航道;胡同;里弄
 - get a feel of
@@ -984,6 +993,13 @@ included in all copies or substantial portions of the Software
 - peripheral tools
   - 外围工具
 - virtual appliance
+- THE SOFTWARE IS PROVIDED "AS IS"(软件是“按原样”提供的), WITHOUT WARRANTY OF ANY KIND(没有任何形式的保证),
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY (包括但不限于适销性保证), FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT (适合某一特定目的和不侵权). IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY(在任何情况下，作者或版权持有人均不承担任何索赔、损害赔偿或其他责任), WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 - to showcase the real usage
 - testbed
 - cheatsheet
@@ -992,13 +1008,25 @@ included in all copies or substantial portions of the Software
   - The President set forth his views in a television broadcast. 
 - obscurely
   - adv. 晦涩地;费解地，晦涩地；隐匿地
+  - You must retain and not remove, alter, or obscure any copyright, license
 - equipped with
 - directive
+- a one-time task (一次性任务)
+- Anagrams
+  - 回文
 - This software is licensed under the VMware Proprietary License
 - The uncompromising Python code formatter
+- PLEASE NOTE:  VMWARE, INC. ELECTS TO USE AND DISTRIBUTE THIS COMPONENT UNDER THE TERMS OF THE MIT LICENSE. THE ORIGINAL LICENSE TERMS ARE REPRODUCED BELOW ONLY AS A REFERENCE
+  - 请注意：VMWARE，INC.选择根据MIT许可条款使用和分发此组件。以下转载原始许可条款仅供参考
 - strikethrough
+- thereto
+- Just-In-Time
+- Attention General Counsel
+  - 总法律顾问
+- mail a copy of the Source Files to you on a CD or equivalent physical medium
 - 盲从权威（an appeal to authority）
 - mitigations
+- This offer to obtain a copy of the Source Files is valid for three years from the date you acquired this Software product. Alternatively, the Source Files may accompany the VMware product
 - Encountered errors while bringing up the project
 - TypeError: exceptions must derive from BaseException
 - Do you by any chance have any idea about this method?
@@ -1100,13 +1128,21 @@ Though solutions differ for everybody in different families, what are the genera
   - 组件使用证明
 - To illustrate
 - JFrog Bintray
-- free of charge
-  - 免费的
+- Permission is hereby granted (特此授予许可), free of charge (免费的), to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+  - to whom the Software is furnished to do so
 - implications 可能的影响(或作用、结果); 含意; 暗指; (被)牵连，牵涉
 - try it out
 - Orchestration
   - 管弦乐编曲
 - accompanying slides
+  - 附带幻灯片
+  - One or more such xxx.txt files may therefore accompany this XXX Product
 - Product Attestations
 - whether the version changes as the product evolves
 - accountability
@@ -1157,6 +1193,7 @@ Though solutions differ for everybody in different families, what are the genera
 - Bundle the source code
 - Backbone Issue Sync
 - A large class of
+- feasible
 - to ensure it is structurally sound
 - under the hood
   - 引擎盖下;发动机罩下
@@ -1165,12 +1202,16 @@ Though solutions differ for everybody in different families, what are the genera
 - To accommodate our global team, there are two time slots
   - accommodate
     - v. 容纳;顺应，适应（新情况）;考虑到;顾及;帮忙;为…提供空间;为(某人)提供住宿(或膳宿、座位等)
+    - '/var/xxx is hard coded in several places in OSM. Using soft link to accommodate it.'
 - at times
   - 有时，偶尔
 - at a time
   - Beat in the eggs, one at a time
     - 打入鸡蛋，一次一个
 - interops
+- The following copyright statements and licenses apply to various open
+source software packages (or portions thereof 或其部分) that are distributed with
+this VMware Product
 - gave
 - existentialism
 - apotheosis

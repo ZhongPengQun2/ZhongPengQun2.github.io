@@ -2,6 +2,7 @@ version: '0.1'
 # Will search from these documents, item at first position takes higher priority 
 document_dirs:
 - /Users/vzhong/Documents/ZhongPengQun2.github.io/docs
+- /Users/vzhong/ZhongPengQun2.github.io/docs
 - /Users/vzhong/suoha
 - /Users/vzhong/osstpclients
 - /Users/vzhong/Documents/vztest
