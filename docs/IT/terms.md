@@ -468,6 +468,10 @@ https://en.wikipedia.org/wiki/End-user_license_agreement
 #### inbound license
 入境许可证
 
+    - copyright vs license
+        - Copyright is the legal term used to declare and prove who owns the intellectual property (the code, text, etc.).
+        - Licensing is the legal term used to describe the terms under which people are allowed to use the copyrighted material.
+
 #### source code bundles & source bundles
 源代码包
 https://getsentry.github.io/symbolicator/advanced/source-bundles/

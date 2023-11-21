@@ -476,8 +476,11 @@ deb-src: 源代码
 	- 相比cd，不需要 cd ../../xx （不需要知道当前路径与目标路径的距离）
 
 - https://stackoverflow.com/questions/67880900/curl-doesnt-return-anything
+<<<<<<< HEAD
+=======
 
 - 查看端口是否open
 	- $ echo > /dev/tcp/192.168.1.7/12001 && echo "Port is open"
 	- 打开一个端口
 	
+>>>>>>> a6fa2aa069925f00fed582f6a4d408f580016070
